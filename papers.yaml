@@ -1,0 +1,289 @@
+# 📄 papers.yaml — Source of truth for the research corpus
+#
+# Edit this file to curate your paper list. The README is AUTO-GENERATED
+# from this file (never edit README.md directly — run generate_readme.py).
+#
+# Schema:
+#   title:       Required
+#   date:        Required, YYYY-MM
+#   url:         Required, normalized (https://arxiv.org/abs/XXXX)
+#   category:    Required — one of the categories in config/taxonomy.yaml
+#   subcategory: Required — one of the subcategories in config/taxonomy.yaml
+#   authors:     Optional list
+#   venue:       Optional
+#   code_url:    Optional
+#   project_url: Optional
+#   abstract:    Optional
+#   tags:        Optional list
+
+papers:
+  # ── Generation · Audio ──────────────────────────────────────────────────────
+  - title: "MusicLM: Generating Music From Text"
+    date: "2023-01"
+    url: "https://arxiv.org/abs/2301.11325"
+    category: "generation"
+    subcategory: "audio"
+    authors:
+      - "Andrea Agostinelli"
+      - "Timo I. Denk"
+      - "Zalán Borsos"
+      - "Jesse Engel"
+      - "Mauro Verzetti"
+      - "Antoine Caillon"
+      - "Qingqing Huang"
+      - "Aren Jansen"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: "Introduces MusicLM, a model generating high-fidelity music from text descriptions such as 'a calming violin melody backed by a distorted guitar riff'. Casts conditional music generation as a hierarchical sequence-to-sequence task and produces 24 kHz music coherent over minutes, with new capabilities such as story-mode generation and text-conditioned melody control."
+    tags: ["text-to-music", "hierarchical", "AudioLM"]
+  - title: "Simple and Controllable Music Generation"
+    date: "2023-06"
+    url: "https://arxiv.org/abs/2306.05284"
+    category: "generation"
+    subcategory: "audio"
+    authors:
+      - "Jade Copet"
+      - "Felix Kreuk"
+      - "Itai Gat"
+      - "Tal Remez"
+      - "David Kant"
+      - "Gabriel Synnaeve"
+      - "Yossi Adi"
+      - "Alexandre Défossez"
+    venue: "NeurIPS 2023"
+    code_url: "https://github.com/facebookresearch/audiocraft"
+    project_url: ""
+    abstract: "Introduces MusicGen, a single language model operating over several streams of compressed discrete music representation (tokens). Unlike prior work, MusicGen uses a single-stage transformer LM with efficient token interleaving, supporting text- and melody-conditioned generation with state-of-the-art results and a small, open-sourced model."
+    tags: ["text-to-music", "language model", "EnCodec"]
+  # ── Generation · Symbolic ───────────────────────────────────────────────────
+  - title: "Music Transformer"
+    date: "2018-09"
+    url: "https://arxiv.org/abs/1809.04281"
+    category: "generation"
+    subcategory: "symbolic"
+    authors:
+      - "Cheng-Zhi Anna Huang"
+      - "Ashish Vaswani"
+      - "Jakob Uszkoreit"
+      - "Noam Shazeer"
+      - "Ian Simon"
+      - "Curtis Hawthorne"
+      - "Andrew M. Dai"
+      - "Matthew D. Hoffman"
+    venue: "ICLR 2019"
+    code_url: "https://github.com/magenta/music-transformer"
+    project_url: ""
+    abstract: "Adapts the Transformer to symbolic music by introducing relative attention, which lets the model exploit musical repetition and self-reference across timescales from motifs to full ABA sections. Demonstrates long, coherent generation of piano performance, addressing the quadratic memory cost of full attention for long sequences."
+    tags: ["symbolic", "transformer", "relative attention"]
+  - title: "Pop Music Transformer: Beat-based Modeling and Generation of Expressive Pop Piano Compositions"
+    date: "2020-02"
+    url: "https://arxiv.org/abs/2002.00212"
+    category: "generation"
+    subcategory: "symbolic"
+    authors:
+      - "Yu-Siang Huang"
+      - "Yi-Hsuan Yang"
+    venue: "ACM Multimedia 2020"
+    code_url: "https://github.com/sander-wood/pop-music-transformer"
+    project_url: ""
+    abstract: "Proposes the Compound Word Transformer for pop piano generation. By encoding musical events in a beat-based 'compound word' representation and training with masking on a large pop piano dataset, the model generates expressive compositions with consistent structure, surpassing prior Transformer and RNN baselines in both objective and human evaluations."
+    tags: ["symbolic", "pop music", "compound word"]
+  - title: "Museformer: Transformer with Fine- and Coarse-Grained Attention for Music Generation"
+    date: "2022-10"
+    url: "https://arxiv.org/abs/2210.10349"
+    category: "generation"
+    subcategory: "symbolic"
+    authors:
+      - "Botao Yu"
+      - "Peiling Lu"
+      - "Rui Wang"
+      - "Wei Hu"
+      - "Xu Tan"
+      - "Wei Ye"
+      - "Shikun Zhang"
+      - "Tao Qin"
+    venue: "NeurIPS 2022"
+    code_url: "https://github.com/microsoft/muzic/tree/main/museformer"
+    project_url: ""
+    abstract: "Presents Museformer, a Transformer with fine- and coarse-grained attention for symbolic music generation. The coarse-grained attention reduces complexity while preserving global structure, and an automatic pattern learning mechanism discovers which tokens benefit from which granularity, enabling efficient generation of sequences over 10,000 tokens with strong structure."
+    tags: ["symbolic", "efficient attention", "long sequence"]
+  # ── Analysis · Audio ────────────────────────────────────────────────────────
+  - title: "Music Source Separation in the Waveform Domain"
+    date: "2019-11"
+    url: "https://arxiv.org/abs/1911.13254"
+    category: "analysis"
+    subcategory: "audio"
+    authors:
+      - "Alexandre Défossez"
+      - "Nicolas Usunier"
+      - "Léon Bottou"
+      - "Francis Bach"
+    venue: ""
+    code_url: "https://github.com/facebookresearch/demucs"
+    project_url: ""
+    abstract: "Introduces Demucs, a waveform-domain U-Net for music source separation that isolates stems such as voice, bass and drums directly from raw audio. Shows that waveform-domain architectures with the right training strategy outperform spectrogram-based approaches on the MUSDB benchmark, with a time-domain modeling philosophy contrasting common audio synthesis pipelines."
+    tags: ["source separation", "waveform", "U-Net"]
+  - title: "MT3: Multi-Task Multitrack Music Transcription"
+    date: "2021-11"
+    url: "https://arxiv.org/abs/2111.03017"
+    category: "analysis"
+    subcategory: "audio"
+    authors:
+      - "Josh Gardner"
+      - "Ian Simon"
+      - "Ethan Manilow"
+      - "Curtis Hawthorne"
+      - "Jesse Engel"
+    venue: "ICLR 2022"
+    code_url: "https://github.com/magenta/mt3"
+    project_url: ""
+    abstract: "Frames automatic music transcription as a sequence-to-sequence task: audio spectrograms are transcribed into token sequences representing multiple instruments and pitches simultaneously. MT3 achieves state-of-the-art results on MAESTRO and, via multi-task training, generalizes to unseen instruments in Slakh2100."
+    tags: ["transcription", "multitrack", "sequence-to-sequence"]
+  - title: "MERT: Acoustic Music Understanding Model with Large-Scale Self-supervised Training"
+    date: "2023-05"
+    url: "https://arxiv.org/abs/2306.00107"
+    category: "analysis"
+    subcategory: "audio"
+    authors:
+      - "Yizhi Li"
+      - "Ruibin Yuan"
+      - "Ge Zhang"
+      - "Yinghao Ma"
+      - "Xingran Chen"
+      - "Hanzhi Yin"
+      - "Chenghao Xiao"
+      - "Chenghua Lin"
+    venue: "IJCNN 2024"
+    code_url: "https://github.com/yizhilll/MERT"
+    project_url: ""
+    abstract: "MERT is an acoustic music understanding model trained with large-scale self-supervised learning, combining teacher models from music and general audio domains with a multi-level musical supervision objective. It achieves state-of-the-art results on music classification, tagging, and emotion recognition while keeping strong transfer to downstream MIR tasks."
+    tags: ["self-supervised", "music embeddings", "MIR"]
+  # ── Analysis · Multimodal ───────────────────────────────────────────────────
+  - title: "LP-MusicCaps: LLM-Based Pseudo Music Captioning"
+    date: "2023-07"
+    url: "https://arxiv.org/abs/2307.16372"
+    category: "analysis"
+    subcategory: "multimodal"
+    authors:
+      - "SeungHeon Doh"
+      - "Keunwoo Choi"
+      - "Jongpil Lee"
+      - "Juhan Nam"
+    venue: "ISMIR 2023"
+    code_url: "https://github.com/seungheondoh/LP-MusicCaps"
+    project_url: ""
+    abstract: "Addresses the cost of music captioning data by generating pseudo captions with a large language model from structured tags. The resulting LP-MusicCaps dataset enables music captioning models and a text-to-music retrieval model to reach performance comparable to training on human-annotated captions."
+    tags: ["captioning", "LLM", "dataset"]
+  # ── Systems · Multimodal ────────────────────────────────────────────────────
+  - title: "ChatMusician: Understanding and Generating Music Intrinsically with LLM"
+    date: "2024-02"
+    url: "https://arxiv.org/abs/2402.16153"
+    category: "systems"
+    subcategory: "multimodal"
+    authors:
+      - "Ruibin Yuan"
+      - "Hanfeng Lin"
+      - "Yi Wang"
+      - "Zeyue Tian"
+      - "Shangda Wu"
+      - "Tianhao Shen"
+      - "Ge Zhang"
+      - "Yuhang Wu"
+    venue: "ACL 2024"
+    code_url: "https://github.com/microsoft/muzic/tree/main/chatmusician"
+    project_url: ""
+    abstract: "ChatMusician is an open-source LLM with intrinsic musical abilities: it understands and generates music using an ABC notation-based tokenizer, without external tools, and even composes continuations of given pieces. It outperforms GPT-4 on a music understanding benchmark while retaining strong text capabilities."
+    tags: ["LLM", "ABC notation", "music understanding"]
+  # ── Systems · Agentic ───────────────────────────────────────────────────────
+  - title: "Libretto: Giving LLM Agents a Sense of Musical Structure"
+    date: "2026-06"
+    url: "https://arxiv.org/abs/2606.22708"
+    category: "systems"
+    subcategory: "agentic"
+    authors:
+      - "Yichen Xu"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: "Generative music systems produce impressive audio from text prompts, but audio output is hard to inspect, edit and diagnose structurally. Libretto is an agent-facing framework for symbolic music generation and revision built on an LLM-native grammar with explicit onset slots, voices and bar-level organization, giving agents a manipulable representation of musical structure."
+    tags: ["agents", "symbolic", "LLM grammar"]
+  # ── Evaluation · Agentic ────────────────────────────────────────────────────
+  - title: "Music I Care About: Automated Multimodal Benchmarking of LLM Music Perception Skills on (Almost) Any Music"
+    date: "2026-07"
+    url: "https://arxiv.org/abs/2607.06015"
+    category: "evaluation"
+    subcategory: "agentic"
+    authors:
+      - "Tomáš Sourada"
+      - "Katia Vendrame"
+      - "Jan Hajič"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: "Challenges static music benchmarks for multimodal LLMs: they are expensive to evaluate and quickly become outdated. The paper proposes automated benchmarking of LLM music perception skills on (almost) any music, covering audio, symbolic encodings (MIDI, MusicXML) and sheet music modalities, to keep evaluation cheap, current and comprehensive."
+    tags: ["benchmark", "MLLM", "perception"]
+  # ── Surveys ─────────────────────────────────────────────────────────────────
+  - title: "A Survey on Music Generation from Single-Modal, Cross-Modal, and Multi-Modal Perspectives"
+    date: "2025-04"
+    url: "https://arxiv.org/abs/2504.00837"
+    category: "survey"
+    subcategory: "multimodal"
+    authors:
+      - "Shuyu Li"
+      - "Shulei Ji"
+      - "Zihao Wang"
+      - "Songruoyao Wu"
+      - "Jiaxing Yu"
+      - "Kejun Zhang"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: "Reviews music generation systems from the perspective of modalities, categorizing approaches as single-modal (score- or audio-only), cross-modal (text/image/video guidance) and multi-modal. Discusses datasets, methodologies and future directions for multimodal music generation, a fast-growing area with applications from film scoring to interactive creation."
+    tags: ["survey", "multimodal", "generation"]
+  - title: "Vision-to-Music Generation: A Survey"
+    date: "2025-03"
+    url: "https://arxiv.org/abs/2503.21254"
+    category: "survey"
+    subcategory: "multimodal"
+    authors:
+      - "Zhaokai Wang"
+      - "Chenxi Bao"
+      - "Le Zhuo"
+      - "Jingrui Han"
+      - "Yang Yue"
+      - "Yihong Tang"
+      - "Victor Shea-Jay Huang"
+      - "Yue Liao"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: "A survey of vision-to-music generation (video-to-music and image-to-music), a significant branch of multimodal AI with applications in film scoring, short-video creation and dance music synthesis. Systematizes methods, datasets and evaluation protocols, and outlines open challenges for aligning visual content with music generation."
+    tags: ["survey", "vision-to-music", "multimodal"]
+  - title: "A Survey on Multimodal Music Emotion Recognition"
+    date: "2025-04"
+    url: "https://arxiv.org/abs/2504.18799"
+    category: "survey"
+    subcategory: "multimodal"
+    authors:
+      - "Rashini Liyanarachchi"
+      - "Aditya Joshi"
+      - "Erik Meijering"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: "Comprehensive overview of multimodal music emotion recognition (MMER), an emerging discipline in music information retrieval. Discusses approaches combining audio, lyrics, video and contextual signals, datasets, feature representations, fusion strategies and open challenges toward robust, culturally-aware music emotion understanding."
+    tags: ["survey", "emotion", "MIR"]
+  - title: "A Survey on Evaluation Metrics for Music Generation"
+    date: "2025-08"
+    url: "https://arxiv.org/abs/2509.00051"
+    category: "survey"
+    subcategory: "audio"
+    authors:
+      - "Faria Binte Kader"
+      - "Santu Karmaker"
+    venue: ""
+    code_url: ""
+    project_url: ""
+    abstract: "Sheds light on the evaluation of generated music, which lags behind generation capabilities due to music's complex structure, coherence, creativity and emotional expressiveness. Reviews existing objective and subjective evaluation metrics, identifies gaps and offers directions for more comprehensive evaluation of music generation systems."
+    tags: ["survey", "evaluation", "generation"]

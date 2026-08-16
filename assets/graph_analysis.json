@@ -1,0 +1,280 @@
+{
+ "categories": [
+  {
+   "id": "analysis",
+   "name": "Analysis",
+   "count": 4,
+   "trajectory": {
+    "2019": 1,
+    "2021": 1,
+    "2023": 2
+   },
+   "momentum": {
+    "id": "analysis",
+    "name": "Analysis",
+    "total": 4,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "evaluation",
+   "name": "Evaluation",
+   "count": 1,
+   "trajectory": {
+    "2026": 1
+   },
+   "momentum": {
+    "id": "evaluation",
+    "name": "Evaluation",
+    "total": 1,
+    "recent": 1,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 1.0,
+    "papers_per_month": 0.1,
+    "score": 100.0
+   }
+  },
+  {
+   "id": "generation",
+   "name": "Generation",
+   "count": 5,
+   "trajectory": {
+    "2018": 1,
+    "2020": 1,
+    "2022": 1,
+    "2023": 2
+   },
+   "momentum": {
+    "id": "generation",
+    "name": "Generation",
+    "total": 5,
+    "recent": 0,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.0,
+    "papers_per_month": 0.0,
+    "score": 0.0
+   }
+  },
+  {
+   "id": "survey",
+   "name": "Survey",
+   "count": 4,
+   "trajectory": {
+    "2025": 4
+   },
+   "momentum": {
+    "id": "survey",
+    "name": "Survey",
+    "total": 4,
+    "recent": 1,
+    "prior": 3,
+    "growth_pct": -66.7,
+    "recent_share": 0.25,
+    "papers_per_month": 0.1,
+    "score": -41.7
+   }
+  },
+  {
+   "id": "systems",
+   "name": "Systems",
+   "count": 2,
+   "trajectory": {
+    "2024": 1,
+    "2026": 1
+   },
+   "momentum": {
+    "id": "systems",
+    "name": "Systems",
+    "total": 2,
+    "recent": 1,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 0.5,
+    "papers_per_month": 0.1,
+    "score": 50.0
+   }
+  }
+ ],
+ "subcategories": [
+  {
+   "id": "agentic",
+   "name": "Agentic",
+   "count": 2
+  },
+  {
+   "id": "audio",
+   "name": "Audio",
+   "count": 6
+  },
+  {
+   "id": "multimodal",
+   "name": "Multimodal",
+   "count": 5
+  },
+  {
+   "id": "symbolic",
+   "name": "Symbolic",
+   "count": 3
+  }
+ ],
+ "timeline": [
+  [
+   "2018-09",
+   "generation",
+   "symbolic"
+  ],
+  [
+   "2019-11",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2020-02",
+   "generation",
+   "symbolic"
+  ],
+  [
+   "2021-11",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2022-10",
+   "generation",
+   "symbolic"
+  ],
+  [
+   "2023-01",
+   "generation",
+   "audio"
+  ],
+  [
+   "2023-05",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-06",
+   "generation",
+   "audio"
+  ],
+  [
+   "2023-07",
+   "analysis",
+   "multimodal"
+  ],
+  [
+   "2024-02",
+   "systems",
+   "multimodal"
+  ],
+  [
+   "2025-03",
+   "survey",
+   "multimodal"
+  ],
+  [
+   "2025-04",
+   "survey",
+   "multimodal"
+  ],
+  [
+   "2025-04",
+   "survey",
+   "multimodal"
+  ],
+  [
+   "2025-08",
+   "survey",
+   "audio"
+  ],
+  [
+   "2026-06",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-07",
+   "evaluation",
+   "agentic"
+  ]
+ ],
+ "venues": [
+  {
+   "name": "NeurIPS 2023",
+   "papers": 1
+  },
+  {
+   "name": "ICLR 2019",
+   "papers": 1
+  },
+  {
+   "name": "ACM Multimedia 2020",
+   "papers": 1
+  },
+  {
+   "name": "NeurIPS 2022",
+   "papers": 1
+  },
+  {
+   "name": "ICLR 2022",
+   "papers": 1
+  },
+  {
+   "name": "IJCNN 2024",
+   "papers": 1
+  },
+  {
+   "name": "ISMIR 2023",
+   "papers": 1
+  },
+  {
+   "name": "ACL 2024",
+   "papers": 1
+  }
+ ],
+ "keyword_bursts": [
+  {
+   "keyword": "agent",
+   "recent": 1,
+   "total": 1,
+   "burst_score": 5.33,
+   "recent_share": 0.3333
+  },
+  {
+   "keyword": "skill",
+   "recent": 1,
+   "total": 1,
+   "burst_score": 5.33,
+   "recent_share": 0.3333
+  },
+  {
+   "keyword": "benchmark",
+   "recent": 1,
+   "total": 3,
+   "burst_score": 1.78,
+   "recent_share": 0.3333
+  },
+  {
+   "keyword": "survey",
+   "recent": 1,
+   "total": 4,
+   "burst_score": 1.33,
+   "recent_share": 0.3333
+  },
+  {
+   "keyword": "multimodal",
+   "recent": 1,
+   "total": 4,
+   "burst_score": 1.33,
+   "recent_share": 0.3333
+  }
+ ]
+}

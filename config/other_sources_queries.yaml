@@ -1,0 +1,39 @@
+# Multi-source discovery queries (fetch_other_sources.py)
+# Topic: Music Research — sources supported: dblp, crossref, europepmc, openalex, semantic_scholar
+
+- source: dblp
+  query: music generation transformer
+  category: generation
+  subcategory_hint: symbolic
+- source: dblp
+  query: music information retrieval
+  category: analysis
+  subcategory_hint: audio
+- source: crossref
+  query: music generation evaluation benchmark survey
+  category: evaluation
+  subcategory_hint: audio
+- source: crossref
+  query: music emotion recognition multimodal
+  category: cognition
+  subcategory_hint: multimodal
+- source: europepmc
+  query: music perception cognition neuroscience
+  category: cognition
+  subcategory_hint: audio
+- source: openalex
+  query: music generation deep learning
+  category: generation
+  subcategory_hint: audio
+- source: openalex
+  query: music information retrieval transcription
+  category: analysis
+  subcategory_hint: audio
+- source: semantic_scholar
+  query: LLM music understanding generation
+  category: systems
+  subcategory_hint: agentic
+- source: semantic_scholar
+  query: music source separation
+  category: analysis
+  subcategory_hint: audio

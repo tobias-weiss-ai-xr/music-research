@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this research corpus, please cite it as follows."
+title: "Music Research Corpus — Data-Driven Agentic Literature Review"
+abstract: "Data-driven, auto-validated, agentic literature review corpus for music research: AI music generation, music information retrieval, music perception & cognition, AI music systems & agents, evaluation, and surveys. Papers in papers.yaml, everything else generated."
+authors:
+  - family-names: "Weiß"
+    given-names: "Tobias"
+    orcid: ""
+date-released: "2026-08-06"
+license: MIT
+keywords:
+  - music-research
+  - music-information-retrieval
+  - music-generation
+  - mir
+  - literature-review
+  - research-corpus
+  - agentic-ai
+  - open-science
+repository-code: "https://github.com/tobias-weiss-ai-xr/music-research"

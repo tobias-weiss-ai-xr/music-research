@@ -186,7 +186,7 @@ def fetch_category(terms, months, per_category, sleep, subcat_keywords=None):
 
 def append_papers(yaml_path, new_papers):
     if yaml_path.exists():
-        with open(yaml_path, "r") as f:
+        with open(yaml_path, "r", encoding="utf-8") as f:
             data = yaml.safe_load(f) or {}
     else:
         data = {}
@@ -194,7 +194,7 @@ def append_papers(yaml_path, new_papers):
     for entry in new_papers:
         papers.append(entry)
     data["papers"] = papers
-    with open(yaml_path, "w") as f:
+    with open(yaml_path, "w", encoding="utf-8") as f:
         yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
 
 

@@ -3,34 +3,35 @@
   {
    "id": "analysis",
    "name": "Analysis",
-   "count": 4,
+   "count": 5,
    "trajectory": {
     "2019": 1,
     "2021": 1,
-    "2023": 2
+    "2023": 2,
+    "2025": 1
    },
    "momentum": {
     "id": "analysis",
     "name": "Analysis",
-    "total": 4,
-    "recent": 0,
+    "total": 5,
+    "recent": 1,
     "prior": 0,
     "growth_pct": null,
-    "recent_share": 0.0,
-    "papers_per_month": 0.0,
-    "score": 0.0
+    "recent_share": 0.2,
+    "papers_per_month": 0.1,
+    "score": 20.0
    }
   },
   {
-   "id": "evaluation",
-   "name": "Evaluation",
+   "id": "cognition",
+   "name": "Cognition",
    "count": 1,
    "trajectory": {
     "2026": 1
    },
    "momentum": {
-    "id": "evaluation",
-    "name": "Evaluation",
+    "id": "cognition",
+    "name": "Cognition",
     "total": 1,
     "recent": 1,
     "prior": 0,
@@ -41,64 +42,87 @@
    }
   },
   {
+   "id": "evaluation",
+   "name": "Evaluation",
+   "count": 3,
+   "trajectory": {
+    "2025": 1,
+    "2026": 2
+   },
+   "momentum": {
+    "id": "evaluation",
+    "name": "Evaluation",
+    "total": 3,
+    "recent": 3,
+    "prior": 0,
+    "growth_pct": null,
+    "recent_share": 1.0,
+    "papers_per_month": 0.2,
+    "score": 100.0
+   }
+  },
+  {
    "id": "generation",
    "name": "Generation",
-   "count": 5,
+   "count": 10,
    "trajectory": {
     "2018": 1,
     "2020": 1,
     "2022": 1,
-    "2023": 2
+    "2023": 2,
+    "2025": 1,
+    "2026": 4
    },
    "momentum": {
     "id": "generation",
     "name": "Generation",
-    "total": 5,
-    "recent": 0,
+    "total": 10,
+    "recent": 5,
     "prior": 0,
     "growth_pct": null,
-    "recent_share": 0.0,
-    "papers_per_month": 0.0,
-    "score": 0.0
+    "recent_share": 0.5,
+    "papers_per_month": 0.4,
+    "score": 50.0
    }
   },
   {
    "id": "survey",
    "name": "Survey",
-   "count": 4,
+   "count": 5,
    "trajectory": {
-    "2025": 4
+    "2025": 5
    },
    "momentum": {
     "id": "survey",
     "name": "Survey",
-    "total": 4,
-    "recent": 1,
+    "total": 5,
+    "recent": 2,
     "prior": 3,
-    "growth_pct": -66.7,
-    "recent_share": 0.25,
-    "papers_per_month": 0.1,
-    "score": -41.7
+    "growth_pct": -33.3,
+    "recent_share": 0.4,
+    "papers_per_month": 0.2,
+    "score": 6.7
    }
   },
   {
    "id": "systems",
    "name": "Systems",
-   "count": 2,
+   "count": 3,
    "trajectory": {
     "2024": 1,
+    "2025": 1,
     "2026": 1
    },
    "momentum": {
     "id": "systems",
     "name": "Systems",
-    "total": 2,
-    "recent": 1,
+    "total": 3,
+    "recent": 2,
     "prior": 0,
     "growth_pct": null,
-    "recent_share": 0.5,
-    "papers_per_month": 0.1,
-    "score": 50.0
+    "recent_share": 0.667,
+    "papers_per_month": 0.2,
+    "score": 66.7
    }
   }
  ],
@@ -106,22 +130,22 @@
   {
    "id": "agentic",
    "name": "Agentic",
-   "count": 2
+   "count": 4
   },
   {
    "id": "audio",
    "name": "Audio",
-   "count": 6
+   "count": 11
   },
   {
    "id": "multimodal",
    "name": "Multimodal",
-   "count": 5
+   "count": 6
   },
   {
    "id": "symbolic",
    "name": "Symbolic",
-   "count": 3
+   "count": 6
   }
  ],
  "timeline": [
@@ -196,6 +220,46 @@
    "audio"
   ],
   [
+   "2025-08",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-09",
+   "analysis",
+   "multimodal"
+  ],
+  [
+   "2025-10",
+   "generation",
+   "symbolic"
+  ],
+  [
+   "2025-11",
+   "survey",
+   "audio"
+  ],
+  [
+   "2025-12",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2026-05",
+   "cognition",
+   "audio"
+  ],
+  [
+   "2026-05",
+   "generation",
+   "audio"
+  ],
+  [
+   "2026-06",
+   "evaluation",
+   "agentic"
+  ],
+  [
    "2026-06",
    "systems",
    "agentic"
@@ -204,6 +268,21 @@
    "2026-07",
    "evaluation",
    "agentic"
+  ],
+  [
+   "2026-07",
+   "generation",
+   "symbolic"
+  ],
+  [
+   "2026-08",
+   "generation",
+   "audio"
+  ],
+  [
+   "2026-08",
+   "generation",
+   "symbolic"
   ]
  ],
  "venues": [
@@ -242,39 +321,109 @@
  ],
  "keyword_bursts": [
   {
+   "keyword": "diffusion",
+   "recent": 3,
+   "total": 3,
+   "burst_score": 1.93,
+   "recent_share": 0.2143
+  },
+  {
    "keyword": "agent",
+   "recent": 2,
+   "total": 2,
+   "burst_score": 1.93,
+   "recent_share": 0.1429
+  },
+  {
+   "keyword": "multi-agent",
    "recent": 1,
    "total": 1,
-   "burst_score": 5.33,
-   "recent_share": 0.3333
+   "burst_score": 1.93,
+   "recent_share": 0.0714
+  },
+  {
+   "keyword": "planning",
+   "recent": 1,
+   "total": 1,
+   "burst_score": 1.93,
+   "recent_share": 0.0714
+  },
+  {
+   "keyword": "optimization",
+   "recent": 1,
+   "total": 1,
+   "burst_score": 1.93,
+   "recent_share": 0.0714
+  },
+  {
+   "keyword": "autonomous",
+   "recent": 1,
+   "total": 1,
+   "burst_score": 1.93,
+   "recent_share": 0.0714
   },
   {
    "keyword": "skill",
    "recent": 1,
    "total": 1,
-   "burst_score": 5.33,
-   "recent_share": 0.3333
+   "burst_score": 1.93,
+   "recent_share": 0.0714
   },
   {
    "keyword": "benchmark",
+   "recent": 4,
+   "total": 6,
+   "burst_score": 1.29,
+   "recent_share": 0.2857
+  },
+  {
+   "keyword": "language model",
+   "recent": 2,
+   "total": 4,
+   "burst_score": 0.96,
+   "recent_share": 0.1429
+  },
+  {
+   "keyword": "hierarchical",
+   "recent": 1,
+   "total": 2,
+   "burst_score": 0.96,
+   "recent_share": 0.0714
+  },
+  {
+   "keyword": "transfer",
+   "recent": 1,
+   "total": 2,
+   "burst_score": 0.96,
+   "recent_share": 0.0714
+  },
+  {
+   "keyword": "tool",
+   "recent": 1,
+   "total": 2,
+   "burst_score": 0.96,
+   "recent_share": 0.0714
+  },
+  {
+   "keyword": "human",
    "recent": 1,
    "total": 3,
-   "burst_score": 1.78,
-   "recent_share": 0.3333
+   "burst_score": 0.64,
+   "recent_share": 0.0714
   },
   {
-   "keyword": "survey",
+   "keyword": "attention",
    "recent": 1,
-   "total": 4,
-   "burst_score": 1.33,
-   "recent_share": 0.3333
+   "total": 3,
+   "burst_score": 0.64,
+   "recent_share": 0.0714
   },
   {
-   "keyword": "multimodal",
-   "recent": 1,
-   "total": 4,
-   "burst_score": 1.33,
-   "recent_share": 0.3333
+   "keyword": "dataset",
+   "recent": 2,
+   "total": 7,
+   "burst_score": 0.55,
+   "recent_share": 0.1429
   }
  ]
 }

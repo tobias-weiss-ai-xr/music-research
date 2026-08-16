@@ -46,13 +46,13 @@ def load_papers():
     if yaml is None:
         print("ERROR: PyYAML required")
         sys.exit(1)
-    with open(PAPERS_FILE) as f:
+    with open(PAPERS_FILE, encoding="utf-8") as f:
         return yaml.safe_load(f)['papers']
 
 def save_papers(papers):
     if yaml is None:
         return
-    with open(PAPERS_FILE, 'w') as f:
+    with open(PAPERS_FILE, 'w', encoding="utf-8") as f:
         yaml.dump({'papers': papers}, f, default_flow_style=None,
                   sort_keys=False, allow_unicode=True, width=120)
 

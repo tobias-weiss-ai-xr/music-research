@@ -29,12 +29,12 @@ CACHE_DIR.mkdir(exist_ok=True)
 PAPERS_PATH = Path(__file__).parent.parent / "papers.yaml"
 
 def load_papers():
-    with open(PAPERS_PATH) as f:
+    with open(PAPERS_PATH, encoding="utf-8") as f:
         data = yaml.safe_load(f)
     return data['papers']
 
 def save_papers(papers):
-    with open(PAPERS_PATH, 'w') as f:
+    with open(PAPERS_PATH, 'w', encoding="utf-8") as f:
         yaml.dump({'papers': papers}, f, default_flow_style=None, sort_keys=False, allow_unicode=True, width=120)
 
 def title_similarity(a, b):

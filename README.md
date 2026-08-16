@@ -118,10 +118,12 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
   - [Audio](#audio)
   - [Multimodal & Text](#multimodal-&-text)
 - [📚 Music Perception & Cognition](#music-perception-&-cognition)
+  - [Audio](#audio)
 - [📚 AI Music Systems & Agents](#ai-music-systems-&-agents)
   - [Multimodal & Text](#multimodal-&-text)
   - [Agentic & LLM](#agentic-&-llm)
 - [📚 Evaluation & Benchmarks](#evaluation-&-benchmarks)
+  - [Audio](#audio)
   - [Agentic & LLM](#agentic-&-llm)
 - [📚 Surveys & Taxonomies](#surveys-&-taxonomies)
   - [Audio](#audio)
@@ -131,6 +133,11 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 #### Audio
 
+##### 2026
+
+- [2026] **MusicLayout: Explicit Structural Planning for Controllable Text-to-Music Generation** [[paper](https://arxiv.org/abs/2608.09035)]
+- [2026] **Shao: Scaling Acoustic Token Language Models Toward High-Fidelity Music Generation** [[paper](https://arxiv.org/abs/2605.01790)]
+
 ##### 2023
 
 - [2023] **Simple and Controllable Music Generation** *NeurIPS 2023* [[paper](https://arxiv.org/abs/2306.05284)] [[code](https://github.com/facebookresearch/audiocraft)]
@@ -139,6 +146,15 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 [⬆ Back to top](#paper-list)
 
 #### Symbolic
+
+##### 2026
+
+- [2026] **Diff-Symbo: Text-Controlled Long-Duration Symbolic Music Generation Using Autoregressive Latent Diffusion Model** [[paper](https://arxiv.org/abs/2608.05222)]
+- [2026] **BeatEdit: Symbolic Music Generation as Explicit Editing** [[paper](https://arxiv.org/abs/2607.11124)] [[code](https://github.com/Haoyu-Gu/BeatEdit-code)]
+
+##### 2025
+
+- [2025] **SAGE-Music: Low-Latency Symbolic Music Generation via Attribute-Specialized Key-Value Head Sharing** [[paper](https://arxiv.org/abs/2510.00395)]
 
 ##### 2022
 
@@ -174,6 +190,10 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 #### Multimodal & Text
 
+##### 2025
+
+- [2025] **Enhancing Automatic Chord Recognition through LLM Chain-of-Thought Reasoning** [[paper](https://arxiv.org/abs/2509.18700)]
+
 ##### 2023
 
 - [2023] **LP-MusicCaps: LLM-Based Pseudo Music Captioning** *ISMIR 2023* [[paper](https://arxiv.org/abs/2307.16372)] [[code](https://github.com/seungheondoh/LP-MusicCaps)]
@@ -181,6 +201,14 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 [⬆ Back to top](#paper-list)
 
 ### Music Perception & Cognition
+
+#### Audio
+
+##### 2026
+
+- [2026] **MindMelody: A Closed-Loop EEG-Driven System for Personalized Music Intervention** [[paper](https://arxiv.org/abs/2605.01235)]
+
+[⬆ Back to top](#paper-list)
 
 ### AI Music Systems & Agents
 
@@ -198,15 +226,28 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 - [2026] **Libretto: Giving LLM Agents a Sense of Musical Structure** [[paper](https://arxiv.org/abs/2606.22708)]
 
+##### 2025
+
+- [2025] **CompLex: Music Theory Lexicon Constructed by Autonomous Agents for Automatic Music Generation** [[paper](https://arxiv.org/abs/2508.19603)]
+
 [⬆ Back to top](#paper-list)
 
 ### Evaluation & Benchmarks
+
+#### Audio
+
+##### 2025
+
+- [2025] **MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation** [[paper](https://arxiv.org/abs/2512.14629)]
+
+[⬆ Back to top](#paper-list)
 
 #### Agentic & LLM
 
 ##### 2026
 
 - [2026] **Music I Care About: Automated Multimodal Benchmarking of LLM Music Perception Skills on (Almost) Any Music** [[paper](https://arxiv.org/abs/2607.06015)]
+- [2026] **Can LLMs understand LilyPond? A benchmark for symbolic music generation and understanding** [[paper](https://arxiv.org/abs/2606.08722)] [[code](https://github.com/CSCPadova/lilybench)]
 
 [⬆ Back to top](#paper-list)
 
@@ -216,6 +257,7 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ##### 2025
 
+- [2025] **Aligning Generative Music AI with Human Preferences: Methods and Challenges** [[paper](https://arxiv.org/abs/2511.15038)]
 - [2025] **A Survey on Evaluation Metrics for Music Generation** [[paper](https://arxiv.org/abs/2509.00051)]
 
 [⬆ Back to top](#paper-list)

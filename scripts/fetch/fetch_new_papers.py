@@ -17,7 +17,7 @@ import research_config
 
 ARXIV_ID_PATTERN = re.compile(r"(\d{4}\.\d{4,5})")
 ARXIV_SEARCH_API = (
-    "http://export.arxiv.org/api/query?search_query={}&start={}&max_results={}"
+    "https://export.arxiv.org/api/query?search_query={}&start={}&max_results={}"
 )
 
 
@@ -28,7 +28,7 @@ def get_queries(cfg):
 def load_existing_papers(yaml_path):
     if not yaml_path.exists():
         return {}, []
-    with open(yaml_path, "r") as f:
+    with open(yaml_path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f) or {}
     papers = data.get("papers", [])
     by_id = {}
@@ -139,7 +139,7 @@ def main():
 
     all_new = []
     for qi, query in enumerate(queries):
-        print(f"\nQuery {qi + 1}/{len(QUERIES)}...", flush=True)
+        print(f"\nQuery {qi + 1}/{len(queries)}...", flush=True)
         entries = search_arxiv(query, args.months)
         for entry in entries:
             arxiv_id_match = ARXIV_ID_PATTERN.search(entry.get("url", ""))
@@ -179,7 +179,7 @@ def main():
     if args.local:
         print(f"\nAppending {len(all_new)} new papers to papers.yaml locally...", flush=True)
         try:
-            with open(yaml_path, "r") as f:
+            with open(yaml_path, "r", encoding="utf-8") as f:
                 data = yaml.safe_load(f) or {}
             papers = data.get("papers", [])
             before = len(papers)
@@ -195,7 +195,7 @@ def main():
                     }
                 )
             data["papers"] = papers
-            with open(yaml_path, "w") as f:
+            with open(yaml_path, "w", encoding="utf-8") as f:
                 yaml.dump(
                     data,
                     f,
@@ -219,7 +219,7 @@ def main():
             subprocess.run(
                 ["git", "checkout", "-b", branch_name], check=True, cwd=yaml_path.parent
             )
-            with open(yaml_path, "r") as f:
+            with open(yaml_path, "r", encoding="utf-8") as f:
                 data = yaml.safe_load(f) or {}
             papers = data.get("papers", [])
             for entry in all_new:
@@ -234,7 +234,7 @@ def main():
                     }
                 )
             data["papers"] = papers
-            with open(yaml_path, "w") as f:
+            with open(yaml_path, "w", encoding="utf-8") as f:
                 yaml.dump(
                     data,
                     f,

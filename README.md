@@ -119,6 +119,8 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
   - [Multimodal & Text](#multimodal-&-text)
 - [📚 Music Perception & Cognition](#music-perception-&-cognition)
   - [Audio](#audio)
+  - [Multimodal & Text](#multimodal-&-text)
+  - [Agentic & LLM](#agentic-&-llm)
 - [📚 AI Music Systems & Agents](#ai-music-systems-&-agents)
   - [Multimodal & Text](#multimodal-&-text)
   - [Agentic & LLM](#agentic-&-llm)
@@ -136,6 +138,7 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 ##### 2026
 
 - [2026] **MusicLayout: Explicit Structural Planning for Controllable Text-to-Music Generation** [[paper](https://arxiv.org/abs/2608.09035)]
+- [2026] **Pushing the Frontier of Full-Song Generation: Hierarchical Autoregressive Planning Meets Flow-Matching Rendering** [[paper](https://arxiv.org/abs/2607.20253)]
 - [2026] **Shao: Scaling Acoustic Token Language Models Toward High-Fidelity Music Generation** [[paper](https://arxiv.org/abs/2605.01790)]
 
 ##### 2023
@@ -151,6 +154,7 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 - [2026] **Diff-Symbo: Text-Controlled Long-Duration Symbolic Music Generation Using Autoregressive Latent Diffusion Model** [[paper](https://arxiv.org/abs/2608.05222)]
 - [2026] **BeatEdit: Symbolic Music Generation as Explicit Editing** [[paper](https://arxiv.org/abs/2607.11124)] [[code](https://github.com/Haoyu-Gu/BeatEdit-code)]
+- [2026] **MIDI-RAE-JEPA: Hierarchical Representation Learning and Generation for Symbolic Music** [[paper](https://arxiv.org/abs/2607.14537)]
 
 ##### 2025
 
@@ -174,6 +178,11 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 #### Audio
 
+##### 2026
+
+- [2026] **MuScriptor: An Open Model for Multi-Instrument Music Transcription** [[paper](https://arxiv.org/abs/2607.08168)]
+- [2026] **Music-Source-Separation-Training (MSST): A Unified Framework for Training and Evaluating Music Demixing Models** [[paper](https://arxiv.org/abs/2607.23395)]
+
 ##### 2023
 
 - [2023] **MERT: Acoustic Music Understanding Model with Large-Scale Self-supervised Training** *IJCNN 2024* [[paper](https://arxiv.org/abs/2306.00107)] [[code](https://github.com/yizhilll/MERT)]
@@ -192,6 +201,7 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ##### 2025
 
+- [2025] **Music Flamingo: Scaling Music Understanding in Audio Language Models** [[paper](https://arxiv.org/abs/2511.10289)]
 - [2025] **Enhancing Automatic Chord Recognition through LLM Chain-of-Thought Reasoning** [[paper](https://arxiv.org/abs/2509.18700)]
 
 ##### 2023
@@ -210,6 +220,22 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 [⬆ Back to top](#paper-list)
 
+#### Multimodal & Text
+
+##### 2026
+
+- [2026] **Musical Training, but not Mere Exposure to Music, Drives the Emergence of Chroma Equivalence in Artificial Neural Networks** [[paper](https://arxiv.org/abs/2602.18635)]
+
+[⬆ Back to top](#paper-list)
+
+#### Agentic & LLM
+
+##### 2025
+
+- [2025] **The MUSE Benchmark: Probing Music Perception and Auditory Relational Reasoning in Audio LLMs** [[paper](https://arxiv.org/abs/2510.19055)]
+
+[⬆ Back to top](#paper-list)
+
 ### AI Music Systems & Agents
 
 #### Multimodal & Text
@@ -225,9 +251,11 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 ##### 2026
 
 - [2026] **Libretto: Giving LLM Agents a Sense of Musical Structure** [[paper](https://arxiv.org/abs/2606.22708)]
+- [2026] **MuseAgent-1: Interactive Grounded Multimodal Understanding of Music Scores and Performance Audio** [[paper](https://arxiv.org/abs/2601.11968)]
 
 ##### 2025
 
+- [2025] **WeaveMuse: An Open Agentic System for Multimodal Music Understanding and Generation** [[paper](https://arxiv.org/abs/2509.11183)]
 - [2025] **CompLex: Music Theory Lexicon Constructed by Autonomous Agents for Automatic Music Generation** [[paper](https://arxiv.org/abs/2508.19603)]
 
 [⬆ Back to top](#paper-list)
@@ -235,6 +263,10 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 ### Evaluation & Benchmarks
 
 #### Audio
+
+##### 2026
+
+- [2026] **SongBench: A Fine-Grained Multi-Aspect Benchmark for Song Quality Assessment** [[paper](https://arxiv.org/abs/2604.25937)]
 
 ##### 2025
 
@@ -249,6 +281,10 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 - [2026] **Music I Care About: Automated Multimodal Benchmarking of LLM Music Perception Skills on (Almost) Any Music** [[paper](https://arxiv.org/abs/2607.06015)]
 - [2026] **Can LLMs understand LilyPond? A benchmark for symbolic music generation and understanding** [[paper](https://arxiv.org/abs/2606.08722)] [[code](https://github.com/CSCPadova/lilybench)]
 
+##### 2025
+
+- [2025] **ABC-Eval: Benchmarking Large Language Models on Symbolic Music Understanding and Instruction Following** [[paper](https://arxiv.org/abs/2509.23350)]
+
 [⬆ Back to top](#paper-list)
 
 ### Surveys & Taxonomies
@@ -258,6 +294,7 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 ##### 2025
 
 - [2025] **Aligning Generative Music AI with Human Preferences: Methods and Challenges** [[paper](https://arxiv.org/abs/2511.15038)]
+- [2025] **Twenty-Five Years of MIR Research: Achievements, Practices, Evaluations, and Future Challenges** [[paper](https://arxiv.org/abs/2511.07205)]
 - [2025] **A Survey on Evaluation Metrics for Music Generation** [[paper](https://arxiv.org/abs/2509.00051)]
 
 [⬆ Back to top](#paper-list)

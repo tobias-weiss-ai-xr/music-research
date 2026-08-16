@@ -1,42 +1,42 @@
 # Trends (12-Month View)
 
 **Generated:** 2026-08-16  
-**Window:** since 2025-08 — 26 of 39 papers
+**Window:** since 2025-08 — 38 of 51 papers
 
 ## 🔥 Keyword Bursts
 
 | Keyword | Recent | Total | Burst |
 |---------|--------|-------|-------|
-| agent | 4 | 4 | 1.5× |
-| diffusion | 3 | 3 | 1.5× |
-| skill | 3 | 3 | 1.5× |
-| reinforcement | 2 | 2 | 1.5× |
-| multi-agent | 2 | 2 | 1.5× |
-| planning | 2 | 2 | 1.5× |
-| reward | 1 | 1 | 1.5× |
-| agentic | 1 | 1 | 1.5× |
-| optimization | 1 | 1 | 1.5× |
-| imitation | 1 | 1 | 1.5× |
-| autonomous | 1 | 1 | 1.5× |
-| real-time | 1 | 1 | 1.5× |
-| similarity | 1 | 1 | 1.5× |
-| benchmark | 9 | 11 | 1.2× |
-| language model | 5 | 7 | 1.1× |
+| agent | 4 | 4 | 1.3× |
+| skill | 4 | 4 | 1.3× |
+| diffusion | 3 | 3 | 1.3× |
+| reinforcement | 2 | 2 | 1.3× |
+| multi-agent | 2 | 2 | 1.3× |
+| planning | 2 | 2 | 1.3× |
+| imitation | 2 | 2 | 1.3× |
+| reward | 1 | 1 | 1.3× |
+| agentic | 1 | 1 | 1.3× |
+| optimization | 1 | 1 | 1.3× |
+| autonomous | 1 | 1 | 1.3× |
+| real-time | 1 | 1 | 1.3× |
+| scalable | 1 | 1 | 1.3× |
+| explainab | 1 | 1 | 1.3× |
+| similarity | 1 | 1 | 1.3× |
 
 ## 📈 Fastest-Growing Cells
 
 | Cell | Recent | Total | Recent Share |
 |------|--------|-------|--------------|
 | `systems/agentic` | 4 | 4 | 100% |
-| `evaluation/agentic` | 3 | 3 | 100% |
+| `evaluation/agentic` | 5 | 5 | 100% |
 | `survey/audio` | 3 | 3 | 100% |
-| `evaluation/audio` | 2 | 2 | 100% |
-| `cognition/audio` | 1 | 1 | 100% |
-| `cognition/multimodal` | 1 | 1 | 100% |
-| `cognition/agentic` | 1 | 1 | 100% |
-| `analysis/multimodal` | 2 | 3 | 67% |
+| `evaluation/audio` | 4 | 4 | 100% |
+| `cognition/audio` | 2 | 2 | 100% |
+| `cognition/multimodal` | 2 | 2 | 100% |
+| `cognition/agentic` | 2 | 2 | 100% |
+| `analysis/multimodal` | 4 | 5 | 80% |
+| `analysis/audio` | 5 | 8 | 62% |
 | `generation/audio` | 3 | 5 | 60% |
 | `generation/symbolic` | 4 | 7 | 57% |
-| `analysis/audio` | 2 | 5 | 40% |
 
 Regenerate with `python3 tools/trend_scanner.py --months 12`.

@@ -182,6 +182,12 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 - [2026] **MuScriptor: An Open Model for Multi-Instrument Music Transcription** [[paper](https://arxiv.org/abs/2607.08168)]
 - [2026] **Music-Source-Separation-Training (MSST): A Unified Framework for Training and Evaluating Music Demixing Models** [[paper](https://arxiv.org/abs/2607.23395)]
+- [2026] **Music Plagiarism Detection: Problem Formulation and a Segment-based Solution** [[paper](https://arxiv.org/abs/2601.21260)]
+
+##### 2025
+
+- [2025] **Melody or Machine: Detecting Synthetic Music with Dual-Stream Contrastive Learning** [[paper](https://arxiv.org/abs/2512.00621)]
+- [2025] **SongFormer: Scaling Music Structure Analysis with Heterogeneous Supervision** [[paper](https://arxiv.org/abs/2510.02797)]
 
 ##### 2023
 
@@ -201,8 +207,10 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ##### 2025
 
+- [2025] **Do Foundational Audio Encoders Understand Music Structure?** [[paper](https://arxiv.org/abs/2512.17209)]
 - [2025] **Music Flamingo: Scaling Music Understanding in Audio Language Models** [[paper](https://arxiv.org/abs/2511.10289)]
 - [2025] **Enhancing Automatic Chord Recognition through LLM Chain-of-Thought Reasoning** [[paper](https://arxiv.org/abs/2509.18700)]
+- [2025] **Sparse Autoencoders Make Audio Foundation Models more Explainable** [[paper](https://arxiv.org/abs/2509.24793)]
 
 ##### 2023
 
@@ -217,6 +225,7 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 ##### 2026
 
 - [2026] **MindMelody: A Closed-Loop EEG-Driven System for Personalized Music Intervention** [[paper](https://arxiv.org/abs/2605.01235)]
+- [2026] **Can pre-trained Deep Learning models predict groove ratings?** [[paper](https://arxiv.org/abs/2603.27237)]
 
 [⬆ Back to top](#paper-list)
 
@@ -224,6 +233,7 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 
 ##### 2026
 
+- [2026] **GraphIDyOM: A graph-native Python reimplementation of IDyOM for musical expectation modelling** [[paper](https://arxiv.org/abs/2607.25787)]
 - [2026] **Musical Training, but not Mere Exposure to Music, Drives the Emergence of Chroma Equivalence in Artificial Neural Networks** [[paper](https://arxiv.org/abs/2602.18635)]
 
 [⬆ Back to top](#paper-list)
@@ -233,6 +243,7 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 ##### 2025
 
 - [2025] **The MUSE Benchmark: Probing Music Perception and Auditory Relational Reasoning in Audio LLMs** [[paper](https://arxiv.org/abs/2510.19055)]
+- [2025] **Evaluating Multimodal Large Language Models on Core Music Perception Tasks** [[paper](https://arxiv.org/abs/2510.22455)]
 
 [⬆ Back to top](#paper-list)
 
@@ -271,6 +282,8 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 ##### 2025
 
 - [2025] **MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation** [[paper](https://arxiv.org/abs/2512.14629)]
+- [2025] **The Spheres Dataset: Multitrack Orchestral Recordings for Music Source Separation and Information Retrieval** [[paper](https://arxiv.org/abs/2511.21247)]
+- [2025] **Music4All A+A: A Multimodal Dataset for Music Information Retrieval Tasks** [[paper](https://arxiv.org/abs/2509.14891)]
 
 [⬆ Back to top](#paper-list)
 
@@ -284,6 +297,8 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 ##### 2025
 
 - [2025] **ABC-Eval: Benchmarking Large Language Models on Symbolic Music Understanding and Instruction Following** [[paper](https://arxiv.org/abs/2509.23350)]
+- [2025] **WildScore: Benchmarking MLLMs in-the-Wild Symbolic Music Reasoning** [[paper](https://arxiv.org/abs/2509.04744)]
+- [2025] **MQAD: A Large-Scale Question Answering Dataset for Training Music Large Language Models** [[paper](https://arxiv.org/abs/2508.19514)]
 
 [⬆ Back to top](#paper-list)
 

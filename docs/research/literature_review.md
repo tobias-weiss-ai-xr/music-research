@@ -1,7 +1,7 @@
 # Literature Review
 
 **Generated:** 2026-08-16  
-**Corpus:** 39 papers across 6 categories
+**Corpus:** 51 papers across 6 categories
 
 > Synthesis of the corpus. Category insights are grounded in title/abstract analysis of the papers themselves.
 
@@ -11,15 +11,15 @@
 
 | Rank | Category | Papers |
 |------|----------|--------|
-| 1 | Music Generation & Composition | 12 |
-| 2 | Music Analysis & Understanding | 8 |
-| 3 | Surveys & Taxonomies | 6 |
-| 4 | AI Music Systems & Agents | 5 |
-| 5 | Evaluation & Benchmarks | 5 |
-| 6 | Music Perception & Cognition | 3 |
+| 1 | Music Analysis & Understanding | 13 |
+| 2 | Music Generation & Composition | 12 |
+| 3 | Evaluation & Benchmarks | 9 |
+| 4 | Surveys & Taxonomies | 6 |
+| 5 | Music Perception & Cognition | 6 |
+| 6 | AI Music Systems & Agents | 5 |
 
 **Time span:** 2018–2026 (median year 2022)
-**Dominant aspects:** Audio (16), Multimodal & Text (8), Agentic & LLM (8)
+**Dominant aspects:** Audio (22), Multimodal & Text (11), Agentic & LLM (11)
 
 ---
 
@@ -27,11 +27,11 @@
 
 | Category | Total | Last 12m | Prior 12m | Growth | 12-m share | Papers/mo |
 |----------|------:|---------:|----------:|-------:|----------:|----------:|
-| Cognition | 3 | 3 | 0 | — | 100% | 0.2 |
-| Evaluation | 5 | 5 | 0 | — | 100% | 0.4 |
+| Cognition | 6 | 6 | 0 | — | 100% | 0.5 |
+| Evaluation | 9 | 9 | 0 | — | 100% | 0.8 |
 | Systems | 5 | 4 | 0 | — | 80% | 0.3 |
+| Analysis | 13 | 9 | 0 | — | 69% | 0.8 |
 | Generation | 12 | 7 | 0 | — | 58% | 0.6 |
-| Analysis | 8 | 4 | 0 | — | 50% | 0.3 |
 | Survey | 6 | 3 | 3 | +0% | 50% | 0.2 |
 
 ---
@@ -41,18 +41,30 @@
 | Cell | Papers |
 |------|--------:|
 | `systems/multimodal` | 1 |
-| `cognition/audio` | 1 |
-| `cognition/multimodal` | 1 |
-| `cognition/agentic` | 1 |
-| `evaluation/audio` | 2 |
-| `analysis/multimodal` | 3 |
-| `evaluation/agentic` | 3 |
+| `cognition/audio` | 2 |
+| `cognition/multimodal` | 2 |
+| `cognition/agentic` | 2 |
 | `survey/multimodal` | 3 |
+| `survey/audio` | 3 |
+| `systems/agentic` | 4 |
+| `evaluation/audio` | 4 |
 
 ---
 
 
 ## Category Insights
+
+### Music Analysis & Understanding (`analysis`)
+
+**Corpus size:** 13 papers
+
+**Recent papers:**
+
+- [2026-07] MuScriptor: An Open Model for Multi-Instrument Music Transcription — https://arxiv.org/abs/2607.08168
+- [2026-07] Music-Source-Separation-Training (MSST): A Unified Framework for Training and Evaluating Music  — https://arxiv.org/abs/2607.23395
+- [2026-01] Music Plagiarism Detection: Problem Formulation and a Segment-based Solution — https://arxiv.org/abs/2601.21260
+
+---
 
 ### Music Generation & Composition (`generation`)
 
@@ -66,15 +78,15 @@
 
 ---
 
-### Music Analysis & Understanding (`analysis`)
+### Evaluation & Benchmarks (`evaluation`)
 
-**Corpus size:** 8 papers
+**Corpus size:** 9 papers
 
 **Recent papers:**
 
-- [2026-07] MuScriptor: An Open Model for Multi-Instrument Music Transcription — https://arxiv.org/abs/2607.08168
-- [2026-07] Music-Source-Separation-Training (MSST): A Unified Framework for Training and Evaluating Music  — https://arxiv.org/abs/2607.23395
-- [2025-11] Music Flamingo: Scaling Music Understanding in Audio Language Models — https://arxiv.org/abs/2511.10289
+- [2026-07] Music I Care About: Automated Multimodal Benchmarking of LLM Music Perception Skills on (Almost — https://arxiv.org/abs/2607.06015
+- [2026-06] Can LLMs understand LilyPond? A benchmark for symbolic music generation and understanding — https://arxiv.org/abs/2606.08722
+- [2026-04] SongBench: A Fine-Grained Multi-Aspect Benchmark for Song Quality Assessment — https://arxiv.org/abs/2604.25937
 
 ---
 
@@ -90,6 +102,18 @@
 
 ---
 
+### Music Perception & Cognition (`cognition`)
+
+**Corpus size:** 6 papers
+
+**Recent papers:**
+
+- [2026-07] GraphIDyOM: A graph-native Python reimplementation of IDyOM for musical expectation modelling — https://arxiv.org/abs/2607.25787
+- [2026-05] MindMelody: A Closed-Loop EEG-Driven System for Personalized Music Intervention — https://arxiv.org/abs/2605.01235
+- [2026-03] Can pre-trained Deep Learning models predict groove ratings? — https://arxiv.org/abs/2603.27237
+
+---
+
 ### AI Music Systems & Agents (`systems`)
 
 **Corpus size:** 5 papers
@@ -99,30 +123,6 @@
 - [2026-06] Libretto: Giving LLM Agents a Sense of Musical Structure — https://arxiv.org/abs/2606.22708
 - [2026-01] MuseAgent-1: Interactive Grounded Multimodal Understanding of Music Scores and Performance Audi — https://arxiv.org/abs/2601.11968
 - [2025-09] WeaveMuse: An Open Agentic System for Multimodal Music Understanding and Generation — https://arxiv.org/abs/2509.11183
-
----
-
-### Evaluation & Benchmarks (`evaluation`)
-
-**Corpus size:** 5 papers
-
-**Recent papers:**
-
-- [2026-07] Music I Care About: Automated Multimodal Benchmarking of LLM Music Perception Skills on (Almost — https://arxiv.org/abs/2607.06015
-- [2026-06] Can LLMs understand LilyPond? A benchmark for symbolic music generation and understanding — https://arxiv.org/abs/2606.08722
-- [2026-04] SongBench: A Fine-Grained Multi-Aspect Benchmark for Song Quality Assessment — https://arxiv.org/abs/2604.25937
-
----
-
-### Music Perception & Cognition (`cognition`)
-
-**Corpus size:** 3 papers
-
-**Recent papers:**
-
-- [2026-05] MindMelody: A Closed-Loop EEG-Driven System for Personalized Music Intervention — https://arxiv.org/abs/2605.01235
-- [2026-02] Musical Training, but not Mere Exposure to Music, Drives the Emergence of Chroma Equivalence in — https://arxiv.org/abs/2602.18635
-- [2025-10] The MUSE Benchmark: Probing Music Perception and Auditory Relational Reasoning in Audio LLMs — https://arxiv.org/abs/2510.19055
 
 ---
 

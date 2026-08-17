@@ -3,12 +3,14 @@
 </h1>
 <h3 align="center">Agentic literature review of music research — generation, MIR, perception & cognition, AI music systems, evaluation</h3>
 
-<div align="center">
-  [**GitHub**](https://github.com/tobias-weiss-ai-xr/music-research)
-  [**License**](LICENSE)
-  [**CI**](https://github.com/tobias-weiss-ai-xr/music-research/actions/workflows/validate.yml)
-  [**Agent Learning**](https://github.com/tobias-weiss-ai-xr/agent-learning-research) [**Learning**](https://github.com/tobias-weiss-ai-xr/learning-research)
-</div>
+### 🔗 Links
+
+- **GitHub**: https://github.com/tobias-weiss-ai-xr/music-research
+- **License**: https://github.com/tobias-weiss-ai-xr/music-research/blob/main/LICENSE
+- **CI**: https://github.com/tobias-weiss-ai-xr/music-research/actions/workflows/validate.yml
+- **Agent Learning**: https://github.com/tobias-weiss-ai-xr/agent-learning-research
+- **Learning**: https://github.com/tobias-weiss-ai-xr/learning-research
+
 
 > 🎵 **Music research corpus:** music generation, music information retrieval,
 > perception & cognition, AI music systems, and evaluation — analyzed with the

@@ -1,33 +1,24 @@
 <h1 align="center">
   <strong>Music Research Corpus</strong>
 </h1>
-<h3 align="center">Agentic literature review of music research — generation, MIR, cognition, evaluation</h3>
+<h3 align="center">Agentic literature review of music research — generation, MIR, perception & cognition, AI music systems, evaluation</h3>
 
 <div align="center">
-
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/music-research/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/music-research/actions/workflows/validate.yml)
-[![GitHub Pages](https://img.shields.io/badge/Demo-GitHub%20Pages-brightgreen.svg?logo=github)](https://tobias-weiss-ai-xr.github.io/music-research/)
-
+  [![GitHub](https://img.shields.io/badge/GitHub-tobias-weiss-ai-xr/music--research-181717.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/music-research)
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+  [![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/music--research/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/music-research/actions/workflows/validate.yml)
+  [![Agent Learning](https://img.shields.io/badge/Agent Learning-agent--learning--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agent-learning-research) [![Learning](https://img.shields.io/badge/Learning-learning--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/learning-research)
 </div>
 
-> 🎵 **All sorts of music research, one corpus.** Data-driven, auto-validated,
-> agentic literature review built from the `skeleton-research` template —
-> papers live in `papers.yaml`, everything else is generated.
+> 🎵 **Music research corpus:** music generation, music information retrieval,
+> perception & cognition, AI music systems, and evaluation — analyzed with the
+> same pipeline as the other `*-research` corpus repos.
 
-## Scope
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tobias-weiss-ai-xr/music-research/main/assets/visualizations/category_distribution.png" alt="Teaser" width="600" />
+</p>
 
-The corpus covers music research across symbolic, audio, multimodal and
-agentic lines of work:
-
-| Category | What lives here |
-|----------|-----------------|
-| 🎼 **Music Generation & Composition** | text-to-music, symbolic generation, long-form structure |
-| 🔬 **Music Analysis & Understanding** | MIR: transcription, source separation, embeddings, captioning |
-| 🧠 **Music Perception & Cognition** | music psychology, neuroscience, emotion, cognition |
-| 🤖 **AI Music Systems & Agents** | LLM-based music systems, agentic composition frameworks |
-| 📏 **Evaluation & Benchmarks** | metrics, datasets, benchmarking protocols |
-| 📚 **Surveys & Taxonomies** | reviews and taxonomies of the field |
+---
 
 ## What you get
 
@@ -44,31 +35,21 @@ agentic lines of work:
 | 🖥️ **GitHub Pages site** | `docs/index.html` — searchable, filterable paper browser |
 | 🤖 **Agentic workflow** | `AGENTS.md` + `config/taxonomy.yaml` make this repo agent-friendly by design |
 
-## 🚀 Jump-start (5 steps)
+## 🚀 Quick Start
 
 ```bash
 # 1. Clone
 git clone https://github.com/tobias-weiss-ai-xr/music-research.git
 cd music-research
 
-# 2. (Re)define the topic & taxonomy
-#    Edit config/taxonomy.yaml: topic name, categories, subcategories, queries
-vim config/taxonomy.yaml
+# 2. Install dependencies
+pip install -r requirements.txt
 
-# 3. Seed/extend your corpus (start small — 5-10 papers is fine)
-#    Either hand-curate papers.yaml, or auto-discover:
-python3 scripts/fetch/fetch_new_papers.py --months 12 --dry-run   # preview arXiv hits
-python3 scripts/fetch/fetch_new_papers.py --local                 # append to papers.yaml
-
-# 4. Validate + generate
+# 3. Validate + generate
 python3 scripts/validate_papers.py
 python3 scripts/generate_readme.py
 python3 scripts/standard_stats.py
 python3 scripts/analysis/generate_reports.py
-
-# 5. Commit & let CI keep it healthy
-git add -A && git commit -m "update music corpus"
-git push
 ```
 
 ## 📖 How it works
@@ -109,220 +90,85 @@ This repo is designed to be driven by coding agents (OpenCode, Claude Code, …)
 - **Auto-validation** gives agents an objective pass/fail signal.
 - **Weekly discovery** keeps the corpus fresh without human babysitting.
 
-## 📚 Paper list
+## 📊 Corpus Statistics
 
-- [📚 Music Generation & Composition](#music-generation-&-composition)
-  - [Audio](#audio)
-  - [Symbolic](#symbolic)
-- [📚 Music Analysis & Understanding](#music-analysis-&-understanding)
-  - [Audio](#audio)
-  - [Multimodal & Text](#multimodal-&-text)
-- [📚 Music Perception & Cognition](#music-perception-&-cognition)
-  - [Audio](#audio)
-  - [Multimodal & Text](#multimodal-&-text)
-  - [Agentic & LLM](#agentic-&-llm)
-- [📚 AI Music Systems & Agents](#ai-music-systems-&-agents)
-  - [Multimodal & Text](#multimodal-&-text)
-  - [Agentic & LLM](#agentic-&-llm)
-- [📚 Evaluation & Benchmarks](#evaluation-&-benchmarks)
-  - [Audio](#audio)
-  - [Agentic & LLM](#agentic-&-llm)
-- [📚 Surveys & Taxonomies](#surveys-&-taxonomies)
-  - [Audio](#audio)
-  - [Multimodal & Text](#multimodal-&-text)
+**51 papers** across **6 categories**.  
+Sources: **arXiv** 51 (100%).  
+Full paper list: [GitHub Pages site](https://tobias-weiss-ai-xr.github.io/music-research).
 
-### Music Generation & Composition
+### Top categories
 
-#### Audio
+| Category | Papers | Recent | |
+|----------|--------|--------|-|
+| analysis | **13** | 0 | ████████████ |
+| generation | **12** | 0 | ███████████░ |
+| evaluation | **9** | 0 | ████████░░░░ |
+| cognition | **6** | 0 | █████░░░░░░░ |
+| survey | **6** | 0 | █████░░░░░░░ |
+| systems | **5** | 0 | ████░░░░░░░░ |
 
-##### 2026
 
-- [2026] **MusicLayout: Explicit Structural Planning for Controllable Text-to-Music Generation** [[paper](https://arxiv.org/abs/2608.09035)]
-- [2026] **Pushing the Frontier of Full-Song Generation: Hierarchical Autoregressive Planning Meets Flow-Matching Rendering** [[paper](https://arxiv.org/abs/2607.20253)]
-- [2026] **Shao: Scaling Acoustic Token Language Models Toward High-Fidelity Music Generation** [[paper](https://arxiv.org/abs/2605.01790)]
+### By year
 
-##### 2023
+| Year | Papers | |
+|------|--------|-|
+| 2024 | 1 | ░░░░░░░░░░░░ |
+| 2025 | 23 | ████████████ |
+| 2026 | 18 | █████████░░░ |
 
-- [2023] **Simple and Controllable Music Generation** *NeurIPS 2023* [[paper](https://arxiv.org/abs/2306.05284)] [[code](https://github.com/facebookresearch/audiocraft)]
-- [2023] **MusicLM: Generating Music From Text** [[paper](https://arxiv.org/abs/2301.11325)]
 
-[⬆ Back to top](#paper-list)
+### Momentum (hottest categories)
 
-#### Symbolic
+| Category | Total | Rate | Recent | Score |
+|----------|-------|------|--------|-------|
+| Cognition | 6 | 0.5/mo | 100% | 100 |
+| Evaluation | 9 | 0.8/mo | 100% | 100 |
+| Systems | 5 | 0.3/mo | 80% | 80 |
+| Analysis | 13 | 0.8/mo | 69% | 69 |
+| Generation | 12 | 0.6/mo | 58% | 58 |
 
-##### 2026
 
-- [2026] **Diff-Symbo: Text-Controlled Long-Duration Symbolic Music Generation Using Autoregressive Latent Diffusion Model** [[paper](https://arxiv.org/abs/2608.05222)]
-- [2026] **BeatEdit: Symbolic Music Generation as Explicit Editing** [[paper](https://arxiv.org/abs/2607.11124)] [[code](https://github.com/Haoyu-Gu/BeatEdit-code)]
-- [2026] **MIDI-RAE-JEPA: Hierarchical Representation Learning and Generation for Symbolic Music** [[paper](https://arxiv.org/abs/2607.14537)]
+### Trending keywords
 
-##### 2025
+| Keyword | Papers | Burst |
+|---------|--------|-------|
+| agent | 4 | 1.34 |
+| skill | 4 | 1.34 |
+| diffusion | 3 | 1.34 |
+| reinforcement | 2 | 1.34 |
+| multi-agent | 2 | 1.34 |
+| planning | 2 | 1.34 |
+| imitation | 2 | 1.34 |
+| reward | 1 | 1.34 |
 
-- [2025] **SAGE-Music: Low-Latency Symbolic Music Generation via Attribute-Specialized Key-Value Head Sharing** [[paper](https://arxiv.org/abs/2510.00395)]
 
-##### 2022
+### Top venues
 
-- [2022] **Museformer: Transformer with Fine- and Coarse-Grained Attention for Music Generation** *NeurIPS 2022* [[paper](https://arxiv.org/abs/2210.10349)] [[code](https://github.com/microsoft/muzic/tree/main/museformer)]
+| Venue | Papers |
+|-------|--------|
+| NeurIPS 2023 | 1 |
+| ICLR 2019 | 1 |
+| ACM Multimedia 2020 | 1 |
+| NeurIPS 2022 | 1 |
+| ICLR 2022 | 1 |
+| IJCNN 2024 | 1 |
+| ISMIR 2023 | 1 |
+| ACL 2024 | 1 |
 
-##### 2020
 
-- [2020] **Pop Music Transformer: Beat-based Modeling and Generation of Expressive Pop Piano Compositions** *ACM Multimedia 2020* [[paper](https://arxiv.org/abs/2002.00212)] [[code](https://github.com/sander-wood/pop-music-transformer)]
+### Research gaps (thinnest cells)
 
-##### 2018
+| Cell | Papers |
+|------|--------|
+| `systems/multimodal` | 1 |
+| `cognition/audio` | 2 |
+| `cognition/multimodal` | 2 |
+| `cognition/agentic` | 2 |
+| `survey/multimodal` | 3 |
 
-- [2018] **Music Transformer** *ICLR 2019* [[paper](https://arxiv.org/abs/1809.04281)] [[code](https://github.com/magenta/music-transformer)]
 
-[⬆ Back to top](#paper-list)
 
-### Music Analysis & Understanding
-
-#### Audio
-
-##### 2026
-
-- [2026] **MuScriptor: An Open Model for Multi-Instrument Music Transcription** [[paper](https://arxiv.org/abs/2607.08168)]
-- [2026] **Music-Source-Separation-Training (MSST): A Unified Framework for Training and Evaluating Music Demixing Models** [[paper](https://arxiv.org/abs/2607.23395)]
-- [2026] **Music Plagiarism Detection: Problem Formulation and a Segment-based Solution** [[paper](https://arxiv.org/abs/2601.21260)]
-
-##### 2025
-
-- [2025] **Melody or Machine: Detecting Synthetic Music with Dual-Stream Contrastive Learning** [[paper](https://arxiv.org/abs/2512.00621)]
-- [2025] **SongFormer: Scaling Music Structure Analysis with Heterogeneous Supervision** [[paper](https://arxiv.org/abs/2510.02797)]
-
-##### 2023
-
-- [2023] **MERT: Acoustic Music Understanding Model with Large-Scale Self-supervised Training** *IJCNN 2024* [[paper](https://arxiv.org/abs/2306.00107)] [[code](https://github.com/yizhilll/MERT)]
-
-##### 2021
-
-- [2021] **MT3: Multi-Task Multitrack Music Transcription** *ICLR 2022* [[paper](https://arxiv.org/abs/2111.03017)] [[code](https://github.com/magenta/mt3)]
-
-##### 2019
-
-- [2019] **Music Source Separation in the Waveform Domain** [[paper](https://arxiv.org/abs/1911.13254)] [[code](https://github.com/facebookresearch/demucs)]
-
-[⬆ Back to top](#paper-list)
-
-#### Multimodal & Text
-
-##### 2025
-
-- [2025] **Do Foundational Audio Encoders Understand Music Structure?** [[paper](https://arxiv.org/abs/2512.17209)]
-- [2025] **Music Flamingo: Scaling Music Understanding in Audio Language Models** [[paper](https://arxiv.org/abs/2511.10289)]
-- [2025] **Enhancing Automatic Chord Recognition through LLM Chain-of-Thought Reasoning** [[paper](https://arxiv.org/abs/2509.18700)]
-- [2025] **Sparse Autoencoders Make Audio Foundation Models more Explainable** [[paper](https://arxiv.org/abs/2509.24793)]
-
-##### 2023
-
-- [2023] **LP-MusicCaps: LLM-Based Pseudo Music Captioning** *ISMIR 2023* [[paper](https://arxiv.org/abs/2307.16372)] [[code](https://github.com/seungheondoh/LP-MusicCaps)]
-
-[⬆ Back to top](#paper-list)
-
-### Music Perception & Cognition
-
-#### Audio
-
-##### 2026
-
-- [2026] **MindMelody: A Closed-Loop EEG-Driven System for Personalized Music Intervention** [[paper](https://arxiv.org/abs/2605.01235)]
-- [2026] **Can pre-trained Deep Learning models predict groove ratings?** [[paper](https://arxiv.org/abs/2603.27237)]
-
-[⬆ Back to top](#paper-list)
-
-#### Multimodal & Text
-
-##### 2026
-
-- [2026] **GraphIDyOM: A graph-native Python reimplementation of IDyOM for musical expectation modelling** [[paper](https://arxiv.org/abs/2607.25787)]
-- [2026] **Musical Training, but not Mere Exposure to Music, Drives the Emergence of Chroma Equivalence in Artificial Neural Networks** [[paper](https://arxiv.org/abs/2602.18635)]
-
-[⬆ Back to top](#paper-list)
-
-#### Agentic & LLM
-
-##### 2025
-
-- [2025] **The MUSE Benchmark: Probing Music Perception and Auditory Relational Reasoning in Audio LLMs** [[paper](https://arxiv.org/abs/2510.19055)]
-- [2025] **Evaluating Multimodal Large Language Models on Core Music Perception Tasks** [[paper](https://arxiv.org/abs/2510.22455)]
-
-[⬆ Back to top](#paper-list)
-
-### AI Music Systems & Agents
-
-#### Multimodal & Text
-
-##### 2024
-
-- [2024] **ChatMusician: Understanding and Generating Music Intrinsically with LLM** *ACL 2024* [[paper](https://arxiv.org/abs/2402.16153)] [[code](https://github.com/microsoft/muzic/tree/main/chatmusician)]
-
-[⬆ Back to top](#paper-list)
-
-#### Agentic & LLM
-
-##### 2026
-
-- [2026] **Libretto: Giving LLM Agents a Sense of Musical Structure** [[paper](https://arxiv.org/abs/2606.22708)]
-- [2026] **MuseAgent-1: Interactive Grounded Multimodal Understanding of Music Scores and Performance Audio** [[paper](https://arxiv.org/abs/2601.11968)]
-
-##### 2025
-
-- [2025] **WeaveMuse: An Open Agentic System for Multimodal Music Understanding and Generation** [[paper](https://arxiv.org/abs/2509.11183)]
-- [2025] **CompLex: Music Theory Lexicon Constructed by Autonomous Agents for Automatic Music Generation** [[paper](https://arxiv.org/abs/2508.19603)]
-
-[⬆ Back to top](#paper-list)
-
-### Evaluation & Benchmarks
-
-#### Audio
-
-##### 2026
-
-- [2026] **SongBench: A Fine-Grained Multi-Aspect Benchmark for Song Quality Assessment** [[paper](https://arxiv.org/abs/2604.25937)]
-
-##### 2025
-
-- [2025] **MuseCPBench: an Empirical Study of Music Editing Methods through Music Context Preservation** [[paper](https://arxiv.org/abs/2512.14629)]
-- [2025] **The Spheres Dataset: Multitrack Orchestral Recordings for Music Source Separation and Information Retrieval** [[paper](https://arxiv.org/abs/2511.21247)]
-- [2025] **Music4All A+A: A Multimodal Dataset for Music Information Retrieval Tasks** [[paper](https://arxiv.org/abs/2509.14891)]
-
-[⬆ Back to top](#paper-list)
-
-#### Agentic & LLM
-
-##### 2026
-
-- [2026] **Music I Care About: Automated Multimodal Benchmarking of LLM Music Perception Skills on (Almost) Any Music** [[paper](https://arxiv.org/abs/2607.06015)]
-- [2026] **Can LLMs understand LilyPond? A benchmark for symbolic music generation and understanding** [[paper](https://arxiv.org/abs/2606.08722)] [[code](https://github.com/CSCPadova/lilybench)]
-
-##### 2025
-
-- [2025] **ABC-Eval: Benchmarking Large Language Models on Symbolic Music Understanding and Instruction Following** [[paper](https://arxiv.org/abs/2509.23350)]
-- [2025] **WildScore: Benchmarking MLLMs in-the-Wild Symbolic Music Reasoning** [[paper](https://arxiv.org/abs/2509.04744)]
-- [2025] **MQAD: A Large-Scale Question Answering Dataset for Training Music Large Language Models** [[paper](https://arxiv.org/abs/2508.19514)]
-
-[⬆ Back to top](#paper-list)
-
-### Surveys & Taxonomies
-
-#### Audio
-
-##### 2025
-
-- [2025] **Aligning Generative Music AI with Human Preferences: Methods and Challenges** [[paper](https://arxiv.org/abs/2511.15038)]
-- [2025] **Twenty-Five Years of MIR Research: Achievements, Practices, Evaluations, and Future Challenges** [[paper](https://arxiv.org/abs/2511.07205)]
-- [2025] **A Survey on Evaluation Metrics for Music Generation** [[paper](https://arxiv.org/abs/2509.00051)]
-
-[⬆ Back to top](#paper-list)
-
-#### Multimodal & Text
-
-##### 2025
-
-- [2025] **A Survey on Music Generation from Single-Modal, Cross-Modal, and Multi-Modal Perspectives** [[paper](https://arxiv.org/abs/2504.00837)]
-- [2025] **A Survey on Multimodal Music Emotion Recognition** [[paper](https://arxiv.org/abs/2504.18799)]
-- [2025] **Vision-to-Music Generation: A Survey** [[paper](https://arxiv.org/abs/2503.21254)]
-
-[⬆ Back to top](#paper-list)
+*Generated 2026-08 by `scripts/standard_stats.py`.*
 
 ## 📖 Citation
 

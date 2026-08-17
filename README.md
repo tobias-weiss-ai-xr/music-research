@@ -4,10 +4,10 @@
 <h3 align="center">Agentic literature review of music research — generation, MIR, perception & cognition, AI music systems, evaluation</h3>
 
 <div align="center">
-  [![GitHub](https://img.shields.io/badge/GitHub-tobias-weiss-ai-xr/music--research-181717.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/music-research)
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-  [![CI](https://img.shields.io/github/actions/workflow/status/tobias-weiss-ai-xr/music--research/validate.yml?label=CI&logo=github)](https://github.com/tobias-weiss-ai-xr/music-research/actions/workflows/validate.yml)
-  [![Agent Learning](https://img.shields.io/badge/Agent Learning-agent--learning--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/agent-learning-research) [![Learning](https://img.shields.io/badge/Learning-learning--research-blue.svg?logo=github)](https://github.com/tobias-weiss-ai-xr/learning-research)
+  [**GitHub**](https://github.com/tobias-weiss-ai-xr/music-research)
+  [**License**](LICENSE)
+  [**CI**](https://github.com/tobias-weiss-ai-xr/music-research/actions/workflows/validate.yml)
+  [**Agent Learning**](https://github.com/tobias-weiss-ai-xr/agent-learning-research) [**Learning**](https://github.com/tobias-weiss-ai-xr/learning-research)
 </div>
 
 > 🎵 **Music research corpus:** music generation, music information retrieval,

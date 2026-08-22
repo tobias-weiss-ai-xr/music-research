@@ -10,17 +10,20 @@ Usage:
 """
 
 import argparse
-import os
 import re
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+import sys
 
 import requests
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+import research_config
+
 OPENALEX_API = "https://api.openalex.org/works"
-MAILTO = os.environ.get("OPENALEX_MAILTO", "business@tobias-weiss.org")
 
 ARXIV_ID_PATTERN = re.compile(r"(\d{4}\.\d{4,5})(v\d+)?")
 
@@ -36,9 +39,12 @@ def load_category_terms(cfg):
 
 
 def load_subcat_keywords(cfg):
-    """Subcategory keyword rules derived from the config taxonomy ids."""
-    subs = cfg.get("taxonomy", {}).get("subcategories", [])
-    return [(s.get("id", ""), [s.get("id", "")]) for s in subs]
+    """Subcategory keyword rules from config (via research_config).
+
+    Returns a list of (subcat_id, [keywords]).  Falls back to an empty
+    list; the caller then uses the heuristic classify_subcategory.
+    """
+    return research_config.get_subcategory_keywords(cfg)
 
 
 def load_existing_papers(yaml_path):
@@ -62,7 +68,7 @@ def load_existing_papers(yaml_path):
 
 
 def classify_subcategory(title, abstract, keywords_rules=None):
-    """Assign a subcategory using keyword rules against title + abstract.
+    """Assign a subcategory using config keyword rules against title + abstract.
 
     keywords_rules: list of (subcat_id, [keywords]) from config. If not
     provided, returns the first configured subcategory as a safe default.
@@ -72,18 +78,19 @@ def classify_subcategory(title, abstract, keywords_rules=None):
         for subcat, keywords in keywords_rules:
             if any(k.lower() in text for k in keywords):
                 return subcat
-        return keywords_rules[0][0]
+        # Fall back to first configured subcategory
+        return keywords_rules[0][0] if keywords_rules else ""
     return ""
 
 
 def sanitize_date(date_str):
     """Normalize a date to YYYY-MM, clamping future dates to today."""
     if not date_str:
-        return "papers"
+        return ""
     y = date_str[:4]
     m = date_str[5:7] if len(date_str) >= 7 else "01"
     if not y.isdigit() or not m.isdigit():
-        return "papers"
+        return ""
     now = datetime.now(timezone.utc)
     if (int(y), int(m)) > (now.year, now.month):
         return now.strftime("%Y-%m")
@@ -97,7 +104,7 @@ def date_filter(months):
 
 def reconstruct_abstract(inverted):
     if not inverted:
-        return "papers"
+        return ""
     pos = {}
     for word, positions in inverted.items():
         for p in positions:
@@ -105,7 +112,7 @@ def reconstruct_abstract(inverted):
     return " ".join(pos[i] for i in sorted(pos))
 
 
-def fetch_category(terms, months, per_category, sleep, subcat_keywords=None):
+def fetch_category(terms, months, per_category, sleep, subcat_keywords=None, mailto=None):
     """Cursor-paginated, relevance-sorted fetch for one category."""
     entries = []
     cursor = "*"
@@ -117,7 +124,7 @@ def fetch_category(terms, months, per_category, sleep, subcat_keywords=None):
                 f"{search_filter}"
             ),
             "per-page": 100,
-            "mailto": MAILTO,
+            "mailto": mailto or "research@tobias-weiss-ai-xr.de",
             "cursor": cursor,
         }
         data = None
@@ -175,7 +182,7 @@ def fetch_category(terms, months, per_category, sleep, subcat_keywords=None):
                     "category": None,
                     "subcategory": classify_subcategory(title, abstract, subcat_keywords),
                     "authors": [a.get("author", {}).get("display_name", "") for a in work.get("authorships", [])][:3],
-                    "abstract": abstract[:200],
+                    "abstract": abstract,
                     "venue": ((work.get("primary_location") or {}).get("source") or {}).get("display_name") or "",
                 }
             )
@@ -186,7 +193,7 @@ def fetch_category(terms, months, per_category, sleep, subcat_keywords=None):
 
 def append_papers(yaml_path, new_papers):
     if yaml_path.exists():
-        with open(yaml_path, "r", encoding="utf-8") as f:
+        with open(yaml_path, "r") as f:
             data = yaml.safe_load(f) or {}
     else:
         data = {}
@@ -194,7 +201,7 @@ def append_papers(yaml_path, new_papers):
     for entry in new_papers:
         papers.append(entry)
     data["papers"] = papers
-    with open(yaml_path, "w", encoding="utf-8") as f:
+    with open(yaml_path, "w") as f:
         yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
 
 
@@ -205,12 +212,14 @@ def main():
     parser.add_argument("--sleep", type=float, default=5.0)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--categories", default=None, help="Comma-separated subset of category keys")
+
+    parser.add_argument("--local", action="store_true", help="Run locally without modifying remote repos")
     args = parser.parse_args()
 
-    import research_config
     cfg = research_config.load_config()
     category_terms = load_category_terms(cfg)
     subcat_keywords = load_subcat_keywords(cfg)
+    mailto = research_config.get_openalex_mailto(cfg)
 
     yaml_path = Path(__file__).resolve().parent.parent.parent / "papers.yaml"
     by_id, titles_lower = load_existing_papers(yaml_path)
@@ -224,7 +233,7 @@ def main():
 
     for cat, terms in terms_list:
         print(f"\n=== [{cat}] {terms} ===", flush=True)
-        entries = fetch_category(terms, args.months, args.per_category, args.sleep, subcat_keywords)
+        entries = fetch_category(terms, args.months, args.per_category, args.sleep, subcat_keywords, mailto)
         new = []
         for e in entries:
             m = ARXIV_ID_PATTERN.search(e["url"])

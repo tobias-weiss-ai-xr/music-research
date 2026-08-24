@@ -1,6 +1,8 @@
 # Multi-source discovery queries (fetch_other_sources.py)
-# Topic: Music Research — sources supported: dblp, crossref, europepmc, openalex, semantic_scholar
+# Topic: Music Research — sources supported: dblp, crossref, europepmc,
+# openalex, semantic_scholar, zenodo
 
+# ── DBLP ────────────────────────────────────────────────────────────────
 - source: dblp
   query: music generation transformer
   category: generation
@@ -9,6 +11,20 @@
   query: music information retrieval
   category: analysis
   subcategory_hint: audio
+- source: dblp
+  query: music source separation
+  category: analysis
+  subcategory_hint: audio
+- source: dblp
+  query: music emotion recognition
+  category: cognition
+  subcategory_hint: audio
+- source: dblp
+  query: symbolic music generation
+  category: generation
+  subcategory_hint: symbolic
+
+# ── CrossRef ────────────────────────────────────────────────────────────
 - source: crossref
   query: music generation evaluation benchmark survey
   category: evaluation
@@ -17,10 +33,22 @@
   query: music emotion recognition multimodal
   category: cognition
   subcategory_hint: multimodal
+- source: crossref
+  query: music information retrieval deep learning
+  category: analysis
+  subcategory_hint: audio
+
+# ── Europe PMC ──────────────────────────────────────────────────────────
 - source: europepmc
   query: music perception cognition neuroscience
   category: cognition
   subcategory_hint: audio
+- source: europepmc
+  query: music therapy neuroscience
+  category: cognition
+  subcategory_hint: audio
+
+# ── OpenAlex ────────────────────────────────────────────────────────────
 - source: openalex
   query: music generation deep learning
   category: generation
@@ -29,6 +57,32 @@
   query: music information retrieval transcription
   category: analysis
   subcategory_hint: audio
+- source: openalex
+  query: symbolic music generation transformer
+  category: generation
+  subcategory_hint: symbolic
+- source: openalex
+  query: music source separation deep learning
+  category: analysis
+  subcategory_hint: audio
+- source: openalex
+  query: music emotion recognition audio
+  category: cognition
+  subcategory_hint: audio
+- source: openalex
+  query: music + large language models + agents
+  category: systems
+  subcategory_hint: agentic
+- source: openalex
+  query: music generation evaluation metrics benchmark
+  category: evaluation
+  subcategory_hint: audio
+- source: openalex
+  query: music information retrieval survey
+  category: survey
+  subcategory_hint: audio
+
+# ── Semantic Scholar ────────────────────────────────────────────────────
 - source: semantic_scholar
   query: LLM music understanding generation
   category: systems
@@ -36,4 +90,38 @@
 - source: semantic_scholar
   query: music source separation
   category: analysis
+  subcategory_hint: audio
+- source: semantic_scholar
+  query: symbolic music generation transformer
+  category: generation
+  subcategory_hint: symbolic
+- source: semantic_scholar
+  query: text to music generation
+  category: generation
+  subcategory_hint: multimodal
+- source: semantic_scholar
+  query: music information retrieval MIR
+  category: analysis
+  subcategory_hint: audio
+- source: semantic_scholar
+  query: music emotion recognition
+  category: cognition
+  subcategory_hint: audio
+- source: semantic_scholar
+  query: music LLM agents composition
+  category: systems
+  subcategory_hint: agentic
+
+# ── Zenodo (music-specific: ISMIR, datasets) ────────────────────────────
+- source: zenodo
+  query: music information retrieval ISMIR
+  category: analysis
+  subcategory_hint: audio
+- source: zenodo
+  query: music dataset
+  category: evaluation
+  subcategory_hint: audio
+- source: zenodo
+  query: music generation
+  category: generation
   subcategory_hint: audio

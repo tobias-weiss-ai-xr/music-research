@@ -78,7 +78,7 @@
   {
    "id": "evaluation",
    "name": "Evaluation & Benchmarks",
-   "count": 85,
+   "count": 88,
    "trajectory": {
     "1967": 1,
     "2012": 1,
@@ -91,24 +91,24 @@
     "2023": 8,
     "2024": 1,
     "2025": 9,
-    "2026": 51
+    "2026": 54
    },
    "momentum": {
     "id": "evaluation",
     "name": "Evaluation",
-    "total": 85,
-    "recent": 58,
+    "total": 88,
+    "recent": 61,
     "prior": 2,
-    "growth_pct": 2800.0,
-    "recent_share": 0.682,
-    "papers_per_month": 4.8,
-    "score": 2868.2
+    "growth_pct": 2950.0,
+    "recent_share": 0.693,
+    "papers_per_month": 5.1,
+    "score": 3019.3
    }
   },
   {
    "id": "generation",
    "name": "Music Generation & Composition",
-   "count": 138,
+   "count": 139,
    "trajectory": {
     "2013": 1,
     "2015": 1,
@@ -121,18 +121,18 @@
     "2023": 13,
     "2024": 10,
     "2025": 9,
-    "2026": 79
+    "2026": 80
    },
    "momentum": {
     "id": "generation",
     "name": "Generation",
-    "total": 138,
-    "recent": 80,
+    "total": 139,
+    "recent": 81,
     "prior": 8,
-    "growth_pct": 900.0,
-    "recent_share": 0.58,
-    "papers_per_month": 6.7,
-    "score": 958.0
+    "growth_pct": 912.5,
+    "recent_share": 0.583,
+    "papers_per_month": 6.8,
+    "score": 970.8
    }
   },
   {
@@ -206,7 +206,7 @@
   {
    "id": "audio",
    "name": "Audio",
-   "count": 297
+   "count": 301
   },
   {
    "id": "multimodal",
@@ -2438,6 +2438,21 @@
   [
    "2026-08",
    "evaluation",
+   "audio"
+  ],
+  [
+   "2026-08",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2026-08",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2026-08",
+   "evaluation",
    "multimodal"
   ],
   [
@@ -2454,6 +2469,11 @@
    "2026-08",
    "generation",
    "agentic"
+  ],
+  [
+   "2026-08",
+   "generation",
+   "audio"
   ],
   [
    "2026-08",
@@ -2581,108 +2601,108 @@
  "keyword_bursts": [
   {
    "keyword": "real-world",
-   "recent": 23,
-   "total": 23,
-   "burst_score": 1.95,
-   "recent_share": 0.0962
+   "recent": 24,
+   "total": 24,
+   "burst_score": 1.94,
+   "recent_share": 0.0988
   },
   {
    "keyword": "scalable",
    "recent": 6,
    "total": 6,
-   "burst_score": 1.95,
-   "recent_share": 0.0251
+   "burst_score": 1.94,
+   "recent_share": 0.0247
   },
   {
    "keyword": "autonomous",
    "recent": 2,
    "total": 2,
-   "burst_score": 1.95,
-   "recent_share": 0.0084
+   "burst_score": 1.94,
+   "recent_share": 0.0082
   },
   {
    "keyword": "framework",
    "recent": 74,
    "total": 79,
-   "burst_score": 1.83,
-   "recent_share": 0.3096
+   "burst_score": 1.82,
+   "recent_share": 0.3045
   },
   {
    "keyword": "benchmark",
-   "recent": 98,
-   "total": 108,
-   "burst_score": 1.77,
-   "recent_share": 0.41
+   "recent": 101,
+   "total": 111,
+   "burst_score": 1.76,
+   "recent_share": 0.4156
   },
   {
    "keyword": "system",
-   "recent": 92,
-   "total": 105,
-   "burst_score": 1.71,
-   "recent_share": 0.3849
+   "recent": 95,
+   "total": 108,
+   "burst_score": 1.7,
+   "recent_share": 0.3909
   },
   {
    "keyword": "model",
-   "recent": 172,
-   "total": 207,
+   "recent": 176,
+   "total": 211,
    "burst_score": 1.62,
-   "recent_share": 0.7197
+   "recent_share": 0.7243
+  },
+  {
+   "keyword": "evaluation",
+   "recent": 71,
+   "total": 86,
+   "burst_score": 1.6,
+   "recent_share": 0.2922
   },
   {
    "keyword": "human",
    "recent": 43,
    "total": 52,
-   "burst_score": 1.62,
-   "recent_share": 0.1799
-  },
-  {
-   "keyword": "evaluation",
-   "recent": 68,
-   "total": 83,
    "burst_score": 1.6,
-   "recent_share": 0.2845
+   "recent_share": 0.177
   },
   {
    "keyword": "method",
    "recent": 54,
    "total": 66,
-   "burst_score": 1.6,
-   "recent_share": 0.2259
+   "burst_score": 1.59,
+   "recent_share": 0.2222
   },
   {
    "keyword": "novel",
    "recent": 22,
    "total": 27,
-   "burst_score": 1.59,
-   "recent_share": 0.0921
+   "burst_score": 1.58,
+   "recent_share": 0.0905
   },
   {
    "keyword": "dataset",
-   "recent": 76,
-   "total": 94,
-   "burst_score": 1.58,
-   "recent_share": 0.318
+   "recent": 78,
+   "total": 96,
+   "burst_score": 1.57,
+   "recent_share": 0.321
   },
   {
    "keyword": "tool",
    "recent": 13,
    "total": 17,
-   "burst_score": 1.49,
-   "recent_share": 0.0544
+   "burst_score": 1.48,
+   "recent_share": 0.0535
   },
   {
    "keyword": "analysis",
-   "recent": 39,
-   "total": 52,
+   "recent": 41,
+   "total": 54,
    "burst_score": 1.47,
-   "recent_share": 0.1632
+   "recent_share": 0.1687
   },
   {
    "keyword": "application",
    "recent": 16,
    "total": 29,
-   "burst_score": 1.08,
-   "recent_share": 0.0669
+   "burst_score": 1.07,
+   "recent_share": 0.0658
   }
  ]
 }

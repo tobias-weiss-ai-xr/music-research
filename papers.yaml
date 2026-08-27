@@ -1223,7 +1223,7 @@ papers:
   - artist/album level
 - title: 'Composer Vector: Style-steering Symbolic Music Generation in a Latent Space'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.03333v1
+  url: https://arxiv.org/abs/2604.03333
   category: generation
   subcategory: symbolic
   abstract: 'Symbolic music generation has made significant progress, yet achieving
@@ -1245,7 +1245,7 @@ papers:
 - title: 'Calliphony: A Calligraphy-Driven Interface for Real-Time Generative Music
     Performance'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.03040v1
+  url: https://arxiv.org/abs/2608.03040
   category: generation
   subcategory: symbolic
   abstract: 'While music generative models have recently gained significant attention,
@@ -1266,7 +1266,7 @@ papers:
 - title: 'Anchored Cyclic Generation: A Novel Paradigm for Long-Sequence Symbolic
     Music Generation'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.05343v1
+  url: https://arxiv.org/abs/2604.05343
   category: generation
   subcategory: symbolic
   abstract: Generating long sequences with structural coherence remains a fundamental
@@ -1290,7 +1290,7 @@ papers:
     related tasks such as music completion.
 - title: Efficient Long-Sequence Diffusion Modeling for Symbolic Music Generation
   date: 2026-02
-  url: https://arxiv.org/abs/2603.00576v1
+  url: https://arxiv.org/abs/2603.00576
   category: generation
   subcategory: symbolic
   abstract: Symbolic music generation is a challenging task in multimedia generation,
@@ -1313,7 +1313,7 @@ papers:
 - title: 'RPPNet: Perceptually-Grouped Rhythm-Pitch Primitives for Long-Term Structure
     Melody Generation via Boundary-Aware Modeling'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.19776v1
+  url: https://arxiv.org/abs/2607.19776
   category: generation
   subcategory: symbolic
   abstract: Existing symbolic music generation models typically use bars as the basic
@@ -1333,7 +1333,7 @@ papers:
 - title: 'Generative Modeling of Bach-Style Symbolic Music: A Comparative Study of
     Autoregressive, Latent-Variable, and Adversarial Approaches'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.13626v2
+  url: https://arxiv.org/abs/2606.13626
   category: generation
   subcategory: symbolic
   abstract: 'We study generative modeling of Bach-style symbolic piano music using
@@ -1351,7 +1351,7 @@ papers:
 - title: 'Academic Text-to-Music Grand Challenge: Datasets, Baselines, and Evaluation
     Methods'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.21538v2
+  url: https://arxiv.org/abs/2605.21538
   category: evaluation
   subcategory: multimodal
   abstract: 'This paper presents an overview and the technical framework of the ICME
@@ -1371,7 +1371,7 @@ papers:
     challenge aims to facilitate and promote TTM research in academic contexts.'
 - title: Learning Music Style for Piano Arrangement Through Cross-Modal Bootstrapping
   date: 2026-08
-  url: https://arxiv.org/abs/2608.03050v1
+  url: https://arxiv.org/abs/2608.03050
   category: generation
   subcategory: symbolic
   abstract: 'What is music style? Though often described using text labels such as
@@ -1391,7 +1391,7 @@ papers:
 - title: UT-AISTimprt submission for ICME 2026 Grand Challenge on Academic Text-to-Music
     Generation
   date: 2026-07
-  url: https://arxiv.org/abs/2607.01669v1
+  url: https://arxiv.org/abs/2607.01669
   category: evaluation
   subcategory: multimodal
   abstract: 'This work investigates the effect of batch sampling strategies during
@@ -1409,7 +1409,7 @@ papers:
     tests.'
 - title: Instrumental Text-to-Music Generation with Auxiliary Conditioning Branches
   date: 2026-05
-  url: https://arxiv.org/abs/2605.21433v1
+  url: https://arxiv.org/abs/2605.21433
   category: generation
   subcategory: audio
   abstract: Text-to-music generation has advanced rapidly, with modern autoregressive
@@ -1433,7 +1433,7 @@ papers:
     metrics.
 - title: 'V2M-Zero: Zero-Pair Time-Aligned Video-to-Music Generation'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.11042v2
+  url: https://arxiv.org/abs/2603.11042
   category: generation
   subcategory: multimodal
   abstract: 'Generating music that temporally aligns with video events is challenging
@@ -1462,14 +1462,14 @@ papers:
     generation.'
 - title: 'Text2Score: Generating Sheet Music From Textual Prompts'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.13431v2
+  url: https://arxiv.org/abs/2605.13431
   category: generation
   subcategory: symbolic
   abstract: Developing text-driven symbolic music generation models remains challenging
     due to the scarcity of aligned text-music datasets and the unreliability of automated
     captioning pipelines. While most efforts have focused on MIDI, sheet music representations
-    are largely underexplored in text-driven generation. We present \textit{Text2Score},
-    a two-stage framework comprising a planning stage and an execution stage for generating
+    are largely underexplored in text-driven generation. We present Text2Score, a
+    two-stage framework comprising a planning stage and an execution stage for generating
     sheet music from natural language prompts. By deriving supervision signals directly
     from symbolic XML data, we propose an alternative to caption-based training that
     bypasses noisy or scarce text-music pairs. In the planning stage, an LLM orchestrator
@@ -1479,14 +1479,14 @@ papers:
     notation conditioned on its structural constraints. To assess output quality,
     we introduce an evaluation framework covering playability, readability, instrument
     utilization, structural complexity, and prompt adherence, corroborated by expert
-    musicians. \textit{Text2Score} consistently outperforms both a pure LLM-based
-    agentic framework and three end-to-end baselines across objective and subjective
-    dimensions. We open-source the dataset, code, evaluation set and LLM prompts used
-    in this work; a demo is available on our project page (https://keshavbhandari.github.io/portfolio/text2score).
+    musicians. Text2Score consistently outperforms both a pure LLM-based agentic framework
+    and three end-to-end baselines across objective and subjective dimensions. We
+    open-source the dataset, code, evaluation set and LLM prompts used in this work;
+    a demo is available on our project page (https://keshavbhandari.github.io/portfolio/text2score).
 - title: 'Fusing Memory and Attention: A study on LSTM, Transformer and Hybrid Architectures
     for Symbolic Music Generation'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.21282v1
+  url: https://arxiv.org/abs/2603.21282
   category: evaluation
   subcategory: symbolic
   abstract: Machine learning techniques, such as Transformers and Long Short-Term
@@ -1512,7 +1512,7 @@ papers:
 - title: 'Polyphonia: Zero-Shot Timbre Transfer in Polyphonic Music with Acoustic-Informed
     Attention Calibration'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.10203v1
+  url: https://arxiv.org/abs/2605.10203
   category: generation
   subcategory: audio
   abstract: The advancement of diffusion-based text-to-music generation has opened
@@ -1533,7 +1533,7 @@ papers:
     fidelity and non-target integrity.
 - title: 'AudioX-Turbo: A Unified Framework for Efficient Anything-to-Audio Generation'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.12555v2
+  url: https://arxiv.org/abs/2606.12555
   category: evaluation
   subcategory: multimodal
   abstract: 'Audio and music generation based on flexible multimodal control signals
@@ -1560,7 +1560,7 @@ papers:
 - title: 'Mental Damage: Caption Poisoning Attacks on Retrieval-Augmented Text-to-Music
     Generation'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.30365v1
+  url: https://arxiv.org/abs/2605.30365
   category: generation
   subcategory: multimodal
   abstract: 'Retrieval-augmented text-to-music (TTM) systems augment underspecified
@@ -1580,7 +1580,7 @@ papers:
     can be found at: https://yizhu-wen.github.io/Mental-Damage/'
 - title: Qwen-Music Technical Report
   date: 2026-07
-  url: https://arxiv.org/abs/2607.11699v2
+  url: https://arxiv.org/abs/2607.11699
   category: generation
   subcategory: audio
   abstract: 'In this report, we introduce Qwen-Music, a powerful music generation
@@ -1609,7 +1609,7 @@ papers:
     leading proprietary systems.'
 - title: 'FlowSonic: Stable Zero-Shot Music Editing via High-Order Trajectory Integration'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.17526v1
+  url: https://arxiv.org/abs/2607.17526
   category: generation
   subcategory: audio
   abstract: Zero-shot text-guided editing of real-world music recordings requires
@@ -1635,7 +1635,7 @@ papers:
 - title: 'SongSong: A Time Phonograph for Chinese SongCi Music from Thousand of Years
     Away'
   date: 2026-02
-  url: https://arxiv.org/abs/2602.24071v1
+  url: https://arxiv.org/abs/2602.24071
   category: generation
   subcategory: symbolic
   abstract: Recently, there have been significant advancements in music generation.
@@ -1656,7 +1656,7 @@ papers:
 - title: 'SqueezeComposer: Temporal Speed-up is A Simple Trick for Long-form Music
     Composing'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.21073v1
+  url: https://arxiv.org/abs/2603.21073
   category: generation
   subcategory: audio
   abstract: 'Composing coherent long-form music remains a significant challenge due
@@ -1682,7 +1682,7 @@ papers:
 - title: 'AudioCALM: Continuous Autoregressive Language Modeling for Universal Audio
     Generation'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.23080v1
+  url: https://arxiv.org/abs/2606.23080
   category: evaluation
   subcategory: audio
   abstract: 'Unifying speech, sound, and music generation in one model is hindered
@@ -1707,7 +1707,7 @@ papers:
 - title: Cross-cultural evaluation of taste-sound correspondences in AI-generated
     music
   date: 2026-08
-  url: https://arxiv.org/abs/2608.03433v1
+  url: https://arxiv.org/abs/2608.03433
   category: cognition
   subcategory: multimodal
   abstract: 'Sonic seasoning research has shown that listeners attribute systematic
@@ -1736,7 +1736,7 @@ papers:
 - title: 'Persian MusicGen: A Large-Scale Dataset and Culturally-Aware Generative
     Model for Persian Music'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.14765v1
+  url: https://arxiv.org/abs/2605.14765
   category: generation
   subcategory: multimodal
   abstract: Persian music, with its unique tonalities, modal systems (Dastgah), and
@@ -1757,7 +1757,7 @@ papers:
 - title: 'Video-Robin: Autoregressive Diffusion Planning for Intent-Grounded Video-to-Music
     Generation'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.17656v2
+  url: https://arxiv.org/abs/2604.17656
   category: analysis
   subcategory: multimodal
   abstract: Video-to-music (V2M) is the fundamental task of creating background music
@@ -1778,7 +1778,7 @@ papers:
     compared to SOTA. We will open-source everything upon paper acceptance.
 - title: 'SyncTrack: Rhythmic Stability and Synchronization in Multi-Track Music Generation'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.01101v1
+  url: https://arxiv.org/abs/2603.01101
   category: generation
   subcategory: symbolic
   abstract: 'Multi-track music generation has garnered significant research interest
@@ -1799,7 +1799,7 @@ papers:
     the multi-track music quality by enhancing rhythmic consistency.'
 - title: Dialogue-Aware Video-to-Music Generation Using Public Domain Film Collections
   date: 2026-08
-  url: https://arxiv.org/abs/2608.11576v1
+  url: https://arxiv.org/abs/2608.11576
   category: generation
   subcategory: audio
   abstract: 'Video-to-music generation has drawn growing interest for its role in
@@ -1819,7 +1819,7 @@ papers:
     the state-of-the-art baselines. The dataset is available at https://huggingface.co/datasets/McAuley-Lab/OSSL-v2.'
 - title: Exploring LLMs for South Asian Music Understanding and Generation
   date: 2026-06
-  url: https://arxiv.org/abs/2606.05522v1
+  url: https://arxiv.org/abs/2606.05522
   category: evaluation
   subcategory: agentic
   abstract: Recent advancements in Large Language Models (LLMs) have shown promising
@@ -1843,7 +1843,7 @@ papers:
 - title: Dance to Music Generation leveraging Pre-training with Unpaired data and
     Contrastive Alignment
   date: 2026-07
-  url: https://arxiv.org/abs/2607.10537v1
+  url: https://arxiv.org/abs/2607.10537
   category: generation
   subcategory: audio
   abstract: Dance-to-music generation is a promising task for applications such as
@@ -1867,7 +1867,7 @@ papers:
     .
 - title: 'ARIA: A Diagnostic Framework for Music Training Data Attribution'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.16181v1
+  url: https://arxiv.org/abs/2605.16181
   category: generation
   subcategory: symbolic
   abstract: Training data attribution (TDA) for music generation must answer two questions
@@ -1892,7 +1892,7 @@ papers:
 - title: 'Musical Attention Transformer: Music Generation Using a Music-Specific Attention
     Model'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.21081v1
+  url: https://arxiv.org/abs/2605.21081
   category: generation
   subcategory: symbolic
   abstract: This study aims to enhance the quality of music generation using Transformers
@@ -1918,7 +1918,7 @@ papers:
     of more natural and expressive compositions.
 - title: 'MusiChat: Vibe Composing for Music Creation'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.24873v1
+  url: https://arxiv.org/abs/2607.24873
   category: generation
   subcategory: symbolic
   abstract: Recent advances in AI music generation have enabled users to create complete
@@ -1944,7 +1944,7 @@ papers:
     co-creation through a conversational interface.
 - title: Taming Audio VAEs via Target-KL Regularization
   date: 2026-05
-  url: https://arxiv.org/abs/2605.17085v1
+  url: https://arxiv.org/abs/2605.17085
   category: generation
   subcategory: audio
   abstract: Latent diffusion models have emerged as the dominant paradigm for many
@@ -1962,7 +1962,7 @@ papers:
     the optimal generation setting.
 - title: 'TuneJury: An Open Metric for Improving Music Generation Preference Alignment'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.17006v1
+  url: https://arxiv.org/abs/2606.17006
   category: evaluation
   subcategory: multimodal
   abstract: 'We introduce TuneJury, an open, instance-level pairwise reward model
@@ -1982,7 +1982,7 @@ papers:
     at https://github.com/yonghyunk1m/TuneJury.'
 - title: 'Drive-to-Music: Context-Aware Generative Audio for In-Vehicle Experiences'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.12615v1
+  url: https://arxiv.org/abs/2608.12615
   category: generation
   subcategory: multimodal
   abstract: In-vehicle music can serve as an adaptive interface to enhance driver
@@ -2001,7 +2001,7 @@ papers:
 - title: 'DeRA-MOS: Optimizing Text-to-Music Evaluation via Decoupled Listwise Ranking
     and Modality Alignment'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.10010v1
+  url: https://arxiv.org/abs/2606.10010
   category: generation
   subcategory: multimodal
   abstract: Evaluating text-to-music (TTM) systems remains expensive because music
@@ -2021,7 +2021,7 @@ papers:
 - title: 'DashengTokenizer: One layer is enough for unified audio understanding and
     generation'
   date: 2026-02
-  url: https://arxiv.org/abs/2602.23765v2
+  url: https://arxiv.org/abs/2602.23765
   category: generation
   subcategory: audio
   abstract: 'This paper introduces DashengTokenizer, a continuous audio tokenizer
@@ -2043,7 +2043,7 @@ papers:
 - title: 'From Prompting to Describing: A Cross-Cultural Study of Language for AI-Generated
     Music'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.06634v1
+  url: https://arxiv.org/abs/2608.06634
   category: cognition
   subcategory: multimodal
   abstract: 'Text-to-music (TTM) generation systems allow users to create music through
@@ -2064,7 +2064,7 @@ papers:
 - title: 'ViTex: Visual Texture Control for Multi-Track Symbolic Music Generation
     via Discrete Diffusion Models'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.01984v1
+  url: https://arxiv.org/abs/2603.01984
   category: generation
   subcategory: symbolic
   abstract: In automatic music generation, a central challenge is to design controls
@@ -2083,7 +2083,7 @@ papers:
     quality. The demo page and code are avaliable at https://vitex2025.github.io/.
 - title: 'Modeling Music as a Time-Frequency Image: A 2D Tokenizer for Music Generation'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.15831v1
+  url: https://arxiv.org/abs/2605.15831
   category: generation
   subcategory: audio
   abstract: Autoregressive music generation depends strongly on the audio tokenizer.
@@ -2102,7 +2102,7 @@ papers:
     setting. The source code and generation demos for this work are publicly available.
 - title: 'Echoes: A semantically-aligned music deepfake detection dataset'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.23667v3
+  url: https://arxiv.org/abs/2603.23667
   category: generation
   subcategory: audio
   abstract: We introduce Echoes, a new dataset for music deepfake detection designed
@@ -2122,7 +2122,7 @@ papers:
 - title: 'InvFlowFD: Reference-Free and Background-Set-Free Perceptual Music Quality
     Metric with Flow Matching Inversion'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.04142v1
+  url: https://arxiv.org/abs/2608.04142
   category: generation
   subcategory: audio
   abstract: Existing reference-free methods for evaluating music perceptual quality
@@ -2142,7 +2142,7 @@ papers:
 - title: Do Text-to-Music Models Really Follow Instructions? A Counterfactual Evaluation
     of Key and Beat Grouping
   date: 2026-08
-  url: https://arxiv.org/abs/2608.11899v1
+  url: https://arxiv.org/abs/2608.11899
   category: evaluation
   subcategory: multimodal
   abstract: 'Prompted attribute agreement is widely used as evidence of text-to-music
@@ -2165,7 +2165,7 @@ papers:
 - title: 'UniSonate: A Unified Model for Speech, Music, and Sound Effect Generation
     with Text Instructions'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.22209v1
+  url: https://arxiv.org/abs/2604.22209
   category: generation
   subcategory: multimodal
   abstract: Generative audio modeling has largely been fragmented into specialized
@@ -2188,7 +2188,7 @@ papers:
     to single-task baselines. Audio samples are available at https://qiangchunyu.github.io/UniSonate/.
 - title: Improving Text-to-Music Generation with Human Preference Rewards
   date: 2026-06
-  url: https://arxiv.org/abs/2606.21670v1
+  url: https://arxiv.org/abs/2606.21670
   category: generation
   subcategory: multimodal
   abstract: 'We describe our entry to the efficiency track of the Academic Text-to-Music
@@ -2209,7 +2209,7 @@ papers:
     saturated by the end of the chain.'
 - title: 'Finding the noise: Zero-shot AI Music Detection'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.25530v1
+  url: https://arxiv.org/abs/2607.25530
   category: generation
   subcategory: audio
   abstract: We present a novel method for AI-generated music detection in scenarios
@@ -2232,7 +2232,7 @@ papers:
 - title: 'P-MUSE: Prompt-MIDI-Optional Model for Unified Instrumental Music Synthesis
     and Editing'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.01920v2
+  url: https://arxiv.org/abs/2608.01920
   category: analysis
   subcategory: symbolic
   abstract: 'MIDI-to-Music system renders the melody and rhythm of a target MIDI sequence
@@ -2253,7 +2253,7 @@ papers:
 - title: Genre Bias or Aesthetic Perception? Identifying and Mitigating Shortcut Learning
     in Music Evaluation
   date: 2026-07
-  url: https://arxiv.org/abs/2607.13903v1
+  url: https://arxiv.org/abs/2607.13903
   category: generation
   subcategory: symbolic
   abstract: 'Music aesthetics scoring plays a critical role in applications such as
@@ -2275,7 +2275,7 @@ papers:
 - title: 'MI-MIDI: Mechanistic Interpretability of Text-to-MIDI Generation Models
     via Probing, Lenses and Steering'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.06638v1
+  url: https://arxiv.org/abs/2608.06638
   category: generation
   subcategory: symbolic
   abstract: 'Mechanistic interpretability of music generation has concentrated on
@@ -2298,7 +2298,7 @@ papers:
 - title: Real-Time Interactive Music Generation via Data-Free Streaming Consistency
     Distillation
   date: 2026-06
-  url: https://arxiv.org/abs/2606.24307v1
+  url: https://arxiv.org/abs/2606.24307
   category: generation
   subcategory: audio
   abstract: Interactive music and live performance relies on real-time human expression,
@@ -2324,7 +2324,7 @@ papers:
 - title: A Text-Steerable Instrument for Sketching Procedural Soundscapes via Language
     Models
   date: 2026-07
-  url: https://arxiv.org/abs/2607.00309v1
+  url: https://arxiv.org/abs/2607.00309
   category: generation
   subcategory: multimodal
   abstract: We present a real-time musical interface that converts natural-language
@@ -2349,7 +2349,7 @@ papers:
 - title: 'Audio-Oscar: A Multi-Agent System for Complex Audio Scene Generation, Orchestration,
     and Refinement'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.07397v1
+  url: https://arxiv.org/abs/2606.07397
   category: generation
   subcategory: audio
   abstract: In recent years, audio generation has made significant progress in tasks
@@ -2357,24 +2357,24 @@ papers:
     generating long-form and controllable audio from complex audio scene descriptions
     remains a significant challenge, as such scenes often require coordinated speech,
     sound effects, music, songs, temporal structure, and post-production. In this
-    work, we introduce \textbf{Audio-Oscar}, a multi-agent framework for generating
-    audio from complex descriptions. Audio-Oscar coordinates a set of specialist agents,
-    each responsible for a different aspect of the audio scene, including character
-    modeling and voice design, speech generation, fine-grained timeline planning,
-    model selection, non-speech generation, and audio post-production. Audio-Oscar
-    further incorporates feedback-driven refinement. In addition, to address the lack
-    of suitable benchmarks for evaluating audio generation from complex audio scene
-    descriptions, we construct \textbf{ASG-Bench}, an Audio Scene Generation Benchmark
-    containing both scene descriptions paired with reference audio and text-only scene
-    descriptions. Each scene is annotated with target audio events and temporal statements
-    to evaluate whether the generated audio faithfully realizes the required scene
-    content and temporal structure. Experimental results show that Audio-Oscar can
-    effectively generate audio that matches complex scene descriptions. Project samples
-    are available at https://audiooscar.github.io/. Our code is available at https://github.com/ziye26/Audio-Oscar.
+    work, we introduce Audio-Oscar, a multi-agent framework for generating audio from
+    complex descriptions. Audio-Oscar coordinates a set of specialist agents, each
+    responsible for a different aspect of the audio scene, including character modeling
+    and voice design, speech generation, fine-grained timeline planning, model selection,
+    non-speech generation, and audio post-production. Audio-Oscar further incorporates
+    feedback-driven refinement. In addition, to address the lack of suitable benchmarks
+    for evaluating audio generation from complex audio scene descriptions, we construct
+    ASG-Bench, an Audio Scene Generation Benchmark containing both scene descriptions
+    paired with reference audio and text-only scene descriptions. Each scene is annotated
+    with target audio events and temporal statements to evaluate whether the generated
+    audio faithfully realizes the required scene content and temporal structure. Experimental
+    results show that Audio-Oscar can effectively generate audio that matches complex
+    scene descriptions. Project samples are available at https://audiooscar.github.io/.
+    Our code is available at https://github.com/ziye26/Audio-Oscar.
 - title: 'MuQ-Eval: An Open-Source Per-Sample Quality Metric for AI Music Generation
     Evaluation'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.22677v1
+  url: https://arxiv.org/abs/2603.22677
   category: evaluation
   subcategory: audio
   abstract: Distributional metrics such as Fréchet Audio Distance cannot score individual
@@ -2399,7 +2399,7 @@ papers:
 - title: 'SongEcho: Towards Cover Song Generation via Instance-Adaptive Element-wise
     Linear Modulation'
   date: 2026-02
-  url: https://arxiv.org/abs/2602.19976v1
+  url: https://arxiv.org/abs/2602.19976
   category: generation
   subcategory: multimodal
   abstract: Cover songs constitute a vital aspect of musical culture, preserving the
@@ -2425,7 +2425,7 @@ papers:
     parameters. The code, dataset, and demos are available at https://github.com/lsfhuihuiff/SongEcho_ICLR2026.
 - title: 'TMD-Bench: A Multi-Level Evaluation Paradigm for Music-Dance Co-Generation'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.01809v1
+  url: https://arxiv.org/abs/2605.01809
   category: evaluation
   subcategory: multimodal
   abstract: 'Unified audio-visual generation is rapidly gaining industrial and creative
@@ -2449,7 +2449,7 @@ papers:
 - title: 'CMI-RewardBench: Evaluating Music Reward Models with Compositional Multimodal
     Instruction'
   date: 2026-02
-  url: https://arxiv.org/abs/2603.00610v3
+  url: https://arxiv.org/abs/2603.00610
   category: analysis
   subcategory: multimodal
   abstract: 'While music generation models have evolved to handle complex multimodal
@@ -2474,7 +2474,7 @@ papers:
 - title: 'Live Music Diffusion Models: Efficient Fine-Tuning and Post-Training of
     Interactive Diffusion Music Generators'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.22717v1
+  url: https://arxiv.org/abs/2605.22717
   category: generation
   subcategory: audio
   abstract: Interactive streaming music generation promises the use of generative
@@ -2500,7 +2500,7 @@ papers:
 - title: 'From Textural Counterpoint to Feature Encoding: A Multi-Dimensional Machine
     Representation Study of Haydn''s "The Lark" Integrating Electroacoustic Analysis'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.05902v1
+  url: https://arxiv.org/abs/2607.05902
   category: generation
   subcategory: audio
   abstract: 'Chamber music, as a highly precise multi-part interactive system, contains
@@ -2527,15 +2527,15 @@ papers:
     with "social attributes" and "otherness awareness."'
 - title: A Quantized Native Runtime for On-Device Semantic Audio Generation
   date: 2026-07
-  url: https://arxiv.org/abs/2607.08526v1
+  url: https://arxiv.org/abs/2607.08526
   category: generation
   subcategory: audio
   abstract: 'Semantic audio applications increasingly require controllable generation
     on commodity and embedded hardware rather than through framework-heavy datacenter
-    stacks. We present \textit{aria}, a dependency-free native runtime that runs the
-    complete text-to-music pipeline of Stable Audio~3 (SA3) on ordinary GPUs, CPU-only
-    machines, and a Raspberry~Pi~5, with no Python or deep-learning framework underneath.
-    Our main contribution is a study of quantization: running the model at lower numerical
+    stacks. We present aria, a dependency-free native runtime that runs the complete
+    text-to-music pipeline of Stable Audio~3 (SA3) on ordinary GPUs, CPU-only machines,
+    and a Raspberry~Pi~5, with no Python or deep-learning framework underneath. Our
+    main contribution is a study of quantization: running the model at lower numerical
     precision to fit tight memory budgets, saving memory in place rather than adding
     to it. Because the runtime owns every internal tensor, it also exposes activation
     steering, a low-cost way to steer what the model generates. We judge the quality
@@ -2544,16 +2544,16 @@ papers:
     between random seeds. Eight-bit precision shows no measurable quality loss on
     any measure while sharply cutting memory, and it is the fastest mode on the GPU;
     four-bit adds a small, bounded cost but shrinks the footprint enough to run the
-    $1.2$-billion-parameter model on an $8$\,GB Pi. Against the official implementation,
+    1.2-billion-parameter model on an 8\,GB Pi. Against the official implementation,
     aria matches or exceeds generation speed and starts about seven times faster.
     A case study of the steering interface generates music carrying taste associations
-    (\emph{sonic seasoning}), with genuine but bounded control for a subset of attributes.
+    (sonic seasoning), with genuine but bounded control for a subset of attributes.
     These results make a compact, quantized runtime with built-in control a practical
-    basis for on-device semantic audio in Internet-of-Sounds settings. The \textit{aria}
-    runtime is released at https://github.com/matteospanio/aria.'
+    basis for on-device semantic audio in Internet-of-Sounds settings. The aria runtime
+    is released at https://github.com/matteospanio/aria.'
 - title: 'MAGE: Modality-Agnostic Music Generation and Target-Source Extraction'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.09803v2
+  url: https://arxiv.org/abs/2604.09803
   category: generation
   subcategory: multimodal
   abstract: 'Recent advances in multimodal audio generation have enabled music synthesis
@@ -2580,7 +2580,7 @@ papers:
     extraction task.'
 - title: Improved Robustness in AI-Generated Music Detection
   date: 2026-07
-  url: https://arxiv.org/abs/2607.27454v2
+  url: https://arxiv.org/abs/2607.27454
   category: analysis
   subcategory: symbolic
   abstract: 'AI music generators leave predictable spectral artifacts determined by
@@ -2598,7 +2598,7 @@ papers:
 - title: 'LK Jam: System Architecture and Implementation of a Real-Time Human-AI Interactive
     Music Generation System using Role-Aware GRU'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.21018v1
+  url: https://arxiv.org/abs/2606.21018
   category: generation
   subcategory: audio
   abstract: As artificial intelligence advances into the era of Embodied AI, live
@@ -2616,17 +2616,17 @@ papers:
     JUCE framework, incorporating the RTNeural inference engine designed specifically
     for real-time audio. By utilizing compile-time network topology solidification
     and a zero-allocation (allocation-free) mechanism, the end-to-end overhead of
-    autoregressive decoding is strictly locked at \(O(1)\) complexity, structurally
-    mitigating the risk of audio thread dropouts in DAW plugin environments. Furthermore,
-    this study designs a three-stage progressive training strategy, achieving a leap
-    from basic chord harmonization to expert-level interaction. Preliminary observations
+    autoregressive decoding is strictly locked at O(1) complexity, structurally mitigating
+    the risk of audio thread dropouts in DAW plugin environments. Furthermore, this
+    study designs a three-stage progressive training strategy, achieving a leap from
+    basic chord harmonization to expert-level interaction. Preliminary observations
     and architectural analysis demonstrate that while ensuring musical coherence and
     interactive role-play, the proposed system successfully challenges extreme real-time
     engineering constraints, offering a highly robust and deployable technical paradigm
     for next-generation AI co-performers in live music.
 - title: 'MusicMark: A Robust Generative Watermarking Framework for Music Generation'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.11117v1
+  url: https://arxiv.org/abs/2607.11117
   category: generation
   subcategory: audio
   abstract: AI music generation has rapidly advanced alongside commercial platforms,
@@ -2656,7 +2656,7 @@ papers:
 - title: 'Neurological Plausibility of AI-Generated Music for Commercial Environments:
     An In-Silico Cortical Investigation Using Wubble and TRIBE v2'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.04025v1
+  url: https://arxiv.org/abs/2604.04025
   category: generation
   subcategory: audio
   abstract: 'Background music shapes attention, affect, and approach behavior in commercial
@@ -2685,7 +2685,7 @@ papers:
 - title: 'Agogic: Performance-Timed Music Tokens for LLM-Native Text-to-Symbolic-Music
     Generation'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.03999v1
+  url: https://arxiv.org/abs/2608.03999
   category: generation
   subcategory: symbolic
   abstract: 'Text-to-music language models begin with a choice usually made by default:
@@ -2715,7 +2715,7 @@ papers:
 - title: 'Beyond Artifacts: Towards Generalizable Synthetic Song Detection via Music-Intrinsic
     Features'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.16612v1
+  url: https://arxiv.org/abs/2606.16612
   category: generation
   subcategory: audio
   abstract: The rapid advancement of AI music generators highlights the urgent need
@@ -2733,7 +2733,7 @@ papers:
     MUSIC8K-O while maintaining strong robustness.
 - title: 'MusicDET: Zero-Shot AI-Generated Music Detection'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.18072v1
+  url: https://arxiv.org/abs/2605.18072
   category: generation
   subcategory: audio
   abstract: Detecting AI-generated music is crucial for preserving artistic authenticity
@@ -2752,7 +2752,7 @@ papers:
     detectors, particularly when detecting music generated by previously unseen models.
 - title: 'RIME: Enabling Large-Scale Agentic Music Post-Production'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.19605v2
+  url: https://arxiv.org/abs/2607.19605
   category: generation
   subcategory: agentic
   abstract: 'Almost every piece of recorded music you have ever heard was modified
@@ -2782,7 +2782,7 @@ papers:
 - title: 'Fourier is Frontier: Frequency-Aware Autoencoding for High-Fidelity Music
     Reconstruction'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.19843v1
+  url: https://arxiv.org/abs/2608.19843
   category: evaluation
   subcategory: audio
   abstract: 'Continuous-latent audio autoencoders form the backbone of latent music
@@ -2806,7 +2806,7 @@ papers:
     metrics.Demo page is available at https://eps-acoustic-revolution-lab.github.io/EAR_VAE2/.'
 - title: 'Spacing Out: On the Reliability of Binaural Music Source Separation Metrics'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.25919v1
+  url: https://arxiv.org/abs/2607.25919
   category: analysis
   subcategory: symbolic
   abstract: Despite the rising popularity of immersive audio, binaural music remains
@@ -2826,7 +2826,7 @@ papers:
     immersion.
 - title: 'MulTTiPop: A Multitrack Transcription Dataset for Pop Music'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.08756v2
+  url: https://arxiv.org/abs/2607.08756
   category: analysis
   subcategory: audio
   abstract: We present MulTTiPop, a dataset of pop music segments and their associated
@@ -2843,9 +2843,9 @@ papers:
 - title: 'Advancing Multi-Instrument Music Transcription: Results from the 2025 AMT
     Challenge'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.27528v1
+  url: https://arxiv.org/abs/2603.27528
   category: generation
-  subcategory: ''
+  subcategory: audio
   abstract: 'This paper presents the results of the 2025 Automatic Music Transcription
     (AMT) Challenge, an online competition to benchmark progress in multi-instrument
     transcription. Eight teams submitted valid solutions; two outperformed the baseline
@@ -2856,7 +2856,7 @@ papers:
 - title: 'YMIR: A new Benchmark Dataset and Model for Arabic Yemeni Music Genre Classification
     Using Convolutional Neural Networks'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.05011v1
+  url: https://arxiv.org/abs/2604.05011
   category: analysis
   subcategory: audio
   abstract: 'Automatic music genre classification is a major task in music information
@@ -2882,7 +2882,7 @@ papers:
     music genres.'
 - title: Music Source Restoration with Ensemble Separation and Targeted Reconstruction
   date: 2026-03
-  url: https://arxiv.org/abs/2603.16926v1
+  url: https://arxiv.org/abs/2603.16926
   category: evaluation
   subcategory: audio
   abstract: The Inaugural Music Source Restoration (MSR) Challenge targets the recovery
@@ -2897,7 +2897,7 @@ papers:
 - title: 'LabelBuddy: An Open Source Music and Audio Language Annotation Tagging Tool
     Using AI Assistance'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.04293v1
+  url: https://arxiv.org/abs/2603.04293
   category: analysis
   subcategory: multimodal
   abstract: The advancement of Machine learning (ML), Large Audio Language Models
@@ -2905,17 +2905,16 @@ papers:
     a shift from static tagging to rich, human-aligned representation learning. However,
     the scarcity of open-source infrastructure capable of capturing the subjective
     nuances of audio annotation remains a critical bottleneck. This paper introduces
-    \textbf{LabelBuddy}, an open-source collaborative auto-tagging audio annotation
-    tool designed to bridge the gap between human intent and machine understanding.
-    Unlike static tools, it decouples the interface from inference via containerized
-    backends, allowing users to plug in custom models for AI-assisted pre-annotation.
-    We describe the system architecture, which supports multi-user consensus, containerized
-    model isolation, and a roadmap for extending agents and LALMs. Code available
-    at https://github.com/GiannisProkopiou/gsoc2022-Label-buddy.
+    LabelBuddy, an open-source collaborative auto-tagging audio annotation tool designed
+    to bridge the gap between human intent and machine understanding. Unlike static
+    tools, it decouples the interface from inference via containerized backends, allowing
+    users to plug in custom models for AI-assisted pre-annotation. We describe the
+    system architecture, which supports multi-user consensus, containerized model
+    isolation, and a roadmap for extending agents and LALMs. Code available at https://github.com/GiannisProkopiou/gsoc2022-Label-buddy.
 - title: Aligning MusicLLM with Emotion using Instruction Tuning and Feedback-Driven
     Alignment
   date: 2026-06
-  url: https://arxiv.org/abs/2606.24123v1
+  url: https://arxiv.org/abs/2606.24123
   category: analysis
   subcategory: agentic
   abstract: 'This paper investigates whether music large language models (MusicLLMs)
@@ -2932,7 +2931,7 @@ papers:
     regression performance while maintaining MusicQA capability.'
 - title: Music Transcription with (Almost) No Supervision
   date: 2026-05
-  url: https://arxiv.org/abs/2605.24193v1
+  url: https://arxiv.org/abs/2605.24193
   category: analysis
   subcategory: symbolic
   abstract: 'Competitive music transcription models require large amounts of paired
@@ -2949,7 +2948,7 @@ papers:
     where labeled data remains scarce.'
 - title: 'PolSeT: Polish Semantics of Timbre Dataset'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.19987v1
+  url: https://arxiv.org/abs/2606.19987
   category: analysis
   subcategory: audio
   abstract: This data report introduces PolSeT (Polish Semantic Timbre), a dataset
@@ -2968,7 +2967,7 @@ papers:
     semantic embedding models.
 - title: 'CrowdioSet and PaRIRset: Two Datasets Towards Live Music Source Separation'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.27828v1
+  url: https://arxiv.org/abs/2607.27828
   category: evaluation
   subcategory: audio
   abstract: 'Most Music Source Separation (MSS) models do not generalize well to live
@@ -2987,7 +2986,7 @@ papers:
     to the public.'
 - title: Singer-Informed Vocal Source Separation for Multi-Singer Music Mixtures
   date: 2026-08
-  url: https://arxiv.org/abs/2608.14516v1
+  url: https://arxiv.org/abs/2608.14516
   category: analysis
   subcategory: audio
   abstract: Music source separation systems typically extract a single vocal track
@@ -3005,7 +3004,7 @@ papers:
     with target audio distributions. Code and checkpoints are available at https://github.com/jocelynxu01/singer-separation-paper.
 - title: Computational Features for Symbolic Melody Analysis
   date: 2026-08
-  url: https://arxiv.org/abs/2608.19061v1
+  url: https://arxiv.org/abs/2608.19061
   category: analysis
   subcategory: symbolic
   abstract: This paper addresses the general problem of extracting music-theoretic
@@ -3019,12 +3018,12 @@ papers:
     the feature set. Our results show excellent classification accuracy using the
     full feature set, and promising performance for an eight-dimensional factor-analytic
     solution that improves the interpretability of the classifier. We distribute our
-    new toolbox as an open-source Python package, $\mathtt{melody-features}$, which
+    new toolbox as an open-source Python package, \mathtt{melody-features}, which
     can easily be used in various applications within music analysis, music psychology,
     and music information retrieval.
 - title: 'SKY-Piano: A Multimodal Piano Performance Dataset'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.27296v1
+  url: https://arxiv.org/abs/2607.27296
   category: analysis
   subcategory: symbolic
   abstract: Music information retrieval research on piano performance increasingly
@@ -3043,7 +3042,7 @@ papers:
     through a fine-tuning experiment as a use case of the dataset.
 - title: A Dual Evaluation for Music Transcription
   date: 2026-08
-  url: https://arxiv.org/abs/2608.04511v2
+  url: https://arxiv.org/abs/2608.04511
   category: analysis
   subcategory: symbolic
   abstract: Automatic music transcription systems produce sheet music that can be
@@ -3063,7 +3062,7 @@ papers:
     though not the best, on playback similarity.
 - title: Velocity Prediction in Automatic Guitar Transcription
   date: 2026-06
-  url: https://arxiv.org/abs/2606.24912v1
+  url: https://arxiv.org/abs/2606.24912
   category: generation
   subcategory: symbolic
   abstract: Automatic Music Transcription (AMT) models have achieved a high level
@@ -3085,7 +3084,7 @@ papers:
     while also successfully predicting velocity.
 - title: 'Snapping Matters: Context-Aware Onset Refinement for Automatic Music Transcription'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.11903v1
+  url: https://arxiv.org/abs/2606.11903
   category: analysis
   subcategory: symbolic
   abstract: 'Precise note-level annotations are critical for training automatic music
@@ -3109,7 +3108,7 @@ papers:
     on our project page: https://abhirupsaha8.github.io'
 - title: Score-Agnostic Structure Analysis in Large-Scale Performance Datasets
   date: 2026-05
-  url: https://arxiv.org/abs/2605.25951v1
+  url: https://arxiv.org/abs/2605.25951
   category: analysis
   subcategory: symbolic
   abstract: 'In recent years, thanks to advances in automatic music transcription
@@ -3133,7 +3132,7 @@ papers:
 - title: 'Music Genre Classification: A Comparative Analysis of Classical Machine
     Learning and Deep Learning Approaches'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.15440v1
+  url: https://arxiv.org/abs/2603.15440
   category: analysis
   subcategory: audio
   abstract: Automatic music genre classification is a long-standing challenge in Music
@@ -3157,7 +3156,7 @@ papers:
     patterns that reflects genuine overlaps in Nepal's musical traditions.
 - title: 'PianoCoRe: Combined and Refined Piano MIDI Dataset'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.06627v1
+  url: https://arxiv.org/abs/2605.06627
   category: analysis
   subcategory: symbolic
   abstract: 'Symbolic music datasets with matched scores and performances are essential
@@ -3183,7 +3182,7 @@ papers:
 - title: Embedding-Based Intrusive Evaluation Metrics for Musical Source Separation
     Using MERT Representations
   date: 2026-04
-  url: https://arxiv.org/abs/2604.20270v1
+  url: https://arxiv.org/abs/2604.20270
   category: evaluation
   subcategory: audio
   abstract: 'Evaluation of musical source separation (MSS) has traditionally relied
@@ -3202,9 +3201,9 @@ papers:
 - title: 'The Costs of Reproducibility in Music Separation Research: a Replication
     of Band-Split RNN'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.09187v1
+  url: https://arxiv.org/abs/2603.09187
   category: generation
-  subcategory: ''
+  subcategory: audio
   abstract: Music source separation is the task of isolating the instrumental tracks
     from a music song. Despite its spectacular recent progress, the trend towards
     more complex architectures and training protocols exacerbates reproducibility
@@ -3228,7 +3227,7 @@ papers:
     practices.
 - title: Taste-aware music retrieval from audio embeddings
   date: 2026-07
-  url: https://arxiv.org/abs/2607.03296v1
+  url: https://arxiv.org/abs/2607.03296
   category: cognition
   subcategory: audio
   abstract: Crossmodal correspondences between sound and taste are well established
@@ -3252,7 +3251,7 @@ papers:
 - title: What Makes a Good Layer? Assessing the Layer-Wise Intrinsic Properties of
     Music Foundation Models
   date: 2026-08
-  url: https://arxiv.org/abs/2608.14819v1
+  url: https://arxiv.org/abs/2608.14819
   category: analysis
   subcategory: symbolic
   abstract: Music foundation models are commonly used as frozen audio feature extractors,
@@ -3277,7 +3276,7 @@ papers:
     methods, particularly in limited-data settings.
 - title: Frequency-Aware Self-Supervised Music Representation Learning
   date: 2026-06
-  url: https://arxiv.org/abs/2606.25713v2
+  url: https://arxiv.org/abs/2606.25713
   category: analysis
   subcategory: audio
   abstract: 'Self-supervised learning (SSL) has emerged as an essential paradigm for
@@ -3302,7 +3301,7 @@ papers:
     time-frequency domain. Codes and checkpoints are available at: https://www.yichenggu.com/PupuJEPA/.'
 - title: Precise and Simple Audio-to-Score Alignment
   date: 2026-05
-  url: https://arxiv.org/abs/2605.20014v1
+  url: https://arxiv.org/abs/2605.20014
   category: analysis
   subcategory: symbolic
   abstract: Audio-to-score alignment is a long-standing challenge in music information
@@ -3327,7 +3326,7 @@ papers:
     and evaluate its alignment quality on a large-scale dataset of solo piano recordings.
 - title: Transformer-Based Rhythm Quantization of Performance MIDI Using Beat Annotations
   date: 2026-04
-  url: https://arxiv.org/abs/2604.22290v1
+  url: https://arxiv.org/abs/2604.22290
   category: analysis
   subcategory: symbolic
   abstract: Rhythm transcription is a key subtask of notation-level Automatic Music
@@ -3355,7 +3354,7 @@ papers:
     flexible framework for beat-based MIDI quantization using transformer models.
 - title: 'Voices of Civilizations: A Multilingual QA Benchmark for Global Music Understanding'
   date: 2026-02
-  url: https://arxiv.org/abs/2603.00533v1
+  url: https://arxiv.org/abs/2603.00533
   category: analysis
   subcategory: audio
   abstract: 'We introduce Voices of Civilizations, the first multilingual QA benchmark
@@ -3374,7 +3373,7 @@ papers:
 - title: 'When the Same Musical Knowledge Forgets Differently: A Clean Probe of Pathway-Dependent
     Forgetting'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.15088v2
+  url: https://arxiv.org/abs/2606.15088
   category: analysis
   subcategory: multimodal
   abstract: 'A model can learn that the piano piece Für Elise is calm and reflective
@@ -3403,7 +3402,7 @@ papers:
 - title: 'MeloTune: On-Device Arousal Learning and Peer-to-Peer Mood Coupling for
     Proactive Music Curation'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.10815v2
+  url: https://arxiv.org/abs/2604.10815
   category: cognition
   subcategory: audio
   abstract: 'MeloTune is an iPhone-deployed music agent that instantiates the Mesh
@@ -3428,7 +3427,7 @@ papers:
     conformance. Music is the case study; the substrate is the contribution.'
 - title: 'JenBridge: Adaptive Long-Form Video Soundtracking across Scene Transitions'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.01703v1
+  url: https://arxiv.org/abs/2606.01703
   category: evaluation
   subcategory: multimodal
   abstract: 'We address the challenge of generating high-fidelity, long-form soundtracks
@@ -3454,7 +3453,7 @@ papers:
     fully automated, professional-quality video soundtracking.'
 - title: 'HumMusQA: A Human-written Music Understanding QA Benchmark Dataset'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.27877v1
+  url: https://arxiv.org/abs/2603.27877
   category: evaluation
   subcategory: audio
   abstract: The evaluation of music understanding in Large Audio-Language Models (LALMs)
@@ -3468,7 +3467,7 @@ papers:
     to uni-modal shortcuts.
 - title: 'MusTBENCH: Benchmarking and Advancing Temporal Grounding in Music LLMs'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.29300v1
+  url: https://arxiv.org/abs/2605.29300
   category: analysis
   subcategory: multimodal
   abstract: Recent Large Audio-Language Models (LALMs) have demonstrated promising
@@ -3488,7 +3487,7 @@ papers:
     research in temporally grounded music understanding.
 - title: 'Jamendo-MT-QA: A Benchmark for Multi-Track Comparative Music Question Answering'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.09721v1
+  url: https://arxiv.org/abs/2604.09721
   category: evaluation
   subcategory: multimodal
   abstract: 'Recent work on music question answering (Music-QA) has primarily focused
@@ -3505,7 +3504,7 @@ papers:
 - title: Audio-to-Score Transcription using Pre-trained Features, Data Augmentation,
     and the New SheetSage-A2S Dataset
   date: 2026-08
-  url: https://arxiv.org/abs/2608.06165v2
+  url: https://arxiv.org/abs/2608.06165
   category: analysis
   subcategory: symbolic
   abstract: 'Existing audio-to-score (A2S) systems primarily focus on classical music,
@@ -3524,7 +3523,7 @@ papers:
 - title: 'Beyond Binary Instrument QA: Probing Instrument Grounding in Music Audio-Language
     Models'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.31338v1
+  url: https://arxiv.org/abs/2606.31338
   category: evaluation
   subcategory: multimodal
   abstract: 'Recent music audio-language models achieve high accuracy on instrument
@@ -3540,7 +3539,7 @@ papers:
     aggregate accuracy.'
 - title: Low-Latency Neural Models for Real-Time Music Enhancement
   date: 2026-07
-  url: https://arxiv.org/abs/2607.12872v1
+  url: https://arxiv.org/abs/2607.12872
   category: evaluation
   subcategory: audio
   abstract: 'Music recordings and live streams are often affected by noise, reverberation,
@@ -3563,7 +3562,7 @@ papers:
 - title: 'GaMMA: Towards Joint Global-Temporal Music Understanding in Large Multimodal
     Models'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.00371v1
+  url: https://arxiv.org/abs/2605.00371
   category: evaluation
   subcategory: audio
   abstract: In this paper, we propose GaMMA, a state-of-the-art (SoTA) large multimodal
@@ -3583,7 +3582,7 @@ papers:
     previous methods.
 - title: Unified Music Identification for Tracks and Versions
   date: 2026-08
-  url: https://arxiv.org/abs/2608.19919v1
+  url: https://arxiv.org/abs/2608.19919
   category: evaluation
   subcategory: audio
   abstract: Given a music database, track identification (TI) retrieves the exact
@@ -3600,7 +3599,7 @@ papers:
     to other music identification tasks.
 - title: 'TinyMU: A Compact Audio-Language Model for Music Understanding'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.15849v1
+  url: https://arxiv.org/abs/2604.15849
   category: evaluation
   subcategory: agentic
   abstract: Music understanding and reasoning are central challenges in the Music
@@ -3625,7 +3624,7 @@ papers:
 - title: 'MADB: A Large-Scale Music Aesthetics Dataset with Professional and Multi-Dimensional
     Annotations'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.06929v1
+  url: https://arxiv.org/abs/2607.06929
   category: analysis
   subcategory: multimodal
   abstract: 'Music aesthetic assessment is a challenging yet underexplored problem,
@@ -3642,7 +3641,7 @@ papers:
 - title: 'HalluAudio: A Comprehensive Benchmark for Hallucination Detection in Large
     Audio-Language Models'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.19300v1
+  url: https://arxiv.org/abs/2604.19300
   category: evaluation
   subcategory: audio
   abstract: Large Audio-Language Models (LALMs) have recently achieved strong performance
@@ -3665,7 +3664,7 @@ papers:
 - title: 'UniVerse: Benchmarking and Enhancing LALMs on Culturally Inclusive Low-Resource
     Music Understanding'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.17852v1
+  url: https://arxiv.org/abs/2608.17852
   category: analysis
   subcategory: audio
   abstract: Recent advances in large audio-language models (LALMs) have significantly
@@ -3690,7 +3689,7 @@ papers:
     and deep musical comprehension.
 - title: 'HAIM: Human-AI Music Datasets for AI Music Production Tracking Benchmark'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.01686v1
+  url: https://arxiv.org/abs/2606.01686
   category: evaluation
   subcategory: agentic
   abstract: 'As generative platforms such as Suno and Udio reach human-grade audio
@@ -3715,7 +3714,7 @@ papers:
     AI music.'
 - title: 'PARSA-Bench: A Comprehensive Persian Audio-Language Model Benchmark'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.14456v1
+  url: https://arxiv.org/abs/2603.14456
   category: analysis
   subcategory: audio
   abstract: 'Persian poses unique audio understanding challenges through its classical
@@ -3733,7 +3732,7 @@ papers:
     beyond the reach of current models. The dataset is publicly available at https://huggingface.co/datasets/MohammadJRanjbar/PARSA-Bench'
 - title: 'MMGenre: Benchmarking Singing Voice Synthesis across Multiple Musical Genres'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.06986v1
+  url: https://arxiv.org/abs/2607.06986
   category: evaluation
   subcategory: symbolic
   abstract: 'Singing voice synthesis (SVS) has progressed rapidly, yet its ability
@@ -3752,7 +3751,7 @@ papers:
 - title: 'AudioCapBench: Quick Evaluation on Audio Captioning across Sound, Music,
     and Speech'
   date: 2026-02
-  url: https://arxiv.org/abs/2602.23649v1
+  url: https://arxiv.org/abs/2602.23649
   category: evaluation
   subcategory: audio
   abstract: 'We introduce AudioCapBench, a benchmark for evaluating audio captioning
@@ -3761,16 +3760,16 @@ papers:
     samples drawn from established datasets. We evaluate 13 models across two providers
     (OpenAI, Google Gemini) using both reference-based metrics (METEOR, BLEU, ROUGE-L)
     and an LLM-as-Judge framework that scores predictions on three orthogonal dimensions:
-    \textit{accuracy} (semantic correctness), \textit{completeness} (coverage of reference
-    content), and \textit{hallucination} (absence of fabricated content). Our results
-    reveal that Gemini models generally outperform OpenAI models on overall captioning
-    quality, with Gemini~3~Pro achieving the highest overall score (6.00/10), while
-    OpenAI models exhibit lower hallucination rates. All models perform best on speech
-    captioning and worst on music captioning. We release the benchmark as well as
-    evaluation code to facilitate reproducible audio understanding research.'
+    accuracy (semantic correctness), completeness (coverage of reference content),
+    and hallucination (absence of fabricated content). Our results reveal that Gemini
+    models generally outperform OpenAI models on overall captioning quality, with
+    Gemini~3~Pro achieving the highest overall score (6.00/10), while OpenAI models
+    exhibit lower hallucination rates. All models perform best on speech captioning
+    and worst on music captioning. We release the benchmark as well as evaluation
+    code to facilitate reproducible audio understanding research.'
 - title: 'FIGMA: Towards FIne-Grained Music retrievAl'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.06615v1
+  url: https://arxiv.org/abs/2606.06615
   category: evaluation
   subcategory: symbolic
   abstract: 'Retrieving music using natural language descriptions has improved with
@@ -3794,7 +3793,7 @@ papers:
     with relative improvements of up to 73.3%.'
 - title: 'PitchBench: Measuring Pitch Hearing in Audio-Language Models'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.26176v1
+  url: https://arxiv.org/abs/2605.26176
   category: analysis
   subcategory: multimodal
   abstract: 'Audio-language models (ALMs) are increasingly used in real-world applications
@@ -3823,7 +3822,7 @@ papers:
     work on pitch-aware audio-language modeling.'
 - title: 'MMAG: A Multi-Control Mixed Audio Generation Benchmark'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.06900v1
+  url: https://arxiv.org/abs/2608.06900
   category: analysis
   subcategory: audio
   abstract: Recent audio generation systems have progressed from single-modality synthesis
@@ -3845,7 +3844,7 @@ papers:
 - title: Learning to Predict Performance-induced Emotion Differences in Classical
     Piano Music
   date: 2026-07
-  url: https://arxiv.org/abs/2607.28876v1
+  url: https://arxiv.org/abs/2607.28876
   category: evaluation
   subcategory: symbolic
   abstract: Music is often used as a medium for communicating emotion, with performers
@@ -3860,14 +3859,14 @@ papers:
     then propose a relative regression framework, Delta-VA, to predict deviations
     in valence-arousal relative to an ``average'' performance, thereby focusing on
     the changes in emotion brought about by a specific way of playing a piece. In
-    addition to the standard $R^2$ regression score, we introduce geometric evaluation
+    addition to the standard R^2 regression score, we introduce geometric evaluation
     metrics to assess the preservation of pairwise differences between performances.
     Results indicate high directional consistency with the ground truth, but also
     a compression in prediction magnitude, indicating that the model tends to underestimate
     expressive performance effects.
 - title: 'Decomposer: Learning to Decompile Symbolic Music to Programs'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.01849v1
+  url: https://arxiv.org/abs/2607.01849
   category: evaluation
   subcategory: symbolic
   abstract: 'Musical performance involves executing a set of high-level musical instructions,
@@ -3889,7 +3888,7 @@ papers:
     readable and diverse code than the heuristic converter.'
 - title: Unsupervised Evaluation of Deep Audio Embeddings for Music Structure Analysis
   date: 2026-03
-  url: https://arxiv.org/abs/2603.27218v2
+  url: https://arxiv.org/abs/2603.27218
   category: analysis
   subcategory: audio
   abstract: Music Structure Analysis (MSA) aims to uncover the high-level organization
@@ -3910,7 +3909,7 @@ papers:
     annotations to establish more rigorous MSA evaluation standards.
 - title: 'Qwen-MusicAVQA-7B: A Multimodal Model for Music Audio-Visual QA'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.11329v1
+  url: https://arxiv.org/abs/2608.11329
   category: evaluation
   subcategory: multimodal
   abstract: 'A common approach to adding audio to a vision-language model is to train
@@ -3939,7 +3938,7 @@ papers:
 - title: 'Foley-Omni: A Unified Multimodal Generation Model from Task-Level Audio
     Synthesis to Complete Video Soundtrack Generation'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.03672v1
+  url: https://arxiv.org/abs/2606.03672
   category: evaluation
   subcategory: audio
   abstract: Recent unified audio generation models can support diverse tasks across
@@ -3956,7 +3955,7 @@ papers:
     audiovisual consistency and perceptual quality for mixed soundtrack generation.
 - title: A Dataset and Benchmark for Optical Music Recognition of String Quartet Scores
   date: 2026-08
-  url: https://arxiv.org/abs/2608.10978v1
+  url: https://arxiv.org/abs/2608.10978
   category: analysis
   subcategory: symbolic
   abstract: 'Optical music recognition (OMR) transcribes music scores into digital
@@ -3979,7 +3978,7 @@ papers:
 - title: 'Towards Robust Version Identification in the Wild: A Dataset, Benchmark,
     and Fine-Tuning Study'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.04543v1
+  url: https://arxiv.org/abs/2608.04543
   category: generation
   subcategory: audio
   abstract: Existing datasets for musical version identification (VI) are primarily
@@ -4000,7 +3999,7 @@ papers:
 - title: 'ONOTE: Benchmarking Omnimodal Notation Processing for Expert-level Music
     Intelligence'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.20719v1
+  url: https://arxiv.org/abs/2604.20719
   category: analysis
   subcategory: symbolic
   abstract: Omnimodal Notation Processing (ONP) represents a unique frontier for omnimodal
@@ -4020,7 +4019,7 @@ papers:
 - title: 'GLANCE: A Global-Local Coordination Multi-Agent Framework for Music-Grounded
     Non-Linear Video Editing'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.05076v1
+  url: https://arxiv.org/abs/2604.05076
   category: analysis
   subcategory: agentic
   abstract: 'Music-grounded mashup video creation is a challenging form of video non-linear
@@ -4048,7 +4047,7 @@ papers:
     and validates the effectiveness of the proposed evaluation framework.'
 - title: 'LiveBand: Live Accompaniment Generation in the Audio Domain'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.03803v2
+  url: https://arxiv.org/abs/2606.03803
   category: generation
   subcategory: audio
   abstract: We present LiveBand, a real-time system that generates high-fidelity music
@@ -4067,7 +4066,7 @@ papers:
     lookahead into the future on consumer hardware.
 - title: 'From Prediction to Collaboration: Interactive Symbolic Music Analysis'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.13587v1
+  url: https://arxiv.org/abs/2607.13587
   category: analysis
   subcategory: symbolic
   abstract: Automatic symbolic music analysis has made substantial progress, yet existing
@@ -4093,7 +4092,7 @@ papers:
     Scoring of Music Analysis Responses: Single-Pass Deployment, Repeatability, and
     Strategy-Specific Bias'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.01783v1
+  url: https://arxiv.org/abs/2608.01783
   category: generation
   subcategory: agentic
   abstract: 'Scoring open-ended music analysis responses is time-consuming and requires
@@ -4121,7 +4120,7 @@ papers:
     oversight.'
 - title: Probing Token Spaces under Generator Shift in AI-Generated Music Detection
   date: 2026-06
-  url: https://arxiv.org/abs/2606.08663v2
+  url: https://arxiv.org/abs/2606.08663
   category: evaluation
   subcategory: symbolic
   abstract: 'AI-generated music detectors can appear robust on standard benchmark
@@ -4141,7 +4140,7 @@ papers:
 - title: 'AV-SyncBench: Decoupled Benchmarking of Temporal and Semantic Audio-Visual
     Synchronization'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.00726v1
+  url: https://arxiv.org/abs/2607.00726
   category: evaluation
   subcategory: audio
   abstract: 'Audio-visual feature extraction is a fundamental component of multimodal
@@ -4158,7 +4157,7 @@ papers:
     and dataset are available at: https://fgt7t6g.github.io/AV-SyncBench.'
 - title: Continuous Audio Thinking for Large Audio Language Models
   date: 2026-06
-  url: https://arxiv.org/abs/2606.18273v1
+  url: https://arxiv.org/abs/2606.18273
   category: analysis
   subcategory: audio
   abstract: Large audio language models (LALMs) have shown impressive capabilities
@@ -4182,7 +4181,7 @@ papers:
     positions to the model's textual responses.
 - title: 'ArtifactNet: Detecting AI-Generated Music via Forensic Residual Physics'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.16254v2
+  url: https://arxiv.org/abs/2604.16254
   category: evaluation
   subcategory: audio
   abstract: We present ArtifactNet, a lightweight framework that detects AI-generated
@@ -4205,7 +4204,7 @@ papers:
     than CLAM and 4.8x fewer than SpecTTTra.
 - title: Dense-Sparse Dynamic Time Warping for Customizing Piano Concerto Accompaniments
   date: 2026-07
-  url: https://arxiv.org/abs/2607.18189v1
+  url: https://arxiv.org/abs/2607.18189
   category: analysis
   subcategory: symbolic
   abstract: 'In this study, we explore how pianists can customize Music Minus One
@@ -4227,7 +4226,7 @@ papers:
     separation and spectral subtraction techniques.'
 - title: Generalized Audio-Driven Synthesis of Precise Drummer Motion
   date: 2026-08
-  url: https://arxiv.org/abs/2608.19055v1
+  url: https://arxiv.org/abs/2608.19055
   category: evaluation
   subcategory: symbolic
   abstract: 'Music-driven character animation enables and enhances transformative
@@ -4249,7 +4248,7 @@ papers:
 - title: A Diagnostic Evaluation Framework for AI-Generated Cover Songs Using Music-Theoretic
     and Acoustic Features
   date: 2026-07
-  url: https://arxiv.org/abs/2607.19688v1
+  url: https://arxiv.org/abs/2607.19688
   category: generation
   subcategory: symbolic
   abstract: 'AI-generated covers often fail through local musical errors that a global
@@ -4272,7 +4271,7 @@ papers:
 - title: 'Evaluating Generalization and Robustness in Russian Anti-Spoofing: The RuASD
     Initiative'
   date: 2026-03
-  url: https://arxiv.org/abs/2604.02374v2
+  url: https://arxiv.org/abs/2604.02374
   category: evaluation
   subcategory: audio
   abstract: RuASD (Russian AntiSpoofing Dataset) is a dedicated, reproducible benchmark
@@ -4294,7 +4293,7 @@ papers:
 - title: 'MUGEN: Evaluating and Improving Multi-audio Understanding of Large Audio-Language
     Models'
   date: 2026-03
-  url: https://arxiv.org/abs/2603.09714v2
+  url: https://arxiv.org/abs/2603.09714
   category: analysis
   subcategory: audio
   abstract: While multi-audio understanding is critical for large audio-language models
@@ -4311,7 +4310,7 @@ papers:
 - title: 'MiDashengLM-Gen: Unified Audio Scene Generation via LLM-Driven Autoregressive
     Flow Matching'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.11804v1
+  url: https://arxiv.org/abs/2608.11804
   category: generation
   subcategory: audio
   abstract: Generating coherent audio scenes that simultaneously blend speech, music,
@@ -4334,7 +4333,7 @@ papers:
     at https://xingws.github.io/midashenglm-gen-demo/.
 - title: 'AT-ADD: All-Type Audio Deepfake Detection Challenge Evaluation Plan'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.08184v1
+  url: https://arxiv.org/abs/2604.08184
   category: evaluation
   subcategory: audio
   abstract: 'The rapid advancement of Audio Large Language Models (ALLMs) has enabled
@@ -4361,7 +4360,7 @@ papers:
 - title: 'CODA: Cascaded Online Discontinuity-Aware Alignment for Real-Time Image-Based
     Score Following'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.21899v1
+  url: https://arxiv.org/abs/2607.21899
   category: analysis
   subcategory: symbolic
   abstract: 'Real-time score following from sheet images remains chal- lenging because
@@ -4385,7 +4384,7 @@ papers:
 - title: 'DirectAudioEdit: Inversion-Free Text-Guided Audio Editing via Diffusion
     Prediction Contrast'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.07356v1
+  url: https://arxiv.org/abs/2606.07356
   category: evaluation
   subcategory: audio
   abstract: Text-guided audio editing aims to modify the language-specified acoustic
@@ -4401,7 +4400,7 @@ papers:
     to 64.5% editing speedup.
 - title: 'VidAudio-Bench: Benchmarking V2A and VT2A Generation across Four Audio Categories'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.10542v1
+  url: https://arxiv.org/abs/2604.10542
   category: evaluation
   subcategory: audio
   abstract: 'Video-to-Audio (V2A) generation is essential for immersive multimedia
@@ -4426,7 +4425,7 @@ papers:
 - title: 'AnyAudio-Judge: A Dynamic Rubric-Based Benchmark and Evaluator for Audio
     Instruction Following'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.03116v1
+  url: https://arxiv.org/abs/2606.03116
   category: evaluation
   subcategory: audio
   abstract: The rapid advancement of instruction-guided audio generation has highlighted
@@ -4451,7 +4450,7 @@ papers:
 - title: 'AudioDER: A Deduplication-Enhanced Reasoning Dataset for Post-Training Large
     Audio-Language Models'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.14591v2
+  url: https://arxiv.org/abs/2606.14591
   category: analysis
   subcategory: audio
   abstract: Recent advances in pretrained large audio-language models (LALMs) have
@@ -4479,7 +4478,7 @@ papers:
 - title: 'SpectCount: Spectrotemporal Counting via Synthetic Signals Improves Large
     Audio Language Models'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.06907v1
+  url: https://arxiv.org/abs/2606.06907
   category: analysis
   subcategory: audio
   abstract: Large audio language models (LALMs) extend large language models with
@@ -4497,7 +4496,7 @@ papers:
 - title: 'MixFake: Benchmarking and Enhancing Audio Deepfake Detection in Diverse
     Real-world Mixed Audio'
   date: 2026-05
-  url: https://arxiv.org/abs/2605.23201v1
+  url: https://arxiv.org/abs/2605.23201
   category: evaluation
   subcategory: audio
   abstract: Speech deepfake detection has achieved remarkable success in clean environments
@@ -4517,7 +4516,7 @@ papers:
 - title: Benchmarking Language Modeling for Lossless Compression of Full-Fidelity
     Audio
   date: 2026-03
-  url: https://arxiv.org/abs/2603.08683v2
+  url: https://arxiv.org/abs/2603.08683
   category: generation
   subcategory: audio
   abstract: Autoregressive "language" models (LMs) trained on raw waveforms can be
@@ -4528,13 +4527,13 @@ papers:
     and bit depths (8, 16, 24-bit). Standard sample-level tokenization becomes intractable
     at higher bit depths due to vocabulary size (65K for 16-bit; 16.7M for 24-bit).
     We propose Trilobyte, a byte-level tokenization schema for full resolution audio,
-    improving vocabulary scaling from $O(2^{b})$ to $O(1)$ and enabling the first
-    tractable 24-bit LM-based lossless compression. While LMs consistently outperform
-    FLAC and yield state-of-the-art compression at 8-bit and 16-bit, we observe that
-    compression gains become more modest as bit depth increases beyond 8-bit.
+    improving vocabulary scaling from O(2^{b}) to O(1) and enabling the first tractable
+    24-bit LM-based lossless compression. While LMs consistently outperform FLAC and
+    yield state-of-the-art compression at 8-bit and 16-bit, we observe that compression
+    gains become more modest as bit depth increases beyond 8-bit.
 - title: 'SonicWeave: Chunk-Routed Mixture-of-Experts for Unified Audio Scene Generation'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.09571v1
+  url: https://arxiv.org/abs/2608.09571
   category: generation
   subcategory: audio
   abstract: 'Text-conditioned general audio generation is moving beyond isolated speech,
@@ -4562,7 +4561,7 @@ papers:
 - title: 'BEST-RQ-2: Contextualize-Then-Predict, a Two-Step Approach for Self-Supervised
     Audio Representations'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.30700v1
+  url: https://arxiv.org/abs/2606.30700
   category: generation
   subcategory: audio
   abstract: Self-supervised learning enables audio representations that transfer across
@@ -4580,7 +4579,7 @@ papers:
 - title: 'SketchSong: Hierarchical Song Generation with Sketch Planning and Fine-Grained
     Multi-Track Modeling'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.03169v1
+  url: https://arxiv.org/abs/2606.03169
   category: generation
   subcategory: multimodal
   abstract: Recent song generation systems can synthesize realistic audio, yet generating
@@ -4608,7 +4607,7 @@ papers:
 - title: 'From Sounds to Scenes: A Benchmark for Evaluating Context-Aware Auditory
     Scene Understanding in Large Audio Language Models'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.25391v1
+  url: https://arxiv.org/abs/2606.25391
   category: analysis
   subcategory: audio
   abstract: 'Recent Large Audio Language Models (LALMs) have achieved remarkable progress
@@ -4633,7 +4632,7 @@ papers:
 - title: Is One Score Enough? Assessing Singing Quality of Songs with Temporal Score
     Curves
   date: 2026-07
-  url: https://arxiv.org/abs/2607.16599v1
+  url: https://arxiv.org/abs/2607.16599
   category: evaluation
   subcategory: symbolic
   abstract: Singing Quality Assessment (SQA) has become increasingly important for
@@ -4660,7 +4659,7 @@ papers:
 - title: 'TORUS: A Test of Rendering-Understanding Self-Coherence for Unified Audio
     Models'
   date: 2026-07
-  url: https://arxiv.org/abs/2607.28896v1
+  url: https://arxiv.org/abs/2607.28896
   category: generation
   subcategory: audio
   abstract: 'Unified audio models capable of audio understanding, audio generation
@@ -4679,7 +4678,7 @@ papers:
     self-coherence as an essential test for future audio systems.'
 - title: Cinematic Audio Source Separation Using Visual Cues
   date: 2026-03
-  url: https://arxiv.org/abs/2603.26113v1
+  url: https://arxiv.org/abs/2603.26113
   category: generation
   subcategory: audio
   abstract: Cinematic Audio Source Separation (CASS) aims to decompose mixed film
@@ -4699,7 +4698,7 @@ papers:
 - title: 'Audio Flamingo Next: Next-Generation Open Audio-Language Models for Speech,
     Sound, and Music'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.10905v1
+  url: https://arxiv.org/abs/2604.10905
   category: analysis
   subcategory: audio
   abstract: 'We present Audio Flamingo Next (AF-Next), the next-generation and most
@@ -4729,7 +4728,7 @@ papers:
 - title: 'EchoHawk: A Reproducible Acoustic Pipeline for Drone Detection, Classification,
     and Direction-Finding, with a Cautionary Study of Session-Level Data Leakage'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.29589v2
+  url: https://arxiv.org/abs/2606.29589
   category: evaluation
   subcategory: audio
   abstract: 'Passive acoustic sensing is an attractive modality for counter-unmanned
@@ -4752,7 +4751,7 @@ papers:
     any download.'
 - title: 'MMAE: A Massive Multitask Audio Editing Benchmark'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.07229v1
+  url: https://arxiv.org/abs/2606.07229
   category: evaluation
   subcategory: audio
   abstract: We introduce MMAE, a Massive Multitask Audio Editing benchmark, serving
@@ -4781,7 +4780,7 @@ papers:
 - title: 'OmniSonic: Towards Universal and Holistic Audio Generation from Video and
     Text'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.04348v1
+  url: https://arxiv.org/abs/2604.04348
   category: evaluation
   subcategory: audio
   abstract: 'In this paper, we propose Universal Holistic Audio Generation (UniHAGen),
@@ -4806,7 +4805,7 @@ papers:
 - title: 'MuseCritic: Learning Multi-Aspect Song Rewards through Natural-Language
     Aesthetic Critiques'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.11755v1
+  url: https://arxiv.org/abs/2608.11755
   category: evaluation
   subcategory: audio
   abstract: 'Long-form song generation models continue to improve in duration, structural
@@ -4832,7 +4831,7 @@ papers:
 - title: 'Audio-Omni: Extending Multi-modal Understanding to Versatile Audio Generation
     and Editing'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.10708v2
+  url: https://arxiv.org/abs/2604.10708
   category: generation
   subcategory: audio
   abstract: Recent progress in multimodal models has spurred rapid advances in audio
@@ -4858,7 +4857,7 @@ papers:
 - title: 'EntangleCodec: A Unified Discrete Audio Tokenizer via Semantic-Acoustic
     Entanglement'
   date: 2026-06
-  url: https://arxiv.org/abs/2606.02739v1
+  url: https://arxiv.org/abs/2606.02739
   category: analysis
   subcategory: audio
   abstract: 'Audio tokenizers serve as the discrete interface between continuous audio
@@ -4866,24 +4865,24 @@ papers:
     both understanding and generation. Reconstruction-oriented codecs preserve acoustic
     fidelity but lack rich semantics, while semantic-aware tokenizers typically rely
     on separate semantic and acoustic streams, introducing redundancy or misalignment.
-    We propose \textbf{EntangleCodec}, a unified discrete audio tokenizer that learns
-    caption-aligned semantic-acoustic representations before quantization. By aligning
-    audio with rich captions rather than ASR transcripts, EntangleCodec captures linguistic
-    content, speaker identity, emotion, prosody, and acoustic scenes within a compact
-    token stream. A flow-matching diffusion decoder further enables high-quality reconstruction
+    We propose EntangleCodec, a unified discrete audio tokenizer that learns caption-aligned
+    semantic-acoustic representations before quantization. By aligning audio with
+    rich captions rather than ASR transcripts, EntangleCodec captures linguistic content,
+    speaker identity, emotion, prosody, and acoustic scenes within a compact token
+    stream. A flow-matching diffusion decoder further enables high-quality reconstruction
     across speech, music, and general audio. EntangleCodec achieves reconstruction
     quality competitive with specialized codecs, outperforms all codec-based baselines
-    on audio understanding by up to \textbf{+7.4\%} on MMAR, and supports both TTS
-    and TTA generation in a unified framework. Furthermore, EntangleCodec-based audio
-    language models demonstrate strong scaling behavior: even at \textit{0.6B} parameters,
-    the model surpasses specialized continuous-representation LLMs with over \textit{13B}
-    parameters across three benchmarks using \textbf{22$\times$} fewer parameters;
-    scaling to \textit{8B} further establishes new state-of-the-art results on MMAR,
-    highlighting that representation quality is as critical as model scale in audio
-    language modeling. Code and model weights are available at https://github.com/luckyerr/EntangleCodec.'
+    on audio understanding by up to +7.4\% on MMAR, and supports both TTS and TTA
+    generation in a unified framework. Furthermore, EntangleCodec-based audio language
+    models demonstrate strong scaling behavior: even at 0.6B parameters, the model
+    surpasses specialized continuous-representation LLMs with over 13B parameters
+    across three benchmarks using 22\times fewer parameters; scaling to 8B further
+    establishes new state-of-the-art results on MMAR, highlighting that representation
+    quality is as critical as model scale in audio language modeling. Code and model
+    weights are available at https://github.com/luckyerr/EntangleCodec.'
 - title: 'LaDA-Band: Language Diffusion Models for Vocal-to-Accompaniment Generation'
   date: 2026-04
-  url: https://arxiv.org/abs/2604.11052v2
+  url: https://arxiv.org/abs/2604.11052
   category: generation
   subcategory: audio
   abstract: 'Vocal-to-accompaniment (V2A) generation, which aims to transform a raw
@@ -5843,7 +5842,7 @@ papers:
   venue: 'Proceedings of the 3rd International Workshop on Multimedia Content Generation
     and Evaluation: New Methods and Practice'
 - title: Meta-Evaluation Methodology and Benchmark for Automatic Story Generation
-  date: ''
+  date: 2024-01
   url: https://doi.org/10.70675/ec296eb8z87a1z4fdbzbbbdz12bb27449b8f
   category: evaluation
   subcategory: audio
@@ -5864,7 +5863,7 @@ papers:
   venue: 'Light Music in Britain since 1870: A Survey'
 - title: 'The solo piano music of Australia''s "younger generation" composers : a
     stylistic survey'
-  date: ''
+  date: 2024-01
   url: https://doi.org/10.14264/3e7140b
   category: evaluation
   subcategory: audio
@@ -5915,7 +5914,7 @@ papers:
   venue: 2024 IEEE 99th Vehicular Technology Conference (VTC2024-Spring)
 - title: 'A Survey of Company Environmental Reporting: The 1997 Third International
     Benchmark Survey'
-  date: ''
+  date: 2024-01
   url: https://doi.org/10.9774/gleaf.978-1-907643-19-4_17
   category: evaluation
   subcategory: audio
@@ -5940,7 +5939,7 @@ papers:
   venue: 'Proceedings of the 64th Annual Meeting of the Association for Computational
     Linguistics (Volume 1: Long Papers)'
 - title: A Multimodal Framework for Continuous Music Emotion Recognition
-  date: ''
+  date: 2024-01
   url: https://doi.org/10.21203/rs.3.rs-9472655/v1
   category: cognition
   subcategory: multimodal
@@ -5973,7 +5972,7 @@ papers:
   doi: 10.1007/s44163-026-01697-z
   venue: Discover Artificial Intelligence
 - title: 'Figure 1: Multimodal emotion recognition framework.'
-  date: ''
+  date: 2024-01
   url: https://doi.org/10.7717/peerj-cs.1977/fig-1
   category: cognition
   subcategory: multimodal
@@ -5996,7 +5995,7 @@ papers:
   doi: 10.1201/b10731-9
   venue: Music Emotion Recognition
 - title: Protected multimodal emotion recognition
-  date: ''
+  date: 2024-01
   url: https://doi.org/10.32920/ryerson.14668203
   category: cognition
   subcategory: multimodal
@@ -6078,7 +6077,7 @@ papers:
   venue: Transactions of the International Society for Music Information Retrieval
 - title: 'Natural language processing for music information retrieval : deep analysis
     of lyrics structure and content'
-  date: ''
+  date: 2024-01
   url: https://doi.org/10.70675/7ad434aezd334z412ez8d93z1b53db400992
   category: analysis
   subcategory: audio
@@ -6202,7 +6201,7 @@ papers:
 - title: 'Beyond the Brain Song: Can Music Help Us Teach Undergraduate Neuroscience?
     A Review of From Perception to Pleasure: The Neuroscience of Music and Why We
     Love It'
-  date: ''
+  date: 2024-01
   url: https://europepmc.org/article/pmc/PMC13127668
   category: cognition
   subcategory: audio
@@ -6534,7 +6533,7 @@ papers:
   doi: 10.1145/2959100.2959190
 - title: Exploring the Limits of Transfer Learning with a Unified Text-to-Text\n Transformer
   date: 2019-01
-  url: https://doi.org/10.48550/arxiv.1910.10683
+  url: https://arxiv.org/abs/1910.10683
   category: generation
   subcategory: audio
   authors:
@@ -6556,7 +6555,7 @@ papers:
   venue: Journal of Neural Engineering
 - title: Representation Learning with Contrastive Predictive Coding
   date: 2018-01
-  url: https://doi.org/10.48550/arxiv.1807.03748
+  url: https://arxiv.org/abs/1807.03748
   category: generation
   subcategory: audio
   authors:
@@ -6600,7 +6599,7 @@ papers:
 - title: 'Modeling Temporal Dependencies in High-Dimensional Sequences: Application
     to Polyphonic Music Generation and Transcription'
   date: 2012-01
-  url: https://doi.org/10.48550/arxiv.1206.6392
+  url: https://arxiv.org/abs/1206.6392
   category: analysis
   subcategory: audio
   authors:
@@ -7043,7 +7042,7 @@ papers:
   venue: Journal of Voice
 - title: Evaluating Large Language Models Trained on Code
   date: 2021-01
-  url: https://doi.org/10.48550/arxiv.2107.03374
+  url: https://arxiv.org/abs/2107.03374
   category: systems
   subcategory: agentic
   authors:
@@ -7087,7 +7086,7 @@ papers:
   venue: Behavioral and Brain Sciences
 - title: 'Flamingo: a Visual Language Model for Few-Shot Learning'
   date: 2022-01
-  url: https://doi.org/10.48550/arxiv.2204.14198
+  url: https://arxiv.org/abs/2204.14198
   category: systems
   subcategory: agentic
   authors:
@@ -7129,7 +7128,7 @@ papers:
   venue: Semantic Web
 - title: 'LaMDA: Language Models for Dialog Applications'
   date: 2022-01
-  url: https://doi.org/10.48550/arxiv.2201.08239
+  url: https://arxiv.org/abs/2201.08239
   category: systems
   subcategory: agentic
   authors:
@@ -7332,7 +7331,7 @@ papers:
   venue: Digital Collections - Ithaca College Library (Ithaca College)
 - title: A Critical Review of Recurrent Neural Networks for Sequence Learning
   date: 2015-01
-  url: https://doi.org/10.48550/arxiv.1506.00019
+  url: https://arxiv.org/abs/1506.00019
   category: survey
   subcategory: audio
   authors:
@@ -7856,7 +7855,7 @@ papers:
   venue: Zenodo
 - title: 'MusPyExpress: Extending MusPy with Enhanced Expression Text Support'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.21678v1
+  url: https://arxiv.org/abs/2608.21678
   category: generation
   subcategory: audio
   authors:
@@ -7883,7 +7882,7 @@ papers:
 - title: 'MRMAD: A Multi-Round Multi-Audio Benchmark for Evaluating Acoustic Degradation
     Perception in Large Audio-Language Models'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.22236v1
+  url: https://arxiv.org/abs/2608.22236
   category: evaluation
   subcategory: audio
   authors:
@@ -7913,10 +7912,10 @@ papers:
     reliably. MRMAD reveals an important yet overlooked aspect of audio-language understanding
     and provides a diagnostic foundation for building future LALMs that are robust
     to real-world acoustic conditions.'
-- title: 'EXAM$^2$: $\underline{Ex}tending$ $\underline{A}udio$ $Understanding$ $in$
-    $\underline{M}ultilingual$ $and$ $\underline{M}ultimodal$ $Analysis$'
+- title: 'EXAM^2: \underline{Ex}tending \underline{A}udio Understanding in \underline{M}ultilingual
+    and \underline{M}ultimodal Analysis'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.23758v1
+  url: https://arxiv.org/abs/2608.23758
   category: evaluation
   subcategory: audio
   authors:
@@ -7932,23 +7931,23 @@ papers:
     to English and narrow audio domains. Prior benchmarks typically focus on a single
     audio modality, i.e., speech, sound, or music, limiting the systematic investigation
     into how these models generalize across diverse visual scenarios. In this paper,
-    we introduce EXAM$^2$, a benchmark for multilingual and multimodal audio understanding
+    we introduce EXAM^2, a benchmark for multilingual and multimodal audio understanding
     spanning six languages and multiple modalities, including speech, sound, music,
     mixed-audio settings, and visual images. By incorporating visual information alongside
-    heterogeneous audio inputs, EXAM$^2$ enables more realistic evaluation of scene-aware
-    audio reasoning and cross-modal comprehension. EXAM$^2$ comprises $5,667$ multiple-choice
-    questions, $22,614$ image instances, and $135,684$ multilingual translations.
-    We evaluate state-of-the-art open-source and proprietary LALMs as well as multimodal
-    LLMs, revealing substantial performance gaps in multilingual and cross-modal understanding.
-    Furthermore, we propose Gemma3n-EXAM$^2$, a lightweight fusion-model fine-tuned
-    on EXAM$^2$-train, achieves up to $12.4\%$ improvement in multilingual settings
-    and $21.7\%$ gains in multimodal evaluation over a strong baseline. Empirical
-    results establish EXAM$^2$ as a challenging benchmark and pioneer future multilingual
-    and multimodal audio intelligence research.
+    heterogeneous audio inputs, EXAM^2 enables more realistic evaluation of scene-aware
+    audio reasoning and cross-modal comprehension. EXAM^2 comprises 5,667 multiple-choice
+    questions, 22,614 image instances, and 135,684 multilingual translations. We evaluate
+    state-of-the-art open-source and proprietary LALMs as well as multimodal LLMs,
+    revealing substantial performance gaps in multilingual and cross-modal understanding.
+    Furthermore, we propose Gemma3n-EXAM^2, a lightweight fusion-model fine-tuned
+    on EXAM^2-train, achieves up to 12.4\% improvement in multilingual settings and
+    21.7\% gains in multimodal evaluation over a strong baseline. Empirical results
+    establish EXAM^2 as a challenging benchmark and pioneer future multilingual and
+    multimodal audio intelligence research.
 - title: 'AT-ADD: A Benchmark and Challenge for Robust and All-Type Audio Deepfake
     Detection'
   date: 2026-08
-  url: https://arxiv.org/abs/2608.23437v1
+  url: https://arxiv.org/abs/2608.23437
   category: evaluation
   subcategory: audio
   authors:

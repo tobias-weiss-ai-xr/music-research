@@ -194,14 +194,9 @@
  ],
  "subcategories": [
   {
-   "id": "",
-   "name": "",
-   "count": 2
-  },
-  {
    "id": "agentic",
    "name": "Agentic & LLM",
-   "count": 222
+   "count": 224
   },
   {
    "id": "audio",
@@ -4608,7 +4603,7 @@
   [
    "2026-08",
    "cognition",
-   ""
+   "agentic"
   ],
   [
    "2026-08",
@@ -4628,7 +4623,7 @@
   [
    "2026-08",
    "evaluation",
-   ""
+   "agentic"
   ],
   [
    "2026-08",

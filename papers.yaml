@@ -24953,7 +24953,7 @@ papers:
   - Hao-Wen Dong
   venue: ''
   code_url: ''
-  project_url: https://huggingface.co/JoshuaW1997/FUTGA}{\textcolor{blue}{https://huggingface.co/JoshuaW1997/FUTGA}}
+  project_url: https://huggingface.co/JoshuaW1997/FUTGA
   abstract: Existing music captioning methods are limited to generating concise global
     descriptions of short music clips, which fail to capture fine-grained musical
     characteristics and time-aware musical changes. To address these limitations,
@@ -26596,7 +26596,7 @@ papers:
   - Kaizhi Qian
   venue: ''
   code_url: ''
-  project_url: https://hanyangclarence.github.io/unimumo_demo/}{project
+  project_url: https://hanyangclarence.github.io/unimumo_demo/
   abstract: We introduce UniMuMo, a unified multimodal model capable of taking arbitrary
     text, music, and motion data as input conditions to generate outputs across all
     three modalities. To address the lack of time-synchronized data, we align unpaired
@@ -27022,7 +27022,7 @@ papers:
   - Yixuan Sun
   venue: ''
   code_url: https://github.com/ivcylc/OpenMusic
-  project_url: https://qa-mdt.github.io/,
+  project_url: https://qa-mdt.github.io/
   abstract: Text-to-music (TTM) generation, which converts textual descriptions into
     audio, opens up innovative avenues for multimedia creation. Achieving high quality
     and diversity in this process demands extensive, high-quality data, which are

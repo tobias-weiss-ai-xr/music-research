@@ -3,7 +3,7 @@
   {
    "id": "analysis",
    "name": "Music Analysis & Understanding",
-   "count": 142,
+   "count": 271,
    "trajectory": {
     "1996": 1,
     "1999": 1,
@@ -24,27 +24,27 @@
     "2020": 4,
     "2021": 4,
     "2022": 7,
-    "2023": 9,
-    "2024": 10,
-    "2025": 14,
-    "2026": 56
+    "2023": 24,
+    "2024": 55,
+    "2025": 78,
+    "2026": 62
    },
    "momentum": {
     "id": "analysis",
     "name": "Analysis",
-    "total": 142,
-    "recent": 62,
-    "prior": 8,
-    "growth_pct": 675.0,
-    "recent_share": 0.437,
-    "papers_per_month": 5.2,
-    "score": 718.7
+    "total": 271,
+    "recent": 88,
+    "prior": 80,
+    "growth_pct": 10.0,
+    "recent_share": 0.325,
+    "papers_per_month": 7.3,
+    "score": 42.5
    }
   },
   {
    "id": "cognition",
    "name": "Music Perception & Cognition",
-   "count": 69,
+   "count": 127,
    "trajectory": {
     "1995": 1,
     "2008": 1,
@@ -58,27 +58,27 @@
     "2020": 3,
     "2021": 1,
     "2022": 2,
-    "2023": 2,
-    "2024": 1,
-    "2025": 9,
-    "2026": 30
+    "2023": 3,
+    "2024": 19,
+    "2025": 25,
+    "2026": 57
    },
    "momentum": {
     "id": "cognition",
     "name": "Cognition",
-    "total": 69,
-    "recent": 32,
-    "prior": 7,
-    "growth_pct": 357.1,
-    "recent_share": 0.464,
-    "papers_per_month": 2.7,
-    "score": 403.5
+    "total": 127,
+    "recent": 62,
+    "prior": 23,
+    "growth_pct": 169.6,
+    "recent_share": 0.488,
+    "papers_per_month": 5.2,
+    "score": 218.4
    }
   },
   {
    "id": "evaluation",
    "name": "Evaluation & Benchmarks",
-   "count": 88,
+   "count": 186,
    "trajectory": {
     "1967": 1,
     "2012": 1,
@@ -88,27 +88,27 @@
     "2019": 3,
     "2021": 2,
     "2022": 1,
-    "2023": 8,
-    "2024": 1,
-    "2025": 9,
-    "2026": 54
+    "2023": 10,
+    "2024": 29,
+    "2025": 49,
+    "2026": 85
    },
    "momentum": {
     "id": "evaluation",
     "name": "Evaluation",
-    "total": 88,
-    "recent": 61,
-    "prior": 2,
-    "growth_pct": 2950.0,
-    "recent_share": 0.693,
-    "papers_per_month": 5.1,
-    "score": 3019.3
+    "total": 186,
+    "recent": 113,
+    "prior": 30,
+    "growth_pct": 276.7,
+    "recent_share": 0.608,
+    "papers_per_month": 9.4,
+    "score": 337.5
    }
   },
   {
    "id": "generation",
    "name": "Music Generation & Composition",
-   "count": 139,
+   "count": 231,
    "trajectory": {
     "2013": 1,
     "2015": 1,
@@ -118,21 +118,21 @@
     "2020": 4,
     "2021": 6,
     "2022": 4,
-    "2023": 13,
-    "2024": 10,
-    "2025": 9,
-    "2026": 80
+    "2023": 19,
+    "2024": 51,
+    "2025": 51,
+    "2026": 83
    },
    "momentum": {
     "id": "generation",
     "name": "Generation",
-    "total": 139,
-    "recent": 81,
-    "prior": 8,
-    "growth_pct": 912.5,
-    "recent_share": 0.583,
-    "papers_per_month": 6.8,
-    "score": 970.8
+    "total": 231,
+    "recent": 100,
+    "prior": 61,
+    "growth_pct": 63.9,
+    "recent_share": 0.433,
+    "papers_per_month": 8.3,
+    "score": 107.2
    }
   },
   {
@@ -165,7 +165,7 @@
   {
    "id": "systems",
    "name": "AI Music Systems & Agents",
-   "count": 16,
+   "count": 75,
    "trajectory": {
     "2009": 1,
     "2010": 1,
@@ -174,21 +174,21 @@
     "2017": 1,
     "2021": 1,
     "2022": 2,
-    "2023": 2,
-    "2024": 2,
-    "2025": 2,
-    "2026": 2
+    "2023": 6,
+    "2024": 13,
+    "2025": 30,
+    "2026": 18
    },
    "momentum": {
     "id": "systems",
     "name": "Systems",
-    "total": 16,
-    "recent": 4,
-    "prior": 0,
-    "growth_pct": null,
-    "recent_share": 0.25,
-    "papers_per_month": 0.3,
-    "score": 25.0
+    "total": 75,
+    "recent": 33,
+    "prior": 20,
+    "growth_pct": 65.0,
+    "recent_share": 0.44,
+    "papers_per_month": 2.8,
+    "score": 109.0
    }
   }
  ],
@@ -201,12 +201,12 @@
   {
    "id": "agentic",
    "name": "Agentic & LLM",
-   "count": 29
+   "count": 222
   },
   {
    "id": "audio",
    "name": "Audio",
-   "count": 301
+   "count": 544
   },
   {
    "id": "multimodal",
@@ -1051,7 +1051,167 @@
    "multimodal"
   ],
   [
+   "2023-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-10",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-10",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-10",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-10",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-10",
+   "generation",
+   "audio"
+  ],
+  [
+   "2023-10",
+   "generation",
+   "audio"
+  ],
+  [
+   "2023-10",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2023-10",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2023-10",
+   "systems",
+   "agentic"
+  ],
+  [
    "2023-11",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-11",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-11",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-11",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-11",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-11",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-11",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2023-11",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2023-11",
+   "generation",
+   "audio"
+  ],
+  [
+   "2023-11",
+   "generation",
+   "audio"
+  ],
+  [
+   "2023-11",
+   "generation",
+   "audio"
+  ],
+  [
+   "2023-12",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-12",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-12",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2023-12",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2023-12",
+   "generation",
+   "audio"
+  ],
+  [
+   "2023-12",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2024-01",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-01",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-01",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-01",
    "analysis",
    "audio"
   ],
@@ -1103,6 +1263,71 @@
   [
    "2024-01",
    "cognition",
+   "agentic"
+  ],
+  [
+   "2024-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-01",
+   "cognition",
+   "audio"
+  ],
+  [
+   "2024-01",
+   "cognition",
+   "audio"
+  ],
+  [
+   "2024-01",
+   "cognition",
+   "multimodal"
+  ],
+  [
+   "2024-01",
+   "cognition",
+   "multimodal"
+  ],
+  [
+   "2024-01",
+   "cognition",
+   "multimodal"
+  ],
+  [
+   "2024-01",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2024-01",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2024-01",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-01",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-01",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-01",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-01",
+   "evaluation",
    "audio"
   ],
   [
@@ -1113,7 +1338,7 @@
   [
    "2024-01",
    "generation",
-   "symbolic"
+   "audio"
   ],
   [
    "2024-01",
@@ -1154,6 +1379,26 @@
    "2024-01",
    "generation",
    "symbolic"
+  ],
+  [
+   "2024-01",
+   "generation",
+   "symbolic"
+  ],
+  [
+   "2024-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2024-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2024-01",
+   "systems",
+   "agentic"
   ],
   [
    "2024-01",
@@ -1162,12 +1407,147 @@
   ],
   [
    "2024-02",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-02",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-02",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-02",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-02",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-02",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-02",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-02",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-02",
+   "systems",
+   "audio"
+  ],
+  [
+   "2024-02",
    "systems",
    "multimodal"
   ],
   [
+   "2024-03",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-03",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-03",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-04",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-04",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-04",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-04",
+   "systems",
+   "agentic"
+  ],
+  [
    "2024-05",
    "analysis",
+   "audio"
+  ],
+  [
+   "2024-05",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-05",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-05",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-05",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-06",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-06",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2024-06",
+   "evaluation",
    "audio"
   ],
   [
@@ -1176,6 +1556,516 @@
    "audio"
   ],
   [
+   "2024-06",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-06",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-06",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-06",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-06",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-06",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-06",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2024-07",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-07",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-07",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-07",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-07",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-07",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-07",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-07",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-07",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-07",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-07",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-07",
+   "generation",
+   "agentic"
+  ],
+  [
+   "2024-07",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-07",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-07",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-07",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-08",
+   "analysis",
+   "agentic"
+  ],
+  [
+   "2024-08",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-08",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-08",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-08",
+   "generation",
+   "agentic"
+  ],
+  [
+   "2024-08",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-08",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-08",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-08",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-08",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2024-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-09",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2024-10",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-10",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-10",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2024-10",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2024-10",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2024-11",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-11",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-11",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-11",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-11",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-11",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2024-11",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2024-11",
+   "generation",
+   "agentic"
+  ],
+  [
+   "2024-11",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-11",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-12",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-12",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-12",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2024-12",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2024-12",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2024-12",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2024-12",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-12",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-12",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-12",
+   "generation",
+   "audio"
+  ],
+  [
+   "2024-12",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-01",
+   "analysis",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-01",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-01",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-01",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-01",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-01",
+   "analysis",
+   "audio"
+  ],
+  [
    "2025-01",
    "analysis",
    "audio"
@@ -1212,8 +2102,43 @@
   ],
   [
    "2025-01",
-   "analysis",
-   "audio"
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "cognition",
+   "agentic"
   ],
   [
    "2025-01",
@@ -1253,11 +2178,56 @@
   [
    "2025-01",
    "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "evaluation",
    "audio"
   ],
   [
    "2025-01",
    "evaluation",
+   "audio"
+  ],
+  [
+   "2025-01",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-01",
+   "generation",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "generation",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "generation",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "generation",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-01",
+   "generation",
    "audio"
   ],
   [
@@ -1303,6 +2273,166 @@
   [
    "2025-01",
    "survey",
+   "audio"
+  ],
+  [
+   "2025-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-01",
+   "systems",
+   "audio"
+  ],
+  [
+   "2025-01",
+   "systems",
+   "audio"
+  ],
+  [
+   "2025-02",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-02",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-02",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-02",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-02",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-02",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-02",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-02",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-02",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-02",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-02",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-02",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-02",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-03",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-03",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-03",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-03",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-03",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-03",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-03",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-03",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-03",
+   "generation",
    "audio"
   ],
   [
@@ -1311,6 +2441,51 @@
    "multimodal"
   ],
   [
+   "2025-03",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-04",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-04",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-04",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-04",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-04",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-04",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-04",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-04",
+   "generation",
+   "audio"
+  ],
+  [
    "2025-04",
    "survey",
    "multimodal"
@@ -1321,9 +2496,344 @@
    "multimodal"
   ],
   [
+   "2025-05",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-05",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-05",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-05",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-05",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-05",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-05",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-05",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-05",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-05",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-05",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-05",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-05",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-05",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "agentic"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-06",
+   "generation",
+   "agentic"
+  ],
+  [
+   "2025-06",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-06",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-06",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-06",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-07",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-07",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-07",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-07",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-07",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-07",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-07",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-07",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-07",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-07",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-07",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-07",
+   "generation",
+   "agentic"
+  ],
+  [
+   "2025-07",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-07",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-08",
+   "analysis",
+   "agentic"
+  ],
+  [
+   "2025-08",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-08",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-08",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-08",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-08",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-08",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-08",
+   "cognition",
+   "agentic"
+  ],
+  [
    "2025-08",
    "evaluation",
    "agentic"
+  ],
+  [
+   "2025-08",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-08",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-08",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-08",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-08",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-08",
+   "generation",
+   "audio"
   ],
   [
    "2025-08",
@@ -1336,6 +2846,51 @@
    "agentic"
   ],
   [
+   "2025-08",
+   "systems",
+   "audio"
+  ],
+  [
+   "2025-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-09",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-09",
+   "analysis",
+   "audio"
+  ],
+  [
    "2025-09",
    "analysis",
    "multimodal"
@@ -1344,6 +2899,16 @@
    "2025-09",
    "analysis",
    "multimodal"
+  ],
+  [
+   "2025-09",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-09",
+   "evaluation",
+   "agentic"
   ],
   [
    "2025-09",
@@ -1358,6 +2923,26 @@
   [
    "2025-09",
    "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-09",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-09",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-09",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-09",
+   "generation",
    "audio"
   ],
   [
@@ -1366,6 +2951,46 @@
    "agentic"
   ],
   [
+   "2025-09",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-09",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-09",
+   "systems",
+   "audio"
+  ],
+  [
+   "2025-09",
+   "systems",
+   "audio"
+  ],
+  [
+   "2025-10",
+   "analysis",
+   "agentic"
+  ],
+  [
+   "2025-10",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-10",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2025-10",
+   "analysis",
+   "audio"
+  ],
+  [
    "2025-10",
    "analysis",
    "audio"
@@ -1379,6 +3004,46 @@
    "2025-10",
    "cognition",
    "agentic"
+  ],
+  [
+   "2025-10",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-10",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-10",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-10",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-10",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-10",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-10",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-10",
+   "evaluation",
+   "audio"
   ],
   [
    "2025-10",
@@ -1388,7 +3053,27 @@
   [
    "2025-10",
    "generation",
+   "agentic"
+  ],
+  [
+   "2025-10",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-10",
+   "generation",
    "symbolic"
+  ],
+  [
+   "2025-10",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-11",
+   "analysis",
+   "audio"
   ],
   [
    "2025-11",
@@ -1402,11 +3087,61 @@
   ],
   [
    "2025-11",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2025-11",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-11",
    "evaluation",
    "audio"
   ],
   [
    "2025-11",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-11",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-11",
+   "generation",
+   "agentic"
+  ],
+  [
+   "2025-11",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-11",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-11",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-11",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-11",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-11",
    "survey",
    "audio"
   ],
@@ -1414,6 +3149,11 @@
    "2025-11",
    "survey",
    "audio"
+  ],
+  [
+   "2025-11",
+   "systems",
+   "agentic"
   ],
   [
    "2025-12",
@@ -1423,7 +3163,77 @@
   [
    "2025-12",
    "evaluation",
+   "agentic"
+  ],
+  [
+   "2025-12",
+   "evaluation",
    "audio"
+  ],
+  [
+   "2025-12",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-12",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-12",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2025-12",
+   "generation",
+   "agentic"
+  ],
+  [
+   "2025-12",
+   "generation",
+   "agentic"
+  ],
+  [
+   "2025-12",
+   "generation",
+   "audio"
+  ],
+  [
+   "2025-12",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-12",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-12",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-12",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-12",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2025-12",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "analysis",
+   "agentic"
   ],
   [
    "2026-01",
@@ -1467,8 +3277,48 @@
   ],
   [
    "2026-01",
-   "cognition",
+   "analysis",
    "audio"
+  ],
+  [
+   "2026-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "cognition",
+   "agentic"
   ],
   [
    "2026-01",
@@ -1564,6 +3414,36 @@
    "2026-01",
    "cognition",
    "audio"
+  ],
+  [
+   "2026-01",
+   "cognition",
+   "audio"
+  ],
+  [
+   "2026-01",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "evaluation",
+   "agentic"
   ],
   [
    "2026-01",
@@ -1611,6 +3491,31 @@
    "agentic"
   ],
   [
+   "2026-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-01",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-02",
+   "analysis",
+   "audio"
+  ],
+  [
+   "2026-02",
+   "analysis",
+   "audio"
+  ],
+  [
    "2026-02",
    "analysis",
    "audio"
@@ -1623,7 +3528,42 @@
   [
    "2026-02",
    "cognition",
+   "agentic"
+  ],
+  [
+   "2026-02",
+   "cognition",
    "multimodal"
+  ],
+  [
+   "2026-02",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-02",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-02",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-02",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-02",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2026-02",
+   "evaluation",
+   "audio"
   ],
   [
    "2026-02",
@@ -1678,7 +3618,17 @@
   [
    "2026-03",
    "cognition",
+   "agentic"
+  ],
+  [
+   "2026-03",
+   "cognition",
    "audio"
+  ],
+  [
+   "2026-03",
+   "evaluation",
+   "agentic"
   ],
   [
    "2026-03",
@@ -1708,12 +3658,17 @@
   [
    "2026-03",
    "generation",
-   ""
+   "agentic"
   ],
   [
    "2026-03",
    "generation",
-   ""
+   "audio"
+  ],
+  [
+   "2026-03",
+   "generation",
+   "audio"
   ],
   [
    "2026-03",
@@ -1749,6 +3704,16 @@
    "2026-03",
    "generation",
    "symbolic"
+  ],
+  [
+   "2026-03",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "analysis",
+   "agentic"
   ],
   [
    "2026-04",
@@ -1783,7 +3748,62 @@
   [
    "2026-04",
    "cognition",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "cognition",
    "audio"
+  ],
+  [
+   "2026-04",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "evaluation",
+   "agentic"
   ],
   [
    "2026-04",
@@ -1833,6 +3853,11 @@
   [
    "2026-04",
    "generation",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "generation",
    "audio"
   ],
   [
@@ -1864,6 +3889,26 @@
    "2026-04",
    "generation",
    "symbolic"
+  ],
+  [
+   "2026-04",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-04",
+   "systems",
+   "agentic"
   ],
   [
    "2026-05",
@@ -1898,7 +3943,42 @@
   [
    "2026-05",
    "cognition",
+   "agentic"
+  ],
+  [
+   "2026-05",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-05",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-05",
+   "cognition",
    "audio"
+  ],
+  [
+   "2026-05",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-05",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-05",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-05",
+   "evaluation",
+   "agentic"
   ],
   [
    "2026-05",
@@ -1979,6 +4059,11 @@
    "2026-05",
    "generation",
    "symbolic"
+  ],
+  [
+   "2026-05",
+   "systems",
+   "agentic"
   ],
   [
    "2026-06",
@@ -2033,7 +4118,32 @@
   [
    "2026-06",
    "cognition",
+   "agentic"
+  ],
+  [
+   "2026-06",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-06",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-06",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-06",
+   "cognition",
    "multimodal"
+  ],
+  [
+   "2026-06",
+   "evaluation",
+   "agentic"
   ],
   [
    "2026-06",
@@ -2171,6 +4281,31 @@
    "agentic"
   ],
   [
+   "2026-06",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-06",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-06",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-06",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-07",
+   "analysis",
+   "agentic"
+  ],
+  [
    "2026-07",
    "analysis",
    "audio"
@@ -2223,6 +4358,21 @@
   [
    "2026-07",
    "cognition",
+   "agentic"
+  ],
+  [
+   "2026-07",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-07",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-07",
+   "cognition",
    "audio"
   ],
   [
@@ -2234,6 +4384,31 @@
    "2026-07",
    "cognition",
    "multimodal"
+  ],
+  [
+   "2026-07",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-07",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-07",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-07",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-07",
+   "evaluation",
+   "agentic"
   ],
   [
    "2026-07",
@@ -2288,6 +4463,11 @@
   [
    "2026-07",
    "generation",
+   "agentic"
+  ],
+  [
+   "2026-07",
+   "generation",
    "audio"
   ],
   [
@@ -2364,6 +4544,21 @@
    "2026-07",
    "generation",
    "symbolic"
+  ],
+  [
+   "2026-07",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-07",
+   "systems",
+   "agentic"
+  ],
+  [
+   "2026-07",
+   "systems",
+   "agentic"
   ],
   [
    "2026-08",
@@ -2413,12 +4608,37 @@
   [
    "2026-08",
    "cognition",
+   ""
+  ],
+  [
+   "2026-08",
+   "cognition",
+   "agentic"
+  ],
+  [
+   "2026-08",
+   "cognition",
    "multimodal"
   ],
   [
    "2026-08",
    "cognition",
    "multimodal"
+  ],
+  [
+   "2026-08",
+   "evaluation",
+   ""
+  ],
+  [
+   "2026-08",
+   "evaluation",
+   "agentic"
+  ],
+  [
+   "2026-08",
+   "evaluation",
+   "agentic"
   ],
   [
    "2026-08",
@@ -2538,8 +4758,16 @@
  ],
  "venues": [
   {
+   "name": "arXiv (Cornell University)",
+   "papers": 36
+  },
+  {
    "name": "Zenodo",
    "papers": 35
+  },
+  {
+   "name": "Zenodo (CERN European Organization for Nuclear Research)",
+   "papers": 18
   },
   {
    "name": "MED",
@@ -2554,11 +4782,11 @@
    "papers": 7
   },
   {
-   "name": "arXiv (Cornell University)",
-   "papers": 7
+   "name": "EURASIP J. Audio Speech Music. Process.",
+   "papers": 6
   },
   {
-   "name": "EURASIP J. Audio Speech Music. Process.",
+   "name": "IEEE Access",
    "papers": 6
   },
   {
@@ -2574,135 +4802,127 @@
    "papers": 4
   },
   {
+   "name": "Transactions of the International Society for Music Information Retrieval",
+   "papers": 4
+  },
+  {
    "name": "IEEE Transactions on Multimedia",
    "papers": 4
   },
   {
+   "name": "Scientific Reports",
+   "papers": 3
+  },
+  {
    "name": "ACM Computing Surveys",
    "papers": 3
-  },
-  {
-   "name": "Proceedings of the AAAI Conference on Artificial Intelligence",
-   "papers": 3
-  },
-  {
-   "name": "IEEE/ACM Transactions on Audio Speech and Language Processing",
-   "papers": 3
-  },
-  {
-   "name": "ICCE-Taiwan",
-   "papers": 2
-  },
-  {
-   "name": "IEEE Access",
-   "papers": 2
   }
  ],
  "keyword_bursts": [
   {
-   "keyword": "real-world",
-   "recent": 24,
-   "total": 24,
-   "burst_score": 1.94,
-   "recent_share": 0.0988
-  },
-  {
    "keyword": "scalable",
-   "recent": 6,
-   "total": 6,
-   "burst_score": 1.94,
-   "recent_share": 0.0247
-  },
-  {
-   "keyword": "autonomous",
-   "recent": 2,
-   "total": 2,
-   "burst_score": 1.94,
-   "recent_share": 0.0082
-  },
-  {
-   "keyword": "framework",
-   "recent": 74,
-   "total": 79,
-   "burst_score": 1.82,
-   "recent_share": 0.3045
+   "recent": 15,
+   "total": 19,
+   "burst_score": 1.79,
+   "recent_share": 0.0376
   },
   {
    "keyword": "benchmark",
-   "recent": 101,
-   "total": 111,
-   "burst_score": 1.76,
-   "recent_share": 0.4156
+   "recent": 171,
+   "total": 244,
+   "burst_score": 1.59,
+   "recent_share": 0.4286
+  },
+  {
+   "keyword": "real-world",
+   "recent": 42,
+   "total": 62,
+   "burst_score": 1.54,
+   "recent_share": 0.1053
+  },
+  {
+   "keyword": "framework",
+   "recent": 141,
+   "total": 212,
+   "burst_score": 1.51,
+   "recent_share": 0.3534
   },
   {
    "keyword": "system",
-   "recent": 95,
-   "total": 108,
-   "burst_score": 1.7,
-   "recent_share": 0.3909
-  },
-  {
-   "keyword": "model",
-   "recent": 176,
-   "total": 211,
-   "burst_score": 1.62,
-   "recent_share": 0.7243
+   "recent": 185,
+   "total": 286,
+   "burst_score": 1.47,
+   "recent_share": 0.4637
   },
   {
    "keyword": "evaluation",
-   "recent": 71,
-   "total": 86,
-   "burst_score": 1.6,
-   "recent_share": 0.2922
+   "recent": 134,
+   "total": 226,
+   "burst_score": 1.35,
+   "recent_share": 0.3358
   },
   {
-   "keyword": "human",
-   "recent": 43,
-   "total": 52,
-   "burst_score": 1.6,
-   "recent_share": 0.177
+   "keyword": "model",
+   "recent": 306,
+   "total": 574,
+   "burst_score": 1.21,
+   "recent_share": 0.7669
   },
   {
-   "keyword": "method",
-   "recent": 54,
-   "total": 66,
-   "burst_score": 1.59,
-   "recent_share": 0.2222
-  },
-  {
-   "keyword": "novel",
-   "recent": 22,
-   "total": 27,
-   "burst_score": 1.58,
-   "recent_share": 0.0905
-  },
-  {
-   "keyword": "dataset",
-   "recent": 78,
-   "total": 96,
-   "burst_score": 1.57,
-   "recent_share": 0.321
-  },
-  {
-   "keyword": "tool",
-   "recent": 13,
-   "total": 17,
-   "burst_score": 1.48,
-   "recent_share": 0.0535
+   "keyword": "autonomous",
+   "recent": 8,
+   "total": 15,
+   "burst_score": 1.21,
+   "recent_share": 0.0201
   },
   {
    "keyword": "analysis",
-   "recent": 41,
-   "total": 54,
-   "burst_score": 1.47,
-   "recent_share": 0.1687
+   "recent": 78,
+   "total": 149,
+   "burst_score": 1.19,
+   "recent_share": 0.1955
   },
   {
-   "keyword": "application",
-   "recent": 16,
-   "total": 29,
-   "burst_score": 1.07,
-   "recent_share": 0.0658
+   "keyword": "dataset",
+   "recent": 167,
+   "total": 322,
+   "burst_score": 1.18,
+   "recent_share": 0.4185
+  },
+  {
+   "keyword": "tool",
+   "recent": 40,
+   "total": 77,
+   "burst_score": 1.18,
+   "recent_share": 0.1003
+  },
+  {
+   "keyword": "human",
+   "recent": 102,
+   "total": 200,
+   "burst_score": 1.16,
+   "recent_share": 0.2556
+  },
+  {
+   "keyword": "review",
+   "recent": 30,
+   "total": 65,
+   "burst_score": 1.05,
+   "recent_share": 0.0752
+  },
+  {
+   "keyword": "method",
+   "recent": 114,
+   "total": 249,
+   "burst_score": 1.04,
+   "recent_share": 0.2857
+  },
+  {
+   "keyword": "novel",
+   "recent": 58,
+   "total": 131,
+   "burst_score": 1.01,
+   "recent_share": 0.1454
   }
  ]
 }

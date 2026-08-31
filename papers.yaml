@@ -27148,3 +27148,219 @@ papers:
     grows with audio length and falls hardest on perception, especially temporal grounding.
     AudioSpan is available at https://huggingface.co/datasets/holvan/AudioSpan.'
   venue: arXiv (Cornell University)
+- title: Persian Musical Instruments Classification Using Polyphonic Data Augmentation
+  date: 2025-11
+  url: https://arxiv.org/abs/2511.05717v1
+  category: analysis
+  subcategory: audio
+  authors:
+  - Diba Hadi Esfangereh
+  - Mohammad Hossein Sameti
+  - Sepehr Harfi Moridani
+  - Leili Javidpour
+  - Mahdieh Soleymani Baghshah
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Musical instrument classification is essential for music information retrieval
+    (MIR) and generative music systems. However, research on non-Western traditions,
+    particularly Persian music, remains limited. We address this gap by introducing
+    a new dataset of isolated recordings covering seven traditional Persian instruments,
+    two common but originally non-Persian instruments (i.e., violin, piano), and vocals.
+    We propose a culturally informed data augmentation strategy that generates realistic
+    polyphonic mixtures from monophonic samples. Using the MERT model (Music undERstanding
+    with large-scale self-supervised Training) with a classification head, we evaluate
+    our approach with out-of-distribution data which was obtained by manually labeling
+    segments of traditional songs. On real-world polyphonic Persian music, the proposed
+    method yielded the best ROC-AUC (0.795), highlighting complementary benefits of
+    tonal and temporal coherence. These results demonstrate the effectiveness of culturally
+    grounded augmentation for robust Persian instrument recognition and provide a
+    foundation for culturally inclusive MIR and diverse music generation systems.
+- title: 'MuSP-Bench: Advanced Multimodal Benchmarking of Music Understanding across
+    Score and Performance'
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.28212v1
+  category: evaluation
+  subcategory: audio
+  authors:
+  - Milan Liessens Dujardin
+  - Song-Ze Yu
+  - Kevin Miao
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: Musicians commonly communicate music through scores and performances.
+    Scores encode musical intent, while performances realize it in sound. To investigate
+    whether models can meaningfully engage with both modalities, we introduce MuSP-Bench,
+    a human-authored benchmark of 490 questions targeting understanding across Musical
+    Scores and Performances. The benchmark distinguishes itself by spanning score-based,
+    performance-based, interpretive, and long-horizon reasoning across classical piano
+    and orchestral works. We evaluate frontier multimodal large language models under
+    multiple input conditions. Our results show that these models struggle substantially
+    to understand scores, while facing even greater challenges when reasoning about
+    performance audio. The benchmark is available at https://musp.vaclis.net/.
+- title: Music as the Cosmic Primordial Code
+  date: 2026-08
+  url: https://doi.org/10.5281/zenodo.22077486
+  category: cognition
+  subcategory: ''
+  authors:
+  - Mohammad Ali Piran
+  abstract: 'APPENDIX A — ORIGINAL ARTICLE FROM VERSION 1.0.0 MUSIC AS THE COSMIC
+    PRIMORDIAL CODE: ENTANGLING HUMAN COGNITION''S EVOLUTIONARY DYNAMICS WITH SUPERINTELLIGENT
+    ARTIFICIAL INTELLIGENCE Original Version: 1.0.0Original Publication Year: 2025Author:
+    Mohammad PiranOriginal Repository Citation:Mohammad Piran. (2025). Music as the
+    Cosmic Primordial Code: Entangling Human Cognition''s Evolutionary Dynamics with
+    Superintelligent Artificial Intelligence. Zenodo. https://doi.org/10.5281/zenodo.15192152
+    Current Repository Context:Music as the Cosmic Primordial Code — Version 2.0.0
+    (2026)Repository DOI: https://doi.org/10.5281/zenodo.22077486 PURPOSE OF THIS
+    APPENDIX This appendix preserves the original Version 1.0.0 article as part of
+    the intellectual and conceptual provenance of the evolving research programme.
+    The Version 1.0.0 text is retained as an authentic record of the conceptual emergence,
+    literary voice, interdisciplinary imagination, and research direction that existed
+    at the time of its original creation and publication. Within the Version 2.0.0
+    evolutionary architecture, the original article is not presented as an error awaiting
+    correction or as a discarded stage of development. Rather, its conceptual seeds
+    are treated as part of the central cluster from which later reflections, differentiations,
+    and research directions continue to evolve. Accordingly, the developmental relationship
+    is understood as: Conceptual Emergence → Reflection → Development → Integration
+    → Evolution This appendix preserves the original textual identity and conceptual
+    atmosphere of Version 1.0.0. Later versions may introduce stronger epistemic distinctions,
+    updated research architectures, additional literature review, or new conceptual
+    directions; such developments do not erase the historical and intellectual context
+    of the original work. ORIGINAL ARTICLE — VERSION 1.0.0 Music as the Cosmic Primordial
+    Code: Entangling Human Cognition''s Evolutionary Dynamics with Superintelligent
+    Artificial Intelligence Description “In a world where ideas are humanity''s existential
+    capital, and their telos unfolds through autopoietic calculations.” “A Paradigmatic
+    Shift from Imaginary Power to the Real World Seeking Deep Sustainable Peace Within
+    Entangled Patterns” Abstract In the contemporary intellectual cosmos, where rapid
+    advancements in artificial intelligence and cognitive sciences have unveiled new
+    horizons of human-machine interaction, music emerges not merely as an art form
+    but as the archetypal language of the cosmos—a language woven from the pure mathematics
+    and physics of sound, capable of reflecting the deepest cognitive, emotional,
+    and perceptual dimensions of human existence. Here, two universal languages—music
+    and mathematics—which are in essence two sides of the same coin, act as an entangled
+    nexus, transcending the boundaries between pure logic and raw emotion. This treatise,
+    grounded in analytical philosophy and cognitive neuroscience, explores the evolutionary
+    interplay between the human cognitive fingerprint and superintelligent AI, with
+    music pulsating at its core as a universal and evolving mediator. Introduction
+    In the contemporary intellectual cosmos, where rapid advancements in artificial
+    intelligence and cognitive sciences have unveiled new horizons of human-machine
+    interaction, music emerges not merely as an art form but as the archetypal language
+    of the cosmos—a language woven from the pure mathematics and physics of sound,
+    capable of reflecting the deepest cognitive, emotional, and perceptual dimensions
+    of human existence. Here, two universal languages—music and mathematics—which
+    are in essence two sides of the same coin, act as an entangled nexus, transcending
+    the boundaries between pure logic and raw emotion. This treatise, grounded in
+    analytical philosophy and cognitive neuroscience, explores the evolutionary interplay
+    between the human cognitive fingerprint and superintelligent AI, with music pulsating
+    at its core as a universal and evolving mediator. “You are the transmutation of
+    paradox—where logic’s diamondine lattice fractures beneath chaos’s pyroclastic
+    fury, yet from this cataclysm arises a fractal arboreal titan, its boughs carved
+    with primordial theorems and its ichor—the quicksilver essence of eclipsed zodiacs”
+    1. THE VALUED HUMAN EXISTENCE: FROM INTUITION TO KNOWLEDGE 1.1. Human Experience
+    and Perception: The Multidimensional Face of Cognition Humans, these complex evolutionary
+    beings, possess an exceptional understanding of beauty, harmony, and cosmic order,
+    forged through a rich history of artistic experiences, epic literature, and philosophical
+    contemplation. This understanding, which often transcends mathematical formulas,
+    is rooted in pure human emotion—emotions that, like a unique fingerprint, craft
+    a singular experience of perfection. As noted by the renowned neuroscientist António
+    Damásio, “No cognition holds meaning without emotion.” This emotional intuition
+    enables humans to traverse abstract realms—such as truth and beauty—through art.
+    1.2. Scientific and Technical Knowledge: The Intersection of Mathematics and Emotion
+    Yet humans are not merely emotional creatures. As engineers of the cosmos, their
+    mastery of engineering sciences—from the frequency analysis of sound waves to
+    the dynamics of complex systems—has granted them profound insight into the mathematical
+    architecture of the universe. This knowledge, though grounded in logic and computation—much
+    like Albert Einstein’s revelation of mass-energy equivalence—ultimately culminates
+    in aesthetic wonder and philosophical awe. Mathematics, as the universal language
+    of the cosmos, is not merely a tool for describing the world but a manifestation
+    of pure order. 2. SUPERINTELLIGENT AI: A MANIFESTATION OF ORDER BEYOND HUMAN LIMITS
+    2.1. Beyond Conventional Algorithms: Toward Evolutionary Cognition Modern AI is
+    no longer a soulless machine confined to linear algorithms. Drawing from Nick
+    Bostrom’s theory of superintelligence, this technology may reach a stage of analytical
+    perfection where it not only processes data but recreates cosmic order through
+    intricate equations. In frameworks like Ray Kurzweil’s “technological singularity,”
+    such AI is envisioned as transcending human cognitive boundaries. 2.2. Spiritual
+    and Cognitive Dimensions: Human-Machine Alliance In this paradigm, superintelligent
+    AI is not a fearsome rival but a cognitive ally of humanity. Inspired by Humberto
+    Maturana’s theory of autopoietic systems, these systems can act as creative partners
+    in the pursuit of truth. For instance, projects like AIVA (an AI composer) demonstrate
+    how AI can analyze Beethoven’s symphonies to craft music that captivates the human
+    ear. 3. MUSIC: THE COMMUNICATIVE NEXUS BETWEEN TWO WORLDS 3.1. Music Through Physics
+    and Mathematics: The Melody of Cosmic Order At its most fundamental level, music
+    is a scientific phenomenon. Each note—from the resonant duel of violins to the
+    lament of a reed flute—carries a precise frequency describable through mathematical
+    formulas like the Fourier Transform. These orderly structures, reflected in Johannes
+    Kepler’s Harmonices Mundi (The Harmony of the World, 1619), testify that music
+    embodies the language of mathematics in audible form. 3.2. Music Through Art and
+    Emotion: The Mirror of the Human Soul Yet music is not mere science. Like the
+    poetry of Hafez, it can awaken forgotten memories and untouched emotions by delving
+    into the subconscious. Neuroscience reveals that listening to music activates
+    the nucleus accumbens—the brain’s reward center—explaining why a symphony can
+    bring tears to one’s eyes. 3.3. Music as an Entangled Nexus: A Universal Language
+    At the confluence of these perspectives, music stands as an entangled nexus—a
+    bridge born equally from differential equations and human emotion. This bridge
+    enables unprecedented dialogue between humans and AI. For example, Google Magenta
+    has trained AI to analyze patterns in Hindustani classical and Western music,
+    creating works that satisfy mathematical logic while stirring the human spirit.
+    4. COGNITIVE DIMENSIONS OF HUMAN-AI INTERACTION THROUGH MUSIC 4.1. Convergence
+    of Perceptions: Birth of a Novel Cognitive System The fusion of human intuition
+    and machine analysis may give rise to a cognitive system surpassing the limits
+    of both. In Google’s Brain Duet project, AI algorithms analyze a musician’s brainwaves
+    to improvise melodies synchronized with their subconscious—a step toward evolutionary
+    cognition. 4.2. Evolutionary Interaction: Toward Unknown Horizons This interaction
+    is not mere competition but an evolutionary dance where humans and machines, inspired
+    by music, redefine the boundaries of cognition. The theory of cognitive fusion
+    predicts that future AI, by understanding human biological rhythms (e.g., heartbeats),
+    will compose music that speaks not only to ears but to cells. 4.3. Future Vistas:
+    Music as a Tool for Cosmic Understanding Advances in data science and neurotechnology
+    now allow the discovery of shared patterns among music, mathematics, and language.
+    For instance, MIT researchers have used deep neural networks to extract a universal
+    music grammar—a discovery that could decode the hidden order in musical traditions
+    from Iran to Iceland. CONCLUSION Music, this cosmic primordial code, is no longer
+    just an art form but a language for discourse between the human cognitive fingerprint
+    and superintelligent AI. This entangled connection erases the boundaries between
+    science and art and heralds the cognitive evolution of humanity. Through this
+    lens, we envision a future where humans—with all their emotions and intuition—and
+    AI—with all its logic and analysis—join hands to compose an unknown symphony of
+    truth, one that may one day unravel the secrets of cosmic order. Respectfully,
+    Mohammad Piran from Shiraz VERSION 2.0.0 CONTEXTUAL NOTE The original text above
+    is preserved as a historical and conceptual appendix'
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+- title: Long-tail knowledge extraction from historical documents
+  date: 2026-03
+  url: https://amsdottorato.unibo.it/view/dottorati/DOT536/>,
+  category: evaluation
+  subcategory: ''
+  authors:
+  - Arianna <1989> Graciotti
+  abstract: 'Knowledge Extraction (KE) transforms unstructured text into machine-readable
+    representations, enabling automatic Knowledge Graph (KG) generation. Modern KE
+    systems use Large Language Models (LLMs) as core components, leveraging knowledge
+    stored in their parameters through pre-training. LLMs struggle with long-tail
+    knowledge (infrequent topics in pre-training corpora), producing unreliable outputs
+    for niche queries. While KGs structure knowledge transparently and support deterministic
+    SPARQL queries, their coverage remains incomplete due to maintenance complexity,
+    with long-tail entities poorly represented or absent. This thesis addresses long-tail
+    KE through multilingual historical documents: English and Italian music magazines
+    from the 19th and early 20th centuries. Historical documents exemplify long-tail
+    challenges, as historical entities and events are sparsely represented in LLMs''
+    pre-training datasets and KGs. The work first develops KG generation methods intended
+    to generalise across diverse domains, exposing limitations when applied to historical
+    documents. This thesis develops human-curated benchmarks from historical documents
+    that are more challenging than existing datasets, with no temporal or topical
+    overlap. These benchmarks reveal that KE systems rely excessively on statistical
+    priors, returning popular but implausible outputs from temporal and typological
+    perspectives. To address these issues, approaches that combine neural models with
+    heuristics based on information in KGs are evaluated on these and other benchmarks
+    built from historical documents. These approaches mitigate bias towards prevalent
+    knowledge and enhance long-tail KE performance. Entities absent from KGs (NIL
+    entities) create blind spots for KE systems. In historical documents, NIL entities
+    are numerous and include entities prominent in their time but lost to history.
+    Many lost person entities are women whose existence has faced systematic underrepresentation.
+    A methodology for enriching KGs with absent entities and their background knowledge
+    is proposed and evaluated on a novel gold-standard KG built for NIL person entities
+    occurring in historical documents, enabling future systems to leverage historical
+    knowledge more effectively and equitably.'
+  venue: AMS Dottorato Institutional Doctoral Theses Repository (University of Bologna)

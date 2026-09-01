@@ -3,7 +3,7 @@
   {
    "id": "analysis",
    "name": "Music Analysis & Understanding",
-   "count": 271,
+   "count": 272,
    "trajectory": {
     "1996": 1,
     "1999": 1,
@@ -26,25 +26,25 @@
     "2022": 7,
     "2023": 24,
     "2024": 55,
-    "2025": 78,
+    "2025": 79,
     "2026": 62
    },
    "momentum": {
     "id": "analysis",
     "name": "Analysis",
-    "total": 271,
-    "recent": 88,
-    "prior": 80,
-    "growth_pct": 10.0,
-    "recent_share": 0.325,
-    "papers_per_month": 7.3,
-    "score": 42.5
+    "total": 272,
+    "recent": 82,
+    "prior": 84,
+    "growth_pct": -2.4,
+    "recent_share": 0.301,
+    "papers_per_month": 6.8,
+    "score": 27.7
    }
   },
   {
    "id": "cognition",
    "name": "Music Perception & Cognition",
-   "count": 127,
+   "count": 128,
    "trajectory": {
     "1995": 1,
     "2008": 1,
@@ -61,24 +61,24 @@
     "2023": 3,
     "2024": 19,
     "2025": 25,
-    "2026": 57
+    "2026": 58
    },
    "momentum": {
     "id": "cognition",
     "name": "Cognition",
-    "total": 127,
+    "total": 128,
     "recent": 62,
-    "prior": 23,
-    "growth_pct": 169.6,
-    "recent_share": 0.488,
+    "prior": 24,
+    "growth_pct": 158.3,
+    "recent_share": 0.484,
     "papers_per_month": 5.2,
-    "score": 218.4
+    "score": 206.7
    }
   },
   {
    "id": "evaluation",
    "name": "Evaluation & Benchmarks",
-   "count": 186,
+   "count": 189,
    "trajectory": {
     "1967": 1,
     "2012": 1,
@@ -91,18 +91,18 @@
     "2023": 10,
     "2024": 29,
     "2025": 49,
-    "2026": 85
+    "2026": 88
    },
    "momentum": {
     "id": "evaluation",
     "name": "Evaluation",
-    "total": 186,
-    "recent": 113,
-    "prior": 30,
-    "growth_pct": 276.7,
-    "recent_share": 0.608,
-    "papers_per_month": 9.4,
-    "score": 337.5
+    "total": 189,
+    "recent": 111,
+    "prior": 34,
+    "growth_pct": 226.5,
+    "recent_share": 0.587,
+    "papers_per_month": 9.2,
+    "score": 285.2
    }
   },
   {
@@ -127,12 +127,12 @@
     "id": "generation",
     "name": "Generation",
     "total": 231,
-    "recent": 100,
-    "prior": 61,
-    "growth_pct": 63.9,
-    "recent_share": 0.433,
-    "papers_per_month": 8.3,
-    "score": 107.2
+    "recent": 98,
+    "prior": 58,
+    "growth_pct": 69.0,
+    "recent_share": 0.424,
+    "papers_per_month": 8.2,
+    "score": 111.4
    }
   },
   {
@@ -154,12 +154,12 @@
     "id": "survey",
     "name": "Survey",
     "total": 17,
-    "recent": 3,
-    "prior": 4,
-    "growth_pct": -25.0,
-    "recent_share": 0.176,
+    "recent": 2,
+    "prior": 5,
+    "growth_pct": -60.0,
+    "recent_share": 0.118,
     "papers_per_month": 0.2,
-    "score": -7.4
+    "score": -48.2
    }
   },
   {
@@ -183,16 +183,21 @@
     "id": "systems",
     "name": "Systems",
     "total": 75,
-    "recent": 33,
-    "prior": 20,
-    "growth_pct": 65.0,
-    "recent_share": 0.44,
-    "papers_per_month": 2.8,
-    "score": 109.0
+    "recent": 31,
+    "prior": 21,
+    "growth_pct": 47.6,
+    "recent_share": 0.413,
+    "papers_per_month": 2.6,
+    "score": 88.9
    }
   }
  ],
  "subcategories": [
+  {
+   "id": "",
+   "name": "",
+   "count": 2
+  },
   {
    "id": "agentic",
    "name": "Agentic & LLM",
@@ -201,7 +206,7 @@
   {
    "id": "audio",
    "name": "Audio",
-   "count": 544
+   "count": 547
   },
   {
    "id": "multimodal",
@@ -3078,6 +3083,11 @@
   [
    "2025-11",
    "analysis",
+   "audio"
+  ],
+  [
+   "2025-11",
+   "analysis",
    "multimodal"
   ],
   [
@@ -3623,6 +3633,11 @@
   [
    "2026-03",
    "evaluation",
+   ""
+  ],
+  [
+   "2026-03",
+   "evaluation",
    "agentic"
   ],
   [
@@ -4603,6 +4618,11 @@
   [
    "2026-08",
    "cognition",
+   ""
+  ],
+  [
+   "2026-08",
+   "cognition",
    "agentic"
   ],
   [
@@ -4634,6 +4654,16 @@
    "2026-08",
    "evaluation",
    "agentic"
+  ],
+  [
+   "2026-08",
+   "evaluation",
+   "audio"
+  ],
+  [
+   "2026-08",
+   "evaluation",
+   "audio"
   ],
   [
    "2026-08",
@@ -4762,7 +4792,7 @@
   },
   {
    "name": "Zenodo (CERN European Organization for Nuclear Research)",
-   "papers": 18
+   "papers": 19
   },
   {
    "name": "MED",
@@ -4818,106 +4848,106 @@
    "keyword": "scalable",
    "recent": 15,
    "total": 19,
-   "burst_score": 1.79,
-   "recent_share": 0.0376
-  },
-  {
-   "keyword": "benchmark",
-   "recent": 171,
-   "total": 244,
-   "burst_score": 1.59,
-   "recent_share": 0.4286
+   "burst_score": 1.87,
+   "recent_share": 0.0389
   },
   {
    "keyword": "real-world",
-   "recent": 42,
-   "total": 62,
-   "burst_score": 1.54,
-   "recent_share": 0.1053
+   "recent": 43,
+   "total": 63,
+   "burst_score": 1.61,
+   "recent_share": 0.1114
+  },
+  {
+   "keyword": "benchmark",
+   "recent": 164,
+   "total": 247,
+   "burst_score": 1.57,
+   "recent_share": 0.4249
   },
   {
    "keyword": "framework",
-   "recent": 141,
-   "total": 212,
-   "burst_score": 1.51,
-   "recent_share": 0.3534
+   "recent": 139,
+   "total": 213,
+   "burst_score": 1.54,
+   "recent_share": 0.3601
   },
   {
    "keyword": "system",
-   "recent": 185,
-   "total": 286,
-   "burst_score": 1.47,
-   "recent_share": 0.4637
+   "recent": 181,
+   "total": 289,
+   "burst_score": 1.48,
+   "recent_share": 0.4689
   },
   {
    "keyword": "evaluation",
-   "recent": 134,
+   "recent": 125,
    "total": 226,
-   "burst_score": 1.35,
-   "recent_share": 0.3358
+   "burst_score": 1.31,
+   "recent_share": 0.3238
   },
   {
    "keyword": "model",
-   "recent": 306,
-   "total": 574,
+   "recent": 296,
+   "total": 578,
    "burst_score": 1.21,
-   "recent_share": 0.7669
-  },
-  {
-   "keyword": "autonomous",
-   "recent": 8,
-   "total": 15,
-   "burst_score": 1.21,
-   "recent_share": 0.0201
+   "recent_share": 0.7668
   },
   {
    "keyword": "analysis",
-   "recent": 78,
-   "total": 149,
-   "burst_score": 1.19,
-   "recent_share": 0.1955
-  },
-  {
-   "keyword": "dataset",
-   "recent": 167,
-   "total": 322,
-   "burst_score": 1.18,
-   "recent_share": 0.4185
+   "recent": 77,
+   "total": 150,
+   "burst_score": 1.21,
+   "recent_share": 0.1995
   },
   {
    "keyword": "tool",
    "recent": 40,
-   "total": 77,
-   "burst_score": 1.18,
-   "recent_share": 0.1003
+   "total": 78,
+   "burst_score": 1.21,
+   "recent_share": 0.1036
   },
   {
    "keyword": "human",
-   "recent": 102,
-   "total": 200,
-   "burst_score": 1.16,
-   "recent_share": 0.2556
+   "recent": 99,
+   "total": 203,
+   "burst_score": 1.15,
+   "recent_share": 0.2565
+  },
+  {
+   "keyword": "dataset",
+   "recent": 155,
+   "total": 324,
+   "burst_score": 1.13,
+   "recent_share": 0.4016
+  },
+  {
+   "keyword": "autonomous",
+   "recent": 7,
+   "total": 15,
+   "burst_score": 1.1,
+   "recent_share": 0.0181
   },
   {
    "keyword": "review",
    "recent": 30,
-   "total": 65,
-   "burst_score": 1.05,
-   "recent_share": 0.0752
+   "total": 66,
+   "burst_score": 1.07,
+   "recent_share": 0.0777
   },
   {
    "keyword": "method",
-   "recent": 114,
-   "total": 249,
+   "recent": 110,
+   "total": 251,
    "burst_score": 1.04,
-   "recent_share": 0.2857
+   "recent_share": 0.285
   },
   {
-   "keyword": "novel",
-   "recent": 58,
-   "total": 131,
-   "burst_score": 1.01,
-   "recent_share": 0.1454
+   "keyword": "application",
+   "recent": 53,
+   "total": 126,
+   "burst_score": 0.99,
+   "recent_share": 0.1373
   }
  ]
 }

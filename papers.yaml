@@ -27364,3 +27364,31 @@ papers:
     occurring in historical documents, enabling future systems to leverage historical
     knowledge more effectively and equitably.'
   venue: AMS Dottorato Institutional Doctoral Theses Repository (University of Bologna)
+- title: What Are You Listening to? Temporal Music Grounding for Audio-to-Text Large
+    Language Models
+  date: 2026-08
+  url: https://arxiv.org/abs/2608.29480v1
+  category: evaluation
+  subcategory: audio
+  authors:
+  - Kun Fang
+  - Ziyu Wang
+  - Ichiro Fujinaga
+  venue: ''
+  code_url: ''
+  project_url: ''
+  abstract: 'Large audio-language models can produce fluent and musically plausible
+    responses, yet it often remains unclear whether those responses are grounded in
+    the audio input. We introduce temporal music grounding, a task in which a model
+    returns one or more time spans corresponding to a queried musical note, event,
+    or pattern. To evaluate this capability, we present MusicGroundingBench, a controlled
+    benchmark suite built by rendering algorithmically generated piano MIDI to audio,
+    yielding exact symbolic-to-audio alignment. The suite comprises two subsets: MGBench-3N,
+    which evaluates note-level grounding in clips containing up to three notes, and
+    MGBench-2B, which evaluates structured grounding and short-form music understanding
+    in two-bar excerpts. Experiments show that temporal music grounding remains challenging
+    for current audio-language models, whereas task-specific training yields substantial
+    gains. We further report exploratory evidence on the relationship between grounding
+    supervision and music understanding. These results establish MusicGroundingBench
+    as a controlled testbed for assessing whether audio-language models ground their
+    responses in temporally localized musical evidence.'
